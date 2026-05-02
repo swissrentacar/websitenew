@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Buchung | Swiss Rent a Car </title>
+    <link rel="stylesheet" href="stylesheet.css"> 
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="apple-touch-icon" sizes="57x57" href="favicon-4/apple-touch-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="favicon-4/apple-touch-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="favicon-4/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="favicon-4/apple-touch-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="favicon-4/apple-touch-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="favicon-4/apple-touch-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="favicon-4/apple-touch-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="favicon-4/apple-touch-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="favicon-4/apple-touch-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="favicon-4/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="favicon-4/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-4/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-4/favicon-16x16.png">
+  <link rel="shortcut icon" href="favicon-4/favicon-32x32.ico">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="favicon-4/mstile-150x150.png">
+
+
+</head>
+<body>
+<header>
+  <nav class="navbar">
+    <div class="nav-logo">
+      <a href="index.html"><img src="img/indeximg/sraclogo.webp" alt="Swiss Rent a Car Logo"></a>
+    </div>
+
+    <div class="nav-toggle" id="nav-toggle">
+      <span></span><span></span><span></span>
+    </div>
+
+    <ul class="nav-links" id="nav-links">
+      <li><a href="index.html" >Home</a></li>
+      <li class="dropdown"><a href="vehicle.html">Fahrzeugvermietung<i class="fa-solid fa-chevron-down"></i></a>
+      <ul class="dropdown-menu">
+        <li><a href="auto.html">Auto</a></li>
+        <li><a href="lieferwagen.html">Lieferwagen</a></li>
+        <li><a href="minivan.html">Mini Van</a></li>
+        <li><a href="minibus.html">Mini Bus</a></li>
+      </ul>
+      </li>
+        <li class="dropdown">
+  <a href="transfers.html">Limousine & Transfers <i class="fa-solid fa-chevron-down"></i></a>
+  <ul class="dropdown-menu">
+    <li><a href="business-vip.html">Business Transfers</a></li>
+    <li><a href="airport-transfer.html">Flughafen Transfers </a></li>
+        <li><a href="disposal.html">Disposal Service</a></li>
+    <li><a href="hotel-transfer.html">Hotel Transfers</a></li>
+    <li><a href="luggage-transfer.html">Koffertransport</a></li>
+    <li><a href="skiresort-transfer.html">Skiresort Transfers</a></li>
+    <li><a href="sightseeing-transfer.html">Sightseeing Touren</a></li>
+    <li><a href="wef-transfer.html">WEF 2026 Davos</a></li>
+        <li><a href="wedding.html">Wedding Chauffeur</a></li>
+    <li><a href="g7.html">G7-Gipfel 2026</a></li>
+
+  </ul>
+</li>
+      <li><a href="airport.html">Airport Parking</a></li>
+      <li><a href="contact.html">Kontakt</a></li>
+      <li><a href="iframe.html" class="book-btn">Jetzt buchen</a></li>
+      <li class="lang-switch">
+        <a href="iframelieferwagen.html" class="active">
+          <img src="https://flagcdn.com/w20/de.png" alt="DE"> DE
+        </a>
+        <span>|</span>
+        <a href="iframelieferwagen_en.html">
+          <img src="https://flagcdn.com/w20/gb.png" alt="EN"> EN
+        </a>
+      </li>
+    </ul>
+  </nav>
+</header>
+
+<script>
+  const navToggle = document.getElementById("nav-toggle");
+  const navLinks  = document.getElementById("nav-links");
+  const header    = document.querySelector("header");
+
+  // ===== TOGGLE NAVIGATION =====
+  navToggle?.addEventListener("click", () => {
+    navLinks.classList.toggle("show");
+    navToggle.classList.toggle("open");
+  });
+
+  // ===== INITIAL POSITION / RESPONSIVE =====
+  function setHeaderPosition() {
+    header.style.top = "0";
+  }
+
+  document.addEventListener("DOMContentLoaded", setHeaderPosition);
+  window.addEventListener("resize", setHeaderPosition);
+    // ===== DROPDOWN MOBILE TOGGLE =====
+document.querySelectorAll(".dropdown > a").forEach(link => {
+  link.addEventListener("click", e => {
+    if (window.innerWidth <= 1495) {
+      e.preventDefault();
+      const menu = link.nextElementSibling;
+      menu.classList.toggle("show");
+    }
+  });
+});
+// ===== DROPDOWN MOBILE TOGGLE (One tap = open, second tap = go) =====
+document.querySelectorAll(".dropdown > a").forEach(link => {
+  let tappedOnce = false;
+  link.addEventListener("click", e => {
+    if (window.innerWidth <= 1495) {
+      const menu = link.nextElementSibling;
+
+      // Wenn noch kein Tap gemacht wurde → Dropdown öffnen
+      if (!tappedOnce) {
+        e.preventDefault();
+        tappedOnce = true;
+
+        // Erstmal alle anderen Dropdowns schliessen
+        document.querySelectorAll(".dropdown-menu.show").forEach(m => {
+          if (m !== menu) m.classList.remove("show");
+        });
+        menu.classList.add("show");
+
+        // Timeout: Nach 1.2s wieder zurücksetzen
+        setTimeout(() => {
+          tappedOnce = false;
+        }, 1200);
+      } else {
+        // Zweiter Tap → Seite wirklich öffnen
+        window.location.href = link.getAttribute("href");
+      }
+    }
+  });
+});
+
+</script>
+
+
+    <div class="booking-frame-wrap" data-aos="zoom-in">
+      <iframe 
+        src="https://swissrent.renthubsoftware.com/rental-booking-engine/search?origin=booking_engine&from=1&to=1&type=2&class=&seats=1&min_seats_hidden=0&date_from=&date_to="
+        width="100%"
+        height="900"
+        frameborder="0"
+        loading="lazy"
+        allowfullscreen>
+      </iframe>
+    </div>
+  </section>
+    
+
+
+
+
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 1000,
+    once: false,
+    easing: 'ease-out-cubic'
+  });
+</script>
+</body>
+</html>

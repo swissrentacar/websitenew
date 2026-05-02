@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AGB Fahrzeugvermietung | Swiss Rent a Car</title>
+  <meta name="description" content="Allgemeine Geschäftsbedingungen (AGB) der Swiss Rent a Car GmbH für die Fahrzeugvermietung.">
+  <link rel="stylesheet" href="stylesheet.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="apple-touch-icon" sizes="57x57" href="favicon-4/apple-touch-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="favicon-4/apple-touch-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="favicon-4/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="favicon-4/apple-touch-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="favicon-4/apple-touch-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="favicon-4/apple-touch-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="favicon-4/apple-touch-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="favicon-4/apple-touch-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="favicon-4/apple-touch-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="favicon-4/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="favicon-4/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-4/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-4/favicon-16x16.png">
+  <link rel="shortcut icon" href="favicon-4/favicon-32x32.ico">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="favicon-4/mstile-150x150.png">
+
+</head>
+<body>
+<!-- ===== TOP BAR ===== -->
+<div class="topbar" id="topbar">
+  <div class="topbar-container">
+
+    <div class="topbar-item">
+      <i class="fa-solid fa-phone"></i>
+      <a href="tel:+41783009090">+41 78 300 90 90</a>
+    </div>
+
+    <div class="topbar-item">
+      <i class="fa-solid fa-envelope"></i>
+      <a href="mailto:info@swissrentacar.ch">info@swissrentacar.ch</a>
+    </div>
+
+    <div class="topbar-item">
+      <i class="fa-solid fa-location-dot"></i>
+      <a href="https://maps.google.com/?q=Schaffhauserstrasse+137,+8302+Kloten" target="_blank">
+        Schaffhauserstrasse 137, 8302 Kloten
+      </a>
+    </div>
+
+    <div class="topbar-item">
+      <i class="fa-solid fa-location-dot"></i>
+      <a href="https://maps.google.com/?q=Gaswerkstrasse+8,+8952+Schlieren" target="_blank">
+        Gaswerkstrasse 8, 8952 Schlieren
+      </a>
+    </div>
+
+  </div>
+</div>
+
+<header>
+  <nav class="navbar">
+    <div class="nav-logo">
+      <a href="index.html"><img src="img/indeximg/sraclogo.webp" alt="Swiss Rent a Car Logo"></a>
+    </div>
+
+    <div class="nav-toggle" id="nav-toggle">
+      <span></span><span></span><span></span>
+    </div>
+
+    <ul class="nav-links" id="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li class="dropdown"><a href="vehicle.html">Fahrzeugvermietung<i class="fa-solid fa-chevron-down"></i></a>
+      <ul class="dropdown-menu">
+        <li><a href="auto.html">Auto</a></li>
+        <li><a href="lieferwagen.html">Lieferwagen</a></li>
+        <li><a href="minivan.html">Mini Van</a></li>
+        <li><a href="minibus.html">Mini Bus</a></li>
+      </ul>
+      </li>
+      <li class="dropdown">
+  <a href="transfers.html">Limousine & Transfers <i class="fa-solid fa-chevron-down"></i></a>
+  <ul class="dropdown-menu">
+    <li><a href="business-vip.html">Business Transfers</a></li>
+    <li><a href="airport-transfer.html">Flughafen Transfers </a></li>
+        <li><a href="disposal.html">Disposal Service</a></li>
+    <li><a href="hotel-transfer.html">Hotel Transfers</a></li>
+    <li><a href="luggage-transfer.html">Koffertransport</a></li>
+    <li><a href="skiresort-transfer.html">Skiresort Transfers</a></li>
+    <li><a href="sightseeing-transfer.html">Sightseeing Touren</a></li>
+    <li><a href="wef-transfer.html">WEF 2026 Davos</a></li>
+        <li><a href="wedding.html">Wedding Chauffeur</a></li>
+    <li><a href="g7.html">G7-Gipfel 2026</a></li>
+
+  </ul>
+</li>
+      <li><a href="airport.html">Airport Parking</a></li>
+      <li><a href="contact.html">Kontakt</a></li>
+      <li><a href="iframe.html" class="book-btn">Jetzt buchen</a></li>
+      <li class="lang-switch">
+        <a href="agb.html" class="active">
+          <img src="https://flagcdn.com/w20/de.png" alt="DE"> DE
+        </a>
+        <span>|</span>
+        <a href="agb_en.html">
+          <img src="https://flagcdn.com/w20/gb.png" alt="EN"> EN
+        </a>
+      </li>
+    </ul>
+  </nav>
+</header>
+
+<script>
+  const navToggle = document.getElementById("nav-toggle");
+  const navLinks  = document.getElementById("nav-links");
+  const topbar    = document.getElementById("topbar");
+  const header    = document.querySelector("header");
+
+  // ===== TOGGLE NAVIGATION =====
+  navToggle?.addEventListener("click", () => {
+    navLinks.classList.toggle("show");
+    navToggle.classList.toggle("open");
+  });
+
+  // ===== INITIAL POSITION / RESPONSIVE =====
+  function setHeaderPosition() {
+    if (window.innerWidth <= 750) {
+      // mobile → Topbar aus
+      topbar.style.display = "none";
+      header.style.top = "0";
+    } else {
+      // Desktop → Topbar aktiv
+      topbar.style.display = "flex";
+      topbar.classList.remove("hide");
+      header.style.top = "36px"; // direkt unter Topbar
+    }
+  }
+
+  document.addEventListener("DOMContentLoaded", setHeaderPosition);
+  window.addEventListener("resize", setHeaderPosition);
+
+  // ===== SCROLL EFFECT =====
+  let lastScroll = 0;
+  const delta = 10;
+  let ticking = false;
+
+  window.addEventListener("scroll", () => {
+    if (ticking) return;
+
+    window.requestAnimationFrame(() => {
+      const currentScroll = window.pageYOffset;
+
+      if (Math.abs(lastScroll - currentScroll) > delta) {
+        // Scroll nach unten → Topbar ausblenden
+        if (currentScroll > lastScroll && currentScroll > 60) {
+          topbar.classList.add("hide");
+          header.style.top = "0"; // Navbar gleitet nach oben
+        }
+        // Scroll nach oben → Topbar sofort sichtbar
+        else if (currentScroll < lastScroll) {
+          if (window.innerWidth > 750) {
+            // 1️⃣ Transition kurz ausschalten
+            topbar.style.transition = "none";
+            // 2️⃣ Sofort anzeigen
+            topbar.classList.remove("hide");
+            header.style.top = "36px";
+            // 3️⃣ Nach kurzem Delay Transition wieder aktivieren
+            setTimeout(() => {
+              topbar.style.transition = "transform 0.4s ease, opacity 0.4s ease";
+            }, 100);
+          } else {
+            header.style.top = "0";
+          }
+        }
+
+        lastScroll = currentScroll <= 0 ? 0 : currentScroll;
+      }
+
+      ticking = false;
+    });
+    ticking = true;
+  });
+    // ===== DROPDOWN MOBILE TOGGLE =====
+document.querySelectorAll(".dropdown > a").forEach(link => {
+  link.addEventListener("click", e => {
+    if (window.innerWidth <= 1495) {
+      e.preventDefault();
+      const menu = link.nextElementSibling;
+      menu.classList.toggle("show");
+    }
+  });
+});
+// ===== DROPDOWN MOBILE TOGGLE (One tap = open, second tap = go) =====
+document.querySelectorAll(".dropdown > a").forEach(link => {
+  let tappedOnce = false;
+  link.addEventListener("click", e => {
+    if (window.innerWidth <= 1495) {
+      const menu = link.nextElementSibling;
+
+      // Wenn noch kein Tap gemacht wurde → Dropdown öffnen
+      if (!tappedOnce) {
+        e.preventDefault();
+        tappedOnce = true;
+
+        // Erstmal alle anderen Dropdowns schliessen
+        document.querySelectorAll(".dropdown-menu.show").forEach(m => {
+          if (m !== menu) m.classList.remove("show");
+        });
+        menu.classList.add("show");
+
+        // Timeout: Nach 1.2s wieder zurücksetzen
+        setTimeout(() => {
+          tappedOnce = false;
+        }, 1200);
+      } else {
+        // Zweiter Tap → Seite wirklich öffnen
+        window.location.href = link.getAttribute("href");
+      }
+    }
+  });
+});
+
+</script>
+
+  <section class="agb-section">
+    <div class="agb-container">
+      <h1>Allgemeine Geschäftsbedingungen (AGB) – Fahrzeugvermietung</h1>
+
+      <p>Gerichtsstand / Anwendbares Recht Für die AGB der Swiss Rent a Car GmbH istausschlisslich das Schweizer Recht anwendbar. Gerichtsstand für alle Streitigkeiten zwischen den Vertragsparteien ist Zürich
+</p>
+
+      <h2>1. Voraussetzung</h2>
+      <p>1.1 Für die Vermietung eines Mietfahrzeuges ist zwingend ein Führerausweis <br>
+a) PW & Kleinbusse bis 8+1 Sitze (3.5t) Kat B <br>
+b) Kleinbusse bis 16+1 Sitze (3.5 t) Kat D1 <br>
+c) Busse mit mehr als 16+1 Kat D <br>
+d) Anhänger über 750 kg Gesamtgewicht Kat E <br>
+Wird dieser nicht vorgewiesen, kann die Vermieterin die Übergabe des Fahrzeuges verweigern.</p>
+      
+<h2>2. Fahrzeugreservation</h2>
+      <p>2.1 Ist das gewünschte Fahrzeugmodell nicht verfügbar wird ein anderes Fahrzeug von der Swiss Rent a Car GmbH in derselben Kategorie für Sie reserviert. <br>
+         2.2 Das Fahrzeug muss zum vereinbarten Termin abgeholt und auch zurückgebracht werden. Die Vermieterin kann den Mieter für Verspätungen belangen. <br>
+2.3 Nach Ende der Mietdauer kann sich die Vermieterin das das Mietfahrzeug auf Kosten des Mieters verschaffen.</p>
+
+      <h2>3. Fahrzeugübernahme</h2>
+      <p>Fahrzeuge werden mit einem vollen Tank sowie in betriebssicherem und sauberem Zustand an der Mietstation übernommen und müssen wieder an denselben Ort retourniertwerden. Nach Vertragsausstellung (gültiger Führerschein und Personalausweise müssen vorweisbar sein) wird das Fahrzeug auf Schaden inspiziert und dies auf dem Mietvertrag vermerkt.</p>
+
+      <h2>4. Fahrzeugübernahme ausserhalb der Öffnungszeiten</h2>
+      <p>Das Fahrzeug kann mittels Schlüsselsafe abgeholt werden. Dafür muss der Vertrag bis zum Anmietzeitpunkt erstellt und das Depot geleistet worden sein. <br>
+Beanstandungen seitens des Mieters müssen der Swiss Rent a Car GmbH vor Mietbeginn gemeldet werden.</p>
+
+      <h2>5. Nutzungsbeschränkungen</h2>
+<p> 
+5.1 Es ist verboten das Mietobjekt zu nutzen:<br>
+a) Für Fahr-Lehrgänge. Rennen.
+-Lehrgänge, Rennen, Schleuderkurse, als
+Fahrschulwagen <br>
+b) Als Abschleppwagen<br>
+c) Bei Angaben falscher Personalien<br>
+d) Unter Einfluss von Rauschmitteln sowie Medikamenten<br>
+e) Bei Verkehrsuntüchtigkeit des Fal
+des Fahrzeuges<br>
+f) Für Durchfahren von Gewässern<br>
+g) Für den gewerblichen Transport sowie den Transport von
+gefährlichen, hoch entzündlichen oder hoch explosiven Stoffen<br>
+5.2 Der Mieter ist verpflichtet sorgfältig mit dem Mietobjekt
+umzugehen sowie die Verkehrstüchtigkeit des Fahrzeuges zu prüfen.<br>
+5.3 Reparaturen während der Mietdauer sollten wenn möglich von
+der nächstgelegenen Markenvertretung durchgeführt werden. Bei
+Vorweisung einer Quittung erstattet die Vermieterin den bezahlten
+Betrag zurück, ausser der Schaden ist auf Verschulden des Mieters
+entstanden. Ausgetauschte Teile müssen der Vermieterin
+abgegeben werden.<br>
+5.4 Das Fahrzeug darf f nur nur vom Mieter selbst gefahren werden,
+ausser bei Vertragsabschluss wird geregelt, dass mehrere Personen
+das Fahrzeug nutzen dürfen.<br>
+5.5 Das Fahrzeug darf nicht für Fahrten ins Ausland gebraucht
+werden ausser dies wird vor Vertragsabschluss geregelt.<br>
+5.6 Bei einem Unfall, Brand, Diebstahl, Wildschaden oder ähnliche
+Schaden, hat der Mieter dies der Vermieterin unverzüglich
+mitzuteilen. Der Mieter ist verpflichtet alles zu tun, was zur
+Minderung des Schadens nötig ist. Bei jedem Unfall hat er sofort die
+Polizei zu benachrichtigen und hinzuzuziehen. Falls die Polizei die
+Unfallaufnahme verweigert muss dies der Mieter sofort der
+Vermieterin mitteilen.</p>
+      <h2>6. Reduktion der einbehaltenen Beträge</h2>
+      <p>Die folgenden Schäden nicht haftbar abgedeckt, auch wenn der
+Mieter diese Reduziert:
+Schäden an Reifen, Schlüsselverlust, Felgen, Rückspiegel, Antenne,
+Sitzkissen und Innenausstattung usw. sowie mechanische
+Beschädigungen durch fahrlässigen Umgang mit dem gemieteten
+Fahrzeug oder Schäden, die aus Verletzung der Sorgfaltspflicht
+entstehen, wird ein Mindestselbstbehalt von CHF 200.- gefordert.
+Der einbehaltene Betrag von 200. -CHF Ist in der Tat in jedem Fall
+von Beschädigungen.</p>
+      <h2>7. Versicherungen</h2>
+    <p>7.1 Haftpflichtversicherung: Unbegrenzte Deckung (Selbstbehalt CHF.1000) <br>
+7.2 Vollkaskoversicherung: Unbegrenzte Deckung (Selbstbehalt
+CHF.1000)<br>
+7.3 Insassenversicherung<br>
+a) Jeder Insasse ist durch eine Insassenversicherung versichert<br>
+b) Todesfall: CHF 30'000.00<br>
+c) Invaliditätsfall: CHF 100'000.00<br>
+d) Taggeld ab 1. Tag CHF 20.00<br>
+e) Heilungskosten vereinbart</p>
+
+      <h2>8. Pannenhilfe</h2>
+      <p>1.1 Das Fahrzeug wird in gutem Zustand gehalten und
+regelmässigen Kontrollen unterzogen. Sollte trotzdem ein
+unerwarteter Defekt auftreten, so gehen Sie wie folgt vor:<br>
+a) Die Helpline 24h von Swissrentacar informieren International:
+0041 76 716 66 66 Schweiz: 076 716 66 66/078 300 90 90 <br>
+b) Den Pannendienst (siehe Bordbuch z.B. AXA Winterthur
+Intertours) anrufen. AXA 24 h Telefon: 0800 809 809 <br>
+1.2 Unsere Versicherungsunterlagen für den Pannendienst und alle
+nötigen Angaben befinden sich im Bordbuch unserer Mietwagen. Die
+zuständigen Mitarbeiter der Versicherung informieren Sie über das
+weitere Vorgehen.
+</p>
+
+      <h2>9. Pflichten bei Unfall</h2>
+      <p>1.1 Der Mieter/Fahrer sorgt: <br>
+a) für die sofortige Verständigung der Swissrentacar Tel. Tel. +41 (0)76
+716 66 66/+41 (0)78 300 90 90 und der Polizei. <br>
+b) für die Anfertigung des Europäischen Unfallprotokolls (befindet
+sich im Bordbuch) <br>
+c) für die Feststellung von Namen und Adressen der am Unfall
+beteiligten Personen sowie der Zeugen. Mündliche oder schriftliche
+Versprechen an Drittpersonen bezüglich Leistungen an Geschädigte
+sind zu unterlassen und bleiben für die Vermieterin ohne Belang.</p>
+
+      <h2>10. Fahrten ins Ausland</h2>
+      <p>1.1 Der Mieter/Fahrer sorgt:
+a) für die sofortige Verständigung der Swissrentacar Tel. Tel. +41 (0)76
+716 66 66/+41 (0)78 300 90 90 und der Polizei.
+b) für die Anfertigung des Europäischen Unfallprotokolls (befindet
+rertigung de
+sich im Bordbuch)
+c) für die Feststellung von Namen und Adressen der am Unfall
+beteiligten Personen sowie der Zeugen. Mündliche che oder od schriftliche
+Versprechen an Drittpersonen bezüglich Leistungen an Geschädigte
+sind zu unterlassen und bleiben für die Vermieterin ohne Belang.</p>
+
+      <h2>11. Kindersitze</h2>
+      <p>Das Gesetz schreibt vor, dass Kinder, die unter 12 Jahre alt oder
+kleiner als 1.50 Meter sind, im Auto einen Kindersitz benötigen.</p>
+
+      <h2>12. Warentransporte</h2>
+      <p>Die Beschaffung von Zoll- und Transportdokumenten sowie der
+entsprechenden Bewilligungen für internationale Transporte ist
+Sache des Mieters.</p>
+
+      <h2>13. Rauchverbot</h2>
+      <p>Im Fahrzeug herrscht ist absolutes Rauchverbot!! Wiederhandlungen
+werden als ausserordentliche Verschmutzung angesehen und nach
+werden ais ausserordentiiche
+Aufwand an den Mieter weiterverrechnet.</p>
+
+      <h2>14. Zahlungsmittel</h2>
+      <p>Folgende Zahlungsmittel können berücksichtigt werden: <br>
+EC/Maestro<br>
+Kreditkarten: MasterCard / Visa / American Express Post Finance
+Card.</p>
+
+      <h2>15. Stornierungskosten</h2>
+      <p>Stornierung: Es gelten folgenden Bedingungen für die Aufhebung der
+Vermietung, die von uns per E-Mail, Telefon oder Brief E-Mail
+bestätigt werden: <br>
+- 2 Wochen (14 X 24h) im Voraus: CHF 45.- Bearbeitungsgebühr <br>
+- 1 Woche (7 X 24h) im Voraus: 10% des Rechnungsbetrages (max.
+CHF 200.-) <br>
+- 3 Tage (3 X 24h) im Voraus: 30% des Rechnungsbetrages (max.
+CHF 500.-) <br>
+- 1 Tag (24h) im Voraus: 60% des Rechnungsbetrages (max. CHF
+500)<br>
+- Während der Mietzeit: 100% des Rechnungsbetrages</p>
+
+      <h2>16. Betankungsservice</h2>
+      <p>Eine Falschbetankung kann Kosten in der Höhe von bis zu 1 000
+CHF verursachen. Bitte haben Sie Verständnis, dass wir lhnen im
+Falle einer Falschbetankung diese Kosten weiter belasten!</p>
+      <h2>17. Treibstoff</h2>
+      <p>Für den Treibstoff des Mietwagens hat der Mieter selbst
+aufzukommen Der Mietwagen muss immer vollgetankt der Filiale
+zurückgegeben werden. Andernfalls ist eine Umtriebsentschädigung
+von Fr. 150.- zu entrichten.</p>
+
+      <h2>18. Ordnungsbussen / Regelverstösse</h2>
+      <p>Für Bussen / Regelverstosse ist der Fahrzeugmieter selbst haftbar
+und muss für diese aufkommen. Sollten die Bussen nicht bezahlt
+werden, wird dem Mieter ein V Verwaltungskostenzuschlag von Fr.
+150.- belastet.</p>
+
+      <h2>19. Fahrzeugrückgabe ausserhalb Öffnungszeiten</h2>
+      <p>Das Fahrzeug kann ausserhalb der Öffnungszeiten zurückgebracht
+werden. Der Schlüssel des zurückgebrachten Fahrzeuges muss im
+Safe von Swiss Rent a Car deponiert werden. Erfolgt die Rückgabe
+ausserhalb der Öffnungszeiten, ist der Mieter verpflichtet den
+Vermieter per E-Mail oder telefonisch zu informieren. Für allfällige
+entstandene Schäden am Fahrzeug zwischen Schlüsselrückgabe
+und nächster Ladenöffnung haftet der Mieter.</p>
+
+      <h2>20. Fahrzeugortung</h2>
+      <p>Unser Autovermietungsdienst verwendet in einigen unserer Flotten
+zufällig GPS-Tracking-Systeme. Mit der Anmietung eines Fahrzeuges
+bei uns erklären Sie sich damit einverstanden, dass dieses
+Ortungssystem verwendet wird. Die gesammelten Informationen
+werden nur für die Zwecke der Fahrzeugwiederherstellung
+verwendet und werden nicht an Dritte weitergegeben.</p>
+    </div>
+  </section>
+
+  
+
+
+<!-- 🔻 FOOTER SECTION -->
+<footer class="footer" id="contact" >
+  <div class="footer-container">
+    <!-- Über uns -->
+    <div class="footer-col">
+      <h3>Über uns</h3>
+      <p>
+        Swiss Rent a Car ist Ihr zuverlässiger Partner für Fahrzeugvermietung, Transfers und Airport Services. Mit unserem Standort in Kloten bei Zürich bieten wir flexible Mobilität und erstklassigen Service – für Privatpersonen, Unternehmen und Reisende in der ganzen Schweiz.
+      </p>
+    </div>
+
+    <!-- Quick Links -->
+    <div class="footer-col">
+      <h3>Schnellzugriff</h3>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="vehicle.html">Fahrzeugvermietung</a></li>
+        <li><a href="transfers.html">Limousine & Transfers</a></li>
+        <li><a href="airport.html">Airport Parking</a></li>
+                        <li><a href="contact.html">Kontakt</a></li>
+
+      </ul>
+    </div>
+
+      <!-- Fahrzeuge mieten (NEU) -->
+    <div class="footer-col">
+      <h3>Jetzt mieten</h3>
+      <ul>
+        <li><a href="iframeauto.html">Auto mieten</a></li>
+        <li><a href="iframelieferwagen.html">Lieferwagen mieten</a></li>
+        <li><a href="iframeminivan.html">Minivan mieten</a></li>
+        <li><a href="iframeminibus.html">Minibus mieten</a></li>
+      </ul>
+    </div>
+
+    <!-- Partner -->
+    <div class="footer-col partner-col">
+      <h3>Unser Partner</h3>
+      <p>
+        <strong>Hotel Swiss Views</strong> – Ihr exklusiver Rückzugsort mit Panoramablick auf den Säntis und die umliegende Berglandschaft. Ideal für Geschäfts- und Privatreisende, die Ruhe, Natur und Schweizer Gastfreundschaft in stilvollem Ambiente geniessen möchten. </p>
+      <a href="https://swiss-views.ch" class="partner-btn">Erfahre mehr</a>
+    </div>
+
+    <!-- Kontakt -->
+    <div class="footer-col">
+      <h3>Kontakt</h3>
+      <ul>
+        <li><i class="fa-solid fa-location-dot"></i> Schaffhauserstrasse 137, 8302 Kloten</li>
+            <li><i class="fa-solid fa-location-dot"></i> Gaswerkstrasse 8, 8952 Schlieren</li>
+
+        <li><i class="fa-solid fa-phone"></i> <a href="tel:+41783009090">+41 78 300 90 90</a></li>
+        <li><i class="fa-solid fa-envelope"></i> <a href="mailto:info@swissrentacar.ch">info@swissrentacar.ch</a></li>
+      </ul>
+      <div class="social-links">
+        <a href="https://www.facebook.com/SRAC.Kloten"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="https://www.instagram.com/swissrentacar.ch"><i class="fa-brands fa-instagram"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer Bottom -->
+  <div class="footer-bottom">
+    <div class="footer-links">
+      <a href="impressum.html">Impressum</a>
+      <span>|</span>
+      <a href="datenschutz.html">Datenschutz</a>
+       <span>|</span>
+             <a href="agb.html">AGB Fahrzeugvermietung</a>
+
+    </div>
+    <p>© 2025 Swiss Rent a Car. Alle Rechte vorbehalten.</p>
+  </div>
+</footer>
+
+
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 1000,
+    once: false,
+    easing: 'ease-out-cubic'
+  });
+</script>
+</body>
+</html>

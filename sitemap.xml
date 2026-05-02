@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <!-- INDEX -->
+  <url><loc>https://www.swissrentacar.ch/index.html</loc></url>
+  <url><loc>https://www.swissrentacar.ch/index_en.html</loc></url>
+
+  <!-- AGB -->
+  <url><loc>https://www.swissrentacar.ch/agb.html</loc></url>
+  <url><loc>https://www.swissrentacar.ch/agb_en.html</loc></url>
+
+  <!-- AIRPORT TRANSFER -->
+  <url><loc>https://www.swissrentacar.ch/airport.html</loc></url>
+  <url><loc>https://www.swissrentacar.ch/airport_en.html</loc></url>
+  <url><loc>https://www.swissrentacar.ch/airport-transfer.html</loc></url>
+  <url><loc>https://www.swissrentacar.ch/airport-transfer_en.html</loc></url>
+
+  <!-- AUTO / VEHICLES -->
+  <url><loc>https://www.swissrentacar.ch/auto.html</loc></url>
+  <url><loc>https://www.swissrentacar.ch/auto_en.html</loc></url>
+  <url><loc>https://www.swissrentacar.ch/vehicle.html</loc></url>
+  <url><loc>https://www.swissrentacar.ch/vehicle_en.html</loc></url>
+
+  <!-- BUSINESS / VIP -->
+  <url><loc>https://www.swissrentacar.ch/business-vip.html</loc></url>
+  <url><loc>https://www.swissrentacar.ch/business-vip_en.html</loc></url>
+
+  <!-- CONTACT -->
+  <url><loc>https://www.swissrentacar.ch/contact.html</loc></url>
+  <url><loc>https://www.swissrentacar.ch/contact_en.html</loc></url>
+  <url><loc>https://www.swissrentacar.ch/contactlimo.html</loc></url>
+  <url><loc>https://www.swissrentacar.ch/contactlimo_en.html</loc></url>
+
+  <!-- DATENSCHUTZ -->
+  <url><loc>https://www.swissrentacar.ch/datenschutz.html</loc></url>
+  <url><loc>https://www.swissrentacar.ch/datenschutz_en.html</loc></url>
+
+  <!-- DISPOSAL -->
+  <url><loc>https://www.swissrentacar.ch/disposal.html</loc></url>
+  <url><loc>https://www.swissrentacar.ch/disposal_en.html</loc></url>
+
+  <!-- FAHRERAUSWEIS -->
+  <url><loc>https://www.swissrentacar.ch/fuehrerausweis.html</loc></url>
+  <url><loc>https://www.swissrentacar.ch/fuehrerausweis_en.html</loc></url>
+
+  <!-- HOTEL TRANSFER -->
+  <url><loc>https://www.swissrentacar.ch/hotel-transfer.html</loc></url>
+  <url><loc>https://www.swissrentacar.ch/hotel-transfer_en.html</loc></url>
+
+  <!-- IFRAMES -->
+  <url><loc>https://www.swissrentacar.ch/iframe.html</loc></url>
+  <url><loc>https://www.swissrentacar.ch/iframe_en.html</loc></url>
+  <url><loc>https://www.swissrentacar.ch/iframeauto.html</loc></url>
+  <url><loc>https://www.swissrentacar.ch/iframeauto_en.html</loc></url>
+  <url><loc>https://www.swissrentacar.ch/iframelieferwagen.html</loc></url>
+  <url><loc>https://www.swissrentacar.ch/iframelieferwagen_en.html</loc></url>
+  <url><loc>https://www.swissrentacar.ch/iframeminibus.html</loc></url>
+  <url><loc>https://www.swissrentacar.ch/iframeminibus_en.html</loc></url>
+  <url><loc>https://www.swissrentacar.ch/iframeminivan.html</loc></url>
+  <url><loc>https://www.swissrentacar.ch/iframeminivan_en.html</loc></url>
+
+  <!-- IMPRESSUM -->
+  <url><loc>https://www.swissrentacar.ch/impressum.html</loc></url>
+  <url><loc>https://www.swissrentacar.ch/impressum_en.html</loc></url>
+
+  <!-- LIEFERWAGEN -->
+  <url><loc>https://www.swissrentacar.ch/lieferwagen.html</loc></url>
+  <url><loc>https://www.swissrentacar.ch/lieferwagen_en.html</loc></url>
+
+  <!-- LUGGAGE TRANSFER -->
+  <url><loc>https://www.swissrentacar.ch/luggage-transfer.html</loc></url>
+  <url><loc>https://www.swissrentacar.ch/luggage-transfer_en.html</loc></url>
+
+  <!-- MINIBUS -->
+  <url><loc>https://www.swissrentacar.ch/minibus.html</loc></url>
+  <url><loc>https://www.swissrentacar.ch/minibus_en.html</loc></url>
+
+  <!-- SPRINTER -->
+  <url>
+    <loc>https://www.swissrentacar.ch/sprinter.html</loc>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://www.swissrentacar.ch/sprinter.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.swissrentacar.ch/sprinter_en.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.swissrentacar.ch/sprinter.html"/>
+  </url>
+  <url>
+    <loc>https://www.swissrentacar.ch/sprinter_en.html</loc>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://www.swissrentacar.ch/sprinter.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.swissrentacar.ch/sprinter_en.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.swissrentacar.ch/sprinter.html"/>
+  </url>
+
+  <!-- MINIVAN -->
+  <url><loc>https://www.swissrentacar.ch/minivan.html</loc></url>
+  <url><loc>https://www.swissrentacar.ch/minivan_en.html</loc></url>
+
+  <!-- SIGHTSEEING -->
+  <url><loc>https://www.swissrentacar.ch/sightseeing-transfer.html</loc></url>
+  <url><loc>https://www.swissrentacar.ch/sightseeing-transfer_en.html</loc></url>
+
+  <!-- SKIRESORT -->
+  <url><loc>https://www.swissrentacar.ch/skiresort-transfer.html</loc></url>
+  <url><loc>https://www.swissrentacar.ch/skiresort-transfer_en.html</loc></url>
+
+  <!-- TOURS -->
+  <url><loc>https://www.swissrentacar.ch/tours.html</loc></url>
+  <url><loc>https://www.swissrentacar.ch/tours_en.html</loc></url>
+
+  <!-- TRANSFERS -->
+  <url><loc>https://www.swissrentacar.ch/transfers.html</loc></url>
+  <url><loc>https://www.swissrentacar.ch/transfers_en.html</loc></url>
+
+  <!-- WEDDING -->
+  <url><loc>https://www.swissrentacar.ch/wedding.html</loc></url>
+  <url><loc>https://www.swissrentacar.ch/wedding_en.html</loc></url>
+
+  <!-- WEF -->
+  <url><loc>https://www.swissrentacar.ch/wef-transfer.html</loc></url>
+  <url><loc>https://www.swissrentacar.ch/wef-transfer_en.html</loc></url>
+
+  <!-- G7 -->
+  <url><loc>https://www.swissrentacar.ch/g7.html</loc></url>
+  <url><loc>https://www.swissrentacar.ch/g7_en.html</loc></url>
+
+</urlset>
