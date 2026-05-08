@@ -5576,6 +5576,7 @@ header {
 }
 .btn-fleet:hover {
   background: #b81a21;
+  color: #fff;
   transform: translateY(-3px);
   box-shadow: 0 0 12px rgba(210, 31, 38, 0.4);
 }
@@ -15148,12 +15149,6 @@ img[src="img/studiofotos fahrzeuge/B-Class_min.webp"] {
   background-position: center;
 }
 
-[style*="S-Class 2024_min.webp"].limousinecars-image {
-  background-size: cover !important;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
 /* g7.html */
 .g7-eyebrow {
   display: inline-flex;
@@ -15572,6 +15567,127 @@ img[src="img/studiofotos fahrzeuge/B-Class_min.webp"] {
   object-fit: contain;
   transform: scale(0.95);
   transform-origin: center;
+}
+
+
+/* Einheitliche Skalierung fuer Studio-Fahrzeuge */
+.fleet-img,
+.srac-elegant-card img,
+.van-card img {
+  object-fit: contain;
+  object-position: center;
+  background: #fff;
+  box-sizing: border-box;
+}
+
+.fleet-img {
+  padding: 10px;
+  transform: none !important;
+}
+
+.srac-elegant-card img,
+.van-card img {
+  padding: 8px;
+  transform: none !important;
+}
+
+.vehicle-item .image-wrap {
+  background-size: 88% auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #fff;
+  transform: none !important;
+}
+
+.minibus-card .image-wrap {
+  background-size: 94% auto;
+}
+
+[style*="img/studiofotos fahrzeuge/"].limousinecars-image,
+[style*="favicon-4/vclassnew.png"].limousinecars-image {
+  background-size: 88% auto !important;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #fff;
+}
+
+[style*="E-Class_black_fleet.webp"].limousinecars-image {
+  background-size: 94% auto !important;
+}
+
+@media (max-width: 900px) {
+  .fleet-img,
+  .srac-elegant-card img,
+  .van-card img {
+    object-fit: contain;
+  }
+
+  .vehicle-item .image-wrap,
+  [style*="img/studiofotos fahrzeuge/"].limousinecars-image,
+  [style*="favicon-4/vclassnew.png"].limousinecars-image {
+    background-size: 86% auto !important;
+  }
+
+  .minibus-card .image-wrap {
+    background-size: 92% auto !important;
+  }
+
+  [style*="E-Class_black_fleet.webp"].limousinecars-image {
+    background-size: 92% auto !important;
+  }
+
+}
+
+@media (max-width: 600px) {
+  .fleet-img {
+    height: 190px;
+    padding: 8px;
+  }
+
+  .srac-elegant-card img,
+  .van-card img {
+    height: 170px;
+  }
+
+  .limousinecars-image {
+    height: 185px;
+  }
+
+  .image-wrap {
+    height: 170px;
+  }
+}
+
+@media (max-width: 420px) {
+  .fleet-img {
+    height: 180px;
+  }
+
+  .srac-elegant-card img,
+  .van-card img {
+    height: 165px;
+  }
+
+  .limousinecars-image {
+    height: 178px;
+  }
+
+  .image-wrap {
+    height: 160px;
+  }
+}
+
+@media (max-width: 350px) {
+  .fleet-img,
+  .srac-elegant-card img,
+  .van-card img {
+    height: 155px;
+  }
+
+  .limousinecars-image,
+  .image-wrap {
+    height: 150px;
+  }
 }
 
 
