@@ -68,6 +68,20 @@
   <url><loc>https://www.swissrentacar.ch/lieferwagen.html</loc></url>
   <url><loc>https://www.swissrentacar.ch/lieferwagen_en.html</loc></url>
 
+  <!-- HEBEBUEHNE -->
+  <url>
+    <loc>https://www.swissrentacar.ch/hebebuehne.html</loc>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://www.swissrentacar.ch/hebebuehne.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.swissrentacar.ch/hebebuehne_en.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.swissrentacar.ch/hebebuehne.html"/>
+  </url>
+  <url>
+    <loc>https://www.swissrentacar.ch/hebebuehne_en.html</loc>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://www.swissrentacar.ch/hebebuehne.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.swissrentacar.ch/hebebuehne_en.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.swissrentacar.ch/hebebuehne.html"/>
+  </url>
+
   <!-- LUGGAGE TRANSFER -->
   <url><loc>https://www.swissrentacar.ch/luggage-transfer.html</loc></url>
   <url><loc>https://www.swissrentacar.ch/luggage-transfer_en.html</loc></url>
@@ -93,6 +107,20 @@
   <!-- MINIVAN -->
   <url><loc>https://www.swissrentacar.ch/minivan.html</loc></url>
   <url><loc>https://www.swissrentacar.ch/minivan_en.html</loc></url>
+
+  <!-- V-KLASSE -->
+  <url>
+    <loc>https://www.swissrentacar.ch/vklass.html</loc>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://www.swissrentacar.ch/vklass.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.swissrentacar.ch/vklass_en.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.swissrentacar.ch/vklass.html"/>
+  </url>
+  <url>
+    <loc>https://www.swissrentacar.ch/vklass_en.html</loc>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://www.swissrentacar.ch/vklass.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.swissrentacar.ch/vklass_en.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.swissrentacar.ch/vklass.html"/>
+  </url>
 
   <!-- SIGHTSEEING -->
   <url><loc>https://www.swissrentacar.ch/sightseeing-transfer.html</loc></url>
