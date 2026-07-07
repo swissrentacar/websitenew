@@ -68,6 +68,20 @@
   <url><loc>https://www.swissrentacar.ch/lieferwagen.html</loc></url>
   <url><loc>https://www.swissrentacar.ch/lieferwagen_en.html</loc></url>
 
+  <!-- LKW -->
+  <url>
+    <loc>https://www.swissrentacar.ch/lkw.html</loc>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://www.swissrentacar.ch/lkw.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.swissrentacar.ch/lkw_en.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.swissrentacar.ch/lkw.html"/>
+  </url>
+  <url>
+    <loc>https://www.swissrentacar.ch/lkw_en.html</loc>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://www.swissrentacar.ch/lkw.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.swissrentacar.ch/lkw_en.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.swissrentacar.ch/lkw.html"/>
+  </url>
+
   <!-- HEBEBUEHNE -->
   <url>
     <loc>https://www.swissrentacar.ch/hebebuehne.html</loc>

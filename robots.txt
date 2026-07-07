@@ -1,4 +1,6 @@
 User-agent: *
 Allow: /
+Allow: /lkw.html
+Allow: /lkw_en.html
 
 Sitemap: https://www.swissrentacar.ch/sitemap.xml
