@@ -16,6 +16,22 @@
   <url><loc>https://www.swissrentacar.ch/airport-transfer.html</loc></url>
   <url><loc>https://www.swissrentacar.ch/airport-transfer_en.html</loc></url>
 
+  <!-- AIRPORT RENTAL CAR PICKUP -->
+  <url>
+    <loc>https://www.swissrentacar.ch/pickupairport.html</loc>
+    <lastmod>2026-08-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://www.swissrentacar.ch/pickupairport.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.swissrentacar.ch/pickupairport_en.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.swissrentacar.ch/pickupairport.html"/>
+  </url>
+  <url>
+    <loc>https://www.swissrentacar.ch/pickupairport_en.html</loc>
+    <lastmod>2026-08-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://www.swissrentacar.ch/pickupairport.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.swissrentacar.ch/pickupairport_en.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.swissrentacar.ch/pickupairport.html"/>
+  </url>
+
   <!-- AUTO / VEHICLES -->
   <url><loc>https://www.swissrentacar.ch/auto.html</loc></url>
   <url><loc>https://www.swissrentacar.ch/auto_en.html</loc></url>
