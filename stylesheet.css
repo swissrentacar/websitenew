@@ -886,6 +886,120 @@ header {
   box-shadow: 0 6px 16px rgba(0, 0, 0, 0.4);
 }
 
+/* === AIRPORT PICKUP TEASER === */
+.airport-pickup-teaser {
+  padding: 0 6% 90px;
+  background: #fff;
+}
+
+.airport-pickup-teaser__content {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 32px 38px;
+  display: flex;
+  align-items: center;
+  gap: 28px;
+  border-radius: 18px;
+  background: linear-gradient(135deg, #171717, #2b2b2b);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.16);
+}
+
+.airport-pickup-teaser__icon {
+  width: 64px;
+  height: 64px;
+  flex: 0 0 64px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  background: #d21f26;
+  color: #fff;
+  font-size: 1.55rem;
+}
+
+.airport-pickup-teaser__text {
+  flex: 1;
+}
+
+.airport-pickup-teaser__text span {
+  display: block;
+  margin-bottom: 5px;
+  color: #e85055;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+}
+
+.airport-pickup-teaser__text h2 {
+  margin: 0 0 7px;
+  color: #fff;
+  font-size: clamp(1.35rem, 2.2vw, 1.85rem);
+  line-height: 1.25;
+}
+
+.airport-pickup-teaser__text p {
+  margin: 0;
+  color: #d1d1d1;
+  line-height: 1.55;
+}
+
+.airport-pickup-teaser__btn {
+  flex: 0 0 auto;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 13px 24px;
+  border-radius: 40px;
+  background: #d21f26;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  white-space: nowrap;
+  transition: transform 0.3s ease, background 0.3s ease, box-shadow 0.3s ease;
+}
+
+.airport-pickup-teaser__btn:hover {
+  background: #b51a20;
+  color: #fff;
+  transform: translateY(-2px);
+  box-shadow: 0 7px 18px rgba(210, 31, 38, 0.35);
+}
+
+@media (max-width: 800px) {
+  .airport-pickup-teaser {
+    padding: 0 5% 65px;
+  }
+
+  .airport-pickup-teaser__content {
+    padding: 28px 24px;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .airport-pickup-teaser__text {
+    flex-basis: calc(100% - 84px);
+  }
+
+  .airport-pickup-teaser__btn {
+    margin-left: 84px;
+  }
+}
+
+@media (max-width: 520px) {
+  .airport-pickup-teaser__content {
+    display: block;
+    text-align: center;
+  }
+
+  .airport-pickup-teaser__icon {
+    margin: 0 auto 18px;
+  }
+
+  .airport-pickup-teaser__btn {
+    margin: 22px 0 0;
+  }
+}
+
 /* =============================================
 🚘 VEHICLE CARDS – SWISS RENT A CAR STYLE
 =================================================*/
@@ -16326,4 +16440,566 @@ img[src="img/studiofotos fahrzeuge/B-Class_min.webp"] {
   inset: 0;
   background: rgba(0, 0, 0, 0.55); /* 🔹 55 % Dunkelheit */
   z-index: 2;
+}
+
+/* ==========================================================
+   AIRPORT PICKUP INFORMATION PAGE
+   ========================================================== */
+.pickup-airport-page {
+  overflow: hidden;
+  background: #fff;
+}
+
+.pickup-hero {
+  height: 60vh;
+  min-height: 520px;
+  padding: 130px 6% 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background: url('img/airportpickup/arrival.webp') center / cover no-repeat;
+}
+
+.pickup-hero::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.55);
+  pointer-events: none;
+}
+
+.pickup-hero__content {
+  width: min(800px, 100%);
+  position: relative;
+  z-index: 1;
+  text-align: center;
+}
+
+.pickup-hero h1 {
+  margin: 0 0 13px;
+  color: #fff;
+  font-size: 2.3rem;
+  line-height: 1.2;
+  letter-spacing: 0;
+}
+
+.pickup-hero p {
+  max-width: 720px;
+  margin: 0 auto 26px;
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 1.1rem;
+  line-height: 1.65;
+}
+
+.pickup-hero__btn {
+  width: auto;
+  max-width: max-content;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 23px;
+  border-radius: 999px;
+  background: #d21f26;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 700;
+  box-shadow: 0 8px 22px rgba(210, 31, 38, 0.3);
+}
+
+.pickup-hero__btn:hover {
+  background: #b7181e;
+  color: #fff;
+  transform: translateY(-2px);
+}
+
+.pickup-intro {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 95px 6% 58px;
+  text-align: center;
+}
+
+.pickup-section-label {
+  display: block;
+  margin-bottom: 8px;
+  color: #d21f26;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.pickup-intro h2,
+.pickup-meet__content h2,
+.pickup-return__content h2 {
+  margin: 0 0 17px;
+  color: #141414;
+  font-size: clamp(1.8rem, 3vw, 2.65rem);
+  letter-spacing: -0.02em;
+}
+
+.pickup-intro p {
+  margin: 0;
+  color: #5a5a5a;
+  font-size: 1.08rem;
+  line-height: 1.85;
+}
+
+.pickup-steps {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 6% 105px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.pickup-step {
+  min-height: 290px;
+  padding: 30px;
+  position: relative;
+  overflow: hidden;
+  border: 1px solid #e8e8e8;
+  border-radius: 18px;
+  background: #fff;
+  box-shadow: 0 10px 30px rgba(22, 29, 36, 0.07);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.pickup-step:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 16px 38px rgba(22, 29, 36, 0.12);
+}
+
+.pickup-step__number {
+  position: absolute;
+  top: 13px;
+  right: 20px;
+  color: #f0f0f0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 4.2rem;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.pickup-step__icon {
+  width: 55px;
+  height: 55px;
+  margin-bottom: 28px;
+  display: grid;
+  place-items: center;
+  position: relative;
+  border-radius: 15px;
+  background: rgba(210, 31, 38, 0.09);
+  color: #d21f26;
+  font-size: 1.35rem;
+}
+
+.pickup-step h3 {
+  margin: 0 0 12px;
+  font-size: 1.32rem;
+  font-weight: 700;
+}
+
+.pickup-step p {
+  margin: 0;
+  color: #626262;
+  font-size: 0.96rem;
+  line-height: 1.75;
+}
+
+.pickup-meet {
+  max-width: 1280px;
+  margin: 0 auto 110px;
+  display: grid;
+  grid-template-columns: 1.05fr 0.95fr;
+  align-items: stretch;
+  border-radius: 22px;
+  overflow: hidden;
+  background: #f5f6f7;
+  box-shadow: 0 16px 42px rgba(20, 27, 33, 0.1);
+}
+
+.pickup-meet__image {
+  min-height: 520px;
+  overflow: hidden;
+}
+
+.pickup-meet__image img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  object-position: center;
+  transition: transform 0.6s ease;
+}
+
+.pickup-meet:hover .pickup-meet__image img {
+  transform: scale(1.025);
+}
+
+.pickup-meet__content {
+  padding: clamp(38px, 6vw, 75px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.pickup-meet__content > p {
+  margin: 0 0 22px;
+  color: #595959;
+  line-height: 1.8;
+}
+
+.pickup-meet__content ul {
+  margin: 0 0 26px;
+  padding: 0;
+  display: grid;
+  gap: 13px;
+  list-style: none;
+}
+
+.pickup-meet__content li {
+  display: flex;
+  align-items: flex-start;
+  gap: 11px;
+  color: #333;
+  line-height: 1.55;
+}
+
+.pickup-meet__content li i {
+  margin-top: 4px;
+  color: #d21f26;
+}
+
+.pickup-flight-note {
+  padding: 16px 18px;
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  border-left: 4px solid #d21f26;
+  border-radius: 0 10px 10px 0;
+  background: #fff;
+}
+
+.pickup-flight-note > i {
+  margin-top: 4px;
+  color: #d21f26;
+}
+
+.pickup-flight-note p {
+  margin: 0;
+  color: #474747;
+  font-size: 0.92rem;
+}
+
+.pickup-return {
+  padding: 105px max(6%, calc((100% - 1180px) / 2));
+  display: grid;
+  grid-template-columns: 1fr 0.9fr;
+  align-items: center;
+  gap: clamp(45px, 8vw, 100px);
+  background: #17191c;
+}
+
+.pickup-return__content h2 {
+  color: #fff;
+}
+
+.pickup-return__content > p {
+  margin: 0 0 28px;
+  color: #c7c9cc;
+  font-size: 1.03rem;
+  line-height: 1.8;
+}
+
+.pickup-address {
+  max-width: 520px;
+  padding: 18px;
+  display: grid;
+  grid-template-columns: 52px 1fr auto;
+  align-items: center;
+  gap: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.07);
+  color: #fff;
+}
+
+.pickup-address:hover {
+  border-color: rgba(210, 31, 38, 0.65);
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  transform: translateY(-2px);
+}
+
+.pickup-address > span {
+  width: 52px;
+  height: 52px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  background: #d21f26;
+  color: #fff;
+  font-size: 1.15rem;
+}
+
+.pickup-address small,
+.pickup-route-point small {
+  display: block;
+  margin-bottom: 2px;
+  color: #969a9e;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.pickup-address strong {
+  color: #fff;
+  line-height: 1.45;
+}
+
+.pickup-address > i {
+  color: #9c9fa3;
+}
+
+.pickup-return__route {
+  padding: clamp(28px, 4vw, 42px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  background: #22252a;
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.25);
+}
+
+.pickup-route-point {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.pickup-route-point > span {
+  width: 54px;
+  height: 54px;
+  flex: 0 0 54px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  background: #d21f26;
+  color: #fff;
+  font-size: 1.18rem;
+}
+
+.pickup-route-point strong {
+  display: block;
+  color: #fff;
+  font-size: 1rem;
+}
+
+.pickup-route-line {
+  height: 86px;
+  margin-left: 26px;
+  position: relative;
+  border-left: 2px dashed rgba(255, 255, 255, 0.25);
+}
+
+.pickup-route-line span {
+  padding: 5px 10px;
+  position: absolute;
+  top: 28px;
+  left: 16px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.08);
+  color: #d3d5d7;
+  font-size: 0.78rem;
+}
+
+.pickup-return__route > p {
+  margin: 30px 0 0;
+  padding-top: 23px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  color: #c4c7ca;
+  line-height: 1.7;
+}
+
+.pickup-cta {
+  position: relative;
+  overflow: hidden;
+  max-width: 1180px;
+  margin: 95px auto;
+  padding: 42px 46px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 35px;
+  border-radius: 8px;
+  border: 1px solid rgba(210, 31, 38, 0.14);
+  border-left: 5px solid #d21f26;
+  background: linear-gradient(135deg, #fff 0%, #fff7f7 58%, #f6f6f6 100%);
+  box-shadow: 0 22px 55px rgba(0, 0, 0, 0.09);
+}
+
+.pickup-cta span {
+  display: block;
+  margin-bottom: 9px;
+  color: #d21f26;
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.pickup-cta h2 {
+  margin: 0;
+  color: #111;
+  font-size: clamp(1.4rem, 2.4vw, 2rem);
+  line-height: 1.2;
+}
+
+.pickup-cta > a {
+  flex: 0 0 auto;
+  min-height: 52px;
+  padding: 0.9rem 1.6rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border: 2px solid #d21f26;
+  border-radius: 999px;
+  background: #d21f26;
+  color: #fff;
+  font-weight: 800;
+  box-shadow: 0 12px 26px rgba(210, 31, 38, 0.2);
+}
+
+.pickup-cta > a:hover {
+  background: rgba(255, 255, 255, 0.72);
+  color: #d21f26;
+  transform: translateY(-2px);
+  box-shadow: 0 16px 32px rgba(210, 31, 38, 0.16);
+}
+
+@media (max-width: 1320px) {
+  .pickup-meet,
+  .pickup-cta {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}
+
+@media (max-width: 980px) {
+  .pickup-hero {
+    height: 58vh;
+    min-height: 480px;
+  }
+
+  .pickup-hero h1 {
+    font-size: 2.1rem;
+  }
+
+  .pickup-steps {
+    grid-template-columns: 1fr;
+    max-width: 720px;
+  }
+
+  .pickup-step {
+    min-height: 0;
+  }
+
+  .pickup-meet {
+    grid-template-columns: 1fr;
+  }
+
+  .pickup-meet__image {
+    min-height: 400px;
+  }
+
+  .pickup-return {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 700px) {
+  .pickup-hero {
+    height: 55vh;
+    min-height: 440px;
+    padding: 105px 6% 55px;
+    background-position: center;
+  }
+
+  .pickup-hero h1 {
+    font-size: 1.8rem;
+  }
+
+  .pickup-hero p {
+    font-size: 0.96rem;
+  }
+
+  .pickup-intro {
+    padding-top: 70px;
+  }
+
+  .pickup-steps {
+    padding-bottom: 75px;
+  }
+
+  .pickup-meet {
+    margin: 0 5% 75px;
+  }
+
+  .pickup-meet__image {
+    min-height: 280px;
+  }
+
+  .pickup-meet__content {
+    padding: 34px 24px;
+  }
+
+  .pickup-return {
+    padding: 75px 6%;
+  }
+
+  .pickup-address {
+    grid-template-columns: 46px 1fr;
+  }
+
+  .pickup-address > span {
+    width: 46px;
+    height: 46px;
+  }
+
+  .pickup-address > i {
+    display: none;
+  }
+
+  .pickup-cta {
+    margin-top: 65px;
+    margin-bottom: 65px;
+    padding: 30px 24px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+@media (max-width: 420px) {
+  .pickup-hero {
+    min-height: 410px;
+  }
+
+  .pickup-hero h1 {
+    font-size: 1.6rem;
+  }
+
+  .pickup-step {
+    padding: 25px 22px;
+  }
+
+  .pickup-meet__image {
+    min-height: 230px;
+  }
+
+  .pickup-return__route {
+    padding: 25px 20px;
+  }
 }
