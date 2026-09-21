@@ -176,8 +176,16 @@
   <url><loc>https://www.swissrentacar.ch/wef-transfer.html</loc></url>
   <url><loc>https://www.swissrentacar.ch/wef-transfer_en.html</loc></url>
 
-  <!-- G7 -->
-  <url><loc>https://www.swissrentacar.ch/g7.html</loc></url>
-  <url><loc>https://www.swissrentacar.ch/g7_en.html</loc></url>
+
+  <url><loc>https://www.swissrentacar.ch/airport-transfer-st-moritz-ice-festival.html</loc>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://www.swissrentacar.ch/airport-transfer-st-moritz-ice-festival.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.swissrentacar.ch/airport-transfer-st-moritz-ice-festival_en.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.swissrentacar.ch/airport-transfer-st-moritz-ice-festival.html"/>
+  </url>
+  <url><loc>https://www.swissrentacar.ch/airport-transfer-st-moritz-ice-festival_en.html</loc>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://www.swissrentacar.ch/airport-transfer-st-moritz-ice-festival.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.swissrentacar.ch/airport-transfer-st-moritz-ice-festival_en.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.swissrentacar.ch/airport-transfer-st-moritz-ice-festival.html"/>
+  </url>
 
 </urlset>
