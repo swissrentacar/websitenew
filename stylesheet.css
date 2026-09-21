@@ -892,6 +892,11 @@ header {
   background: #fff;
 }
 
+html[lang="en"] .hero-section + .airport-pickup-teaser {
+  padding-top: 90px;
+  padding-bottom: 0;
+}
+
 .airport-pickup-teaser__content {
   max-width: 1180px;
   margin: 0 auto;
@@ -968,6 +973,10 @@ header {
 @media (max-width: 800px) {
   .airport-pickup-teaser {
     padding: 0 5% 65px;
+  }
+
+  html[lang="en"] .hero-section + .airport-pickup-teaser {
+    padding-top: 65px;
   }
 
   .airport-pickup-teaser__content {
