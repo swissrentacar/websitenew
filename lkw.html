@@ -36,7 +36,6 @@
   <meta name="twitter:image" content="https://www.swissrentacar.ch/img/lkwpics/lkw%20hintergrund.webp">
   <!-- ✅ STYLESHEETS -->
   <link rel="stylesheet" href="stylesheet.css">
-  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
   <!-- ✅ STRUCTURED DATA (CarRental mit Fokus auf Lastwagen & LKW) -->
@@ -159,6 +158,8 @@
   gtag("js", new Date());
   gtag("config", "AW-18135297218");
 </script>
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css">
+<noscript><style>[data-aos] { opacity: 1 !important; transform: none !important; }</style></noscript>
 </head>
 
 <body>
@@ -209,9 +210,10 @@
       <ul class="dropdown-menu">
         <li><a href="auto.html">Auto</a></li>
         <li><a href="lieferwagen.html">Lieferwagen</a></li>
-        <li><a href="lkw.html">Lastwagen</a></li>
         <li><a href="minivan.html">Mini Van</a></li>
         <li><a href="minibus.html">Mini Bus</a></li>
+        <li><a href="bus.html">Busse</a></li>
+        <li><a href="lkw.html">Lastwagen</a></li>
       </ul>
       </li>
        <li class="dropdown">
@@ -408,7 +410,7 @@ document.querySelectorAll(".dropdown > a").forEach(link => {
       </div>
     </div>
 
-    <div class="lkw-spec-card" data-aos="fade-left">
+    <div class="lkw-spec-card" data-aos="fade-up">
       <div class="lkw-spec-top">
         <span>LKW</span>
         <h3>Mercedes-Benz Actros</h3>
@@ -478,7 +480,7 @@ document.querySelectorAll(".dropdown > a").forEach(link => {
       </ul>
     </div>
 
-    <div class="lkw-chauffeur-panel" data-aos="fade-left">
+    <div class="lkw-chauffeur-panel" data-aos="fade-up">
       <div class="lkw-price-label">Chauffeur-Service</div>
       <div class="lkw-price">
         <span>CHF</span>
@@ -527,14 +529,14 @@ document.querySelectorAll(".dropdown > a").forEach(link => {
 </section>
 
 <!-- ❓ FAQ SECTION -->
-<section class="faq" id="faq" data-aos="fade-up" data-aos-duration="700">
-  <div class="faq-header" data-aos="fade-down">
+<section class="faq" id="faq" data-aos="fade-up">
+  <div class="faq-header" data-aos="fade-up">
     <h2>Häufige Fragen zur LKW-Miete</h2>
     <p>Alles Wichtige zu Führerausweis, Kilometer, LSVA, Versicherung und Langzeitmiete.</p>
   </div>
 
   <div class="faq-container">
-    <div class="faq-item" data-aos="fade-up" data-aos-delay="100">
+    <div class="faq-item" data-aos="fade-up">
       <button class="faq-question">
         <span>Welchen Führerausweis brauche ich für den Lastwagen?</span>
         <i class="fa-solid fa-chevron-down"></i>
@@ -544,7 +546,7 @@ document.querySelectorAll(".dropdown > a").forEach(link => {
       </div>
     </div>
 
-    <div class="faq-item" data-aos="fade-up" data-aos-delay="150">
+    <div class="faq-item" data-aos="fade-up">
       <button class="faq-question">
         <span>Gibt es eine Kilometerbegrenzung bei der LKW-Miete?</span>
         <i class="fa-solid fa-chevron-down"></i>
@@ -554,7 +556,7 @@ document.querySelectorAll(".dropdown > a").forEach(link => {
       </div>
     </div>
 
-    <div class="faq-item" data-aos="fade-up" data-aos-delay="200">
+    <div class="faq-item" data-aos="fade-up">
       <button class="faq-question">
         <span>Muss ich die LSVA pro Kilometer bezahlen?</span>
         <i class="fa-solid fa-chevron-down"></i>
@@ -564,7 +566,7 @@ document.querySelectorAll(".dropdown > a").forEach(link => {
       </div>
     </div>
 
-    <div class="faq-item" data-aos="fade-up" data-aos-delay="250">
+    <div class="faq-item" data-aos="fade-up">
       <button class="faq-question">
         <span>Kann ich den LKW auch mit Chauffeur mieten?</span>
         <i class="fa-solid fa-chevron-down"></i>
@@ -574,7 +576,7 @@ document.querySelectorAll(".dropdown > a").forEach(link => {
       </div>
     </div>
 
-    <div class="faq-item" data-aos="fade-up" data-aos-delay="300">
+    <div class="faq-item" data-aos="fade-up">
       <button class="faq-question">
         <span>Ist eine Langzeitmiete für den Lastwagen möglich?</span>
         <i class="fa-solid fa-chevron-down"></i>
@@ -584,7 +586,7 @@ document.querySelectorAll(".dropdown > a").forEach(link => {
       </div>
     </div>
 
-    <div class="faq-item" data-aos="fade-up" data-aos-delay="350">
+    <div class="faq-item" data-aos="fade-up">
       <button class="faq-question">
         <span>Ist der Lastwagen versichert?</span>
         <i class="fa-solid fa-chevron-down"></i>
@@ -594,7 +596,7 @@ document.querySelectorAll(".dropdown > a").forEach(link => {
       </div>
     </div>
 
-    <div class="faq-item" data-aos="fade-up" data-aos-delay="400">
+    <div class="faq-item" data-aos="fade-up">
       <button class="faq-question">
         <span>Kann ich den Mercedes-Benz Actros vorher besichtigen?</span>
         <i class="fa-solid fa-chevron-down"></i>
@@ -648,9 +650,10 @@ faqItems.forEach(item => {
       <ul>
         <li><a href="iframeauto.html">Auto mieten</a></li>
         <li><a href="iframelieferwagen.html">Lieferwagen mieten</a></li>
-        <li><a href="lkw.html">Lastwagen mieten</a></li>
         <li><a href="iframeminivan.html">Minivan mieten</a></li>
         <li><a href="iframeminibus.html">Minibus mieten</a></li>
+        <li><a href="bus.html">Busse mieten</a></li>
+        <li><a href="lkw.html">Lastwagen mieten</a></li>
       </ul>
     </div>
     <!-- Partner -->
@@ -695,13 +698,17 @@ faqItems.forEach(item => {
 
 <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
 <script>
-  AOS.init({
-    offset: 150,       // 🔹 Startet erst, wenn 150px ins Sichtfeld kommen
-    duration: 800,     // 🔹 Animationsdauer in ms
-    once: false,        // 🔹 Animation nur einmal beim ersten Scrollen
-    easing: 'ease-out',// 🔹 Sanfte Bewegung
-  });
+  if (window.AOS) {
+    AOS.init({
+      offset: 60,
+      duration: 750,
+      easing: 'ease-out-cubic',
+      once: true,
+      disable: () => window.matchMedia('(prefers-reduced-motion: reduce)').matches
+    });
+  } else {
+    document.querySelectorAll('[data-aos]').forEach(element => element.removeAttribute('data-aos'));
+  }
 </script>
-
 </body>
 </html>

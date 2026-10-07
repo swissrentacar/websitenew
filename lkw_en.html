@@ -36,7 +36,6 @@
   <meta name="twitter:image" content="https://www.swissrentacar.ch/img/lkwpics/lkw%20hintergrund.webp">
   <!-- ✅ STYLESHEETS -->
   <link rel="stylesheet" href="stylesheet.css">
-  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
   <!-- ✅ STRUCTURED DATA -->
@@ -159,6 +158,8 @@
   gtag("js", new Date());
   gtag("config", "AW-18135297218");
 </script>
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css">
+<noscript><style>[data-aos] { opacity: 1 !important; transform: none !important; }</style></noscript>
 </head>
 
 <body>
@@ -209,9 +210,10 @@
       <ul class="dropdown-menu">
         <li><a href="auto_en.html">Car</a></li>
         <li><a href="lieferwagen_en.html">Van</a></li>
-        <li><a href="lkw_en.html">Truck</a></li>
         <li><a href="minivan_en.html">Minivan</a></li>
         <li><a href="minibus_en.html">Minibus</a></li>
+        <li><a href="bus_en.html">Buses</a></li>
+        <li><a href="lkw_en.html">Truck</a></li>
       </ul>
       </li>
       <li class="dropdown">
@@ -394,7 +396,7 @@ document.querySelectorAll(".dropdown > a").forEach(link => {
       </div>
     </div>
 
-    <div class="lkw-spec-card" data-aos="fade-left">
+    <div class="lkw-spec-card" data-aos="fade-up">
       <div class="lkw-spec-top">
         <span>Truck</span>
         <h3>Mercedes-Benz Actros</h3>
@@ -463,7 +465,7 @@ document.querySelectorAll(".dropdown > a").forEach(link => {
       </ul>
     </div>
 
-    <div class="lkw-chauffeur-panel" data-aos="fade-left">
+    <div class="lkw-chauffeur-panel" data-aos="fade-up">
       <div class="lkw-price-label">Chauffeur service</div>
       <div class="lkw-price">
         <span>CHF</span>
@@ -512,14 +514,14 @@ document.querySelectorAll(".dropdown > a").forEach(link => {
 </section>
 
 <!-- ❓ FAQ SECTION -->
-<section class="faq" id="faq" data-aos="fade-up" data-aos-duration="700">
-  <div class="faq-header" data-aos="fade-down">
+<section class="faq" id="faq" data-aos="fade-up">
+  <div class="faq-header" data-aos="fade-up">
     <h2>Frequently Asked Questions About Truck Rental</h2>
     <p>Key information about driving licence, mileage, LSVA, insurance and long-term rental.</p>
   </div>
 
   <div class="faq-container">
-    <div class="faq-item" data-aos="fade-up" data-aos-delay="100">
+    <div class="faq-item" data-aos="fade-up">
       <button class="faq-question">
         <span>Which driving licence do I need for the truck?</span>
         <i class="fa-solid fa-chevron-down"></i>
@@ -529,7 +531,7 @@ document.querySelectorAll(".dropdown > a").forEach(link => {
       </div>
     </div>
 
-    <div class="faq-item" data-aos="fade-up" data-aos-delay="150">
+    <div class="faq-item" data-aos="fade-up">
       <button class="faq-question">
         <span>Is there a mileage limit for truck rental?</span>
         <i class="fa-solid fa-chevron-down"></i>
@@ -539,7 +541,7 @@ document.querySelectorAll(".dropdown > a").forEach(link => {
       </div>
     </div>
 
-    <div class="faq-item" data-aos="fade-up" data-aos-delay="200">
+    <div class="faq-item" data-aos="fade-up">
       <button class="faq-question">
         <span>Do I have to pay LSVA per kilometre?</span>
         <i class="fa-solid fa-chevron-down"></i>
@@ -549,7 +551,7 @@ document.querySelectorAll(".dropdown > a").forEach(link => {
       </div>
     </div>
 
-    <div class="faq-item" data-aos="fade-up" data-aos-delay="250">
+    <div class="faq-item" data-aos="fade-up">
       <button class="faq-question">
         <span>Can I rent the truck with a chauffeur?</span>
         <i class="fa-solid fa-chevron-down"></i>
@@ -559,7 +561,7 @@ document.querySelectorAll(".dropdown > a").forEach(link => {
       </div>
     </div>
 
-    <div class="faq-item" data-aos="fade-up" data-aos-delay="300">
+    <div class="faq-item" data-aos="fade-up">
       <button class="faq-question">
         <span>Is long-term truck rental possible?</span>
         <i class="fa-solid fa-chevron-down"></i>
@@ -569,7 +571,7 @@ document.querySelectorAll(".dropdown > a").forEach(link => {
       </div>
     </div>
 
-    <div class="faq-item" data-aos="fade-up" data-aos-delay="350">
+    <div class="faq-item" data-aos="fade-up">
       <button class="faq-question">
         <span>Is the truck insured?</span>
         <i class="fa-solid fa-chevron-down"></i>
@@ -579,7 +581,7 @@ document.querySelectorAll(".dropdown > a").forEach(link => {
       </div>
     </div>
 
-    <div class="faq-item" data-aos="fade-up" data-aos-delay="400">
+    <div class="faq-item" data-aos="fade-up">
       <button class="faq-question">
         <span>Can I view the Mercedes-Benz Actros before renting?</span>
         <i class="fa-solid fa-chevron-down"></i>
@@ -631,9 +633,10 @@ faqItems.forEach(item => {
   <ul>
     <li><a href="iframeauto_en.html">Rent a Car </a></li>
     <li><a href="iframelieferwagen_en.html">Rent a Van </a></li>
-    <li><a href="lkw_en.html">Rent a Truck</a></li>
     <li><a href="iframeminivan_en.html">Rent a Minivan</a></li>
     <li><a href="iframeminibus_en.html">Rent a  Minibus</a></li>
+    <li><a href="bus_en.html">Rent a Bus</a></li>
+    <li><a href="lkw_en.html">Rent a Truck</a></li>
   </ul>
 </div>
 
@@ -669,8 +672,20 @@ faqItems.forEach(item => {
       <p>© 2025 Swiss Rent a Car. All rights reserved.</p>
     </div>
   </footer>
-
-  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
-  <script>AOS.init({ offset:150, duration:800, once:false, easing:'ease-out' });</script>
+  
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script>
+  if (window.AOS) {
+    AOS.init({
+      offset: 60,
+      duration: 750,
+      easing: 'ease-out-cubic',
+      once: true,
+      disable: () => window.matchMedia('(prefers-reduced-motion: reduce)').matches
+    });
+  } else {
+    document.querySelectorAll('[data-aos]').forEach(element => element.removeAttribute('data-aos'));
+  }
+</script>
 </body>
 </html>

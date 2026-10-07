@@ -33,7 +33,6 @@
   <meta name="twitter:image" content="https://www.swissrentacar.ch/img/vklass.jpg">
   <!-- ✅ STYLESHEETS -->
   <link rel="stylesheet" href="stylesheet.css">
-  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
   <!-- ✅ STRUCTURED DATA (CarRental mit Fokus Minivans) -->
@@ -82,7 +81,9 @@
   <link rel="icon" type="image/png" sizes="16x16" href="favicon-4/favicon-16x16.png">
   <link rel="shortcut icon" href="favicon-4/favicon-32x32.ico">
   <meta name="msapplication-TileColor" content="#ffffff">
-  <meta name="msapplication-TileImage" content="favicon-4/mstile-150x150.png"></head>
+  <meta name="msapplication-TileImage" content="favicon-4/mstile-150x150.png">  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css">
+<noscript><style>[data-aos] { opacity: 1 !important; transform: none !important; }</style></noscript>
+</head>
 
 <body>
 <!-- ===== TOP BAR ===== -->
@@ -132,9 +133,10 @@
       <ul class="dropdown-menu">
         <li><a href="auto.html">Auto</a></li>
         <li><a href="lieferwagen.html">Lieferwagen</a></li>
-        <li><a href="lkw.html">Lastwagen</a></li>
         <li><a href="minivan.html">Mini Van</a></li>
         <li><a href="minibus.html">Mini Bus</a></li>
+        <li><a href="bus.html">Busse</a></li>
+        <li><a href="lkw.html">Lastwagen</a></li>
       </ul>
       </li>
       <li class="dropdown">
@@ -311,7 +313,7 @@ document.querySelectorAll(".dropdown > a").forEach(link => {
 
 <!-- 🚚 UNSERE LIEFERWAGENFLOTTE -->
 <section class="fleet" id="flotte" data-aos="fade-up">
-  <div class="fleet-header" data-aos="fade-down">
+  <div class="fleet-header" data-aos="fade-up">
     <h2>Unsere Mini Van Flotte</h2>
     <p>Top gepflegte Minivans – komfortabel, flexibel und ideal für Familie, Freizeit oder Wochenendtrips.
 </p>
@@ -320,7 +322,7 @@ document.querySelectorAll(".dropdown > a").forEach(link => {
   <div class="fleet-grid">
 
     <!-- Hyundai Staria -->
-    <div class="fleet-card staria-card" data-aos="zoom-in" data-aos-delay="100">
+    <div class="fleet-card staria-card" data-aos="zoom-in">
       <img src="img/studiofotos fahrzeuge/Staria Black_min.webp" alt="Hyundai Staria Automatik" class="fleet-img">
       <div class="fleet-info">
         <h3>Hyundai Staria</h3>
@@ -352,7 +354,7 @@ Automatik
     </div>
 
     <!-- Mercedes V Klasse  -->
-    <div class="fleet-card vklass-card" data-aos="zoom-in" data-aos-delay="150">
+    <div class="fleet-card vklass-card" data-aos="zoom-in">
       <img src="img/studiofotos fahrzeuge/VClass_min.webp" alt="Mercedes V Klasse" class="fleet-img">
       <div class="fleet-info">
         <h3>Mercedes V Klasse</h3>
@@ -385,7 +387,7 @@ Automatik
     </div>
 
     <!-- Mercedes Vito  -->
-    <div class="fleet-card vito-card" data-aos="zoom-in" data-aos-delay="200">
+    <div class="fleet-card vito-card" data-aos="zoom-in">
       <img src="img/studiofotos fahrzeuge/Vito 9s_min.webp" alt="Mercedes Vito" class="fleet-img">
       <div class="fleet-info">
         <h3>Mercedes Vito</h3>
@@ -412,7 +414,7 @@ Automatik
 
 <!-- 🚘 ELEGANT VEHICLE SLIDESHOW -->
 <section class="srac-elegantvehicles" id="mostrented" data-aos="fade-up">
-  <div class="srac-elegant-header" data-aos="fade-down">
+  <div class="srac-elegant-header" data-aos="fade-up">
     <h2>Unsere beliebtesten Fahrzeuge</h2>
     <p>Wählen Sie aus unseren meistgemieteten Fahrzeugen – Komfort, Funktionalität und Stil in jeder Klasse.</p>
   </div>
@@ -505,15 +507,15 @@ document.addEventListener("DOMContentLoaded", () => {
 </script>
 
 <!-- ❓ FAQ SECTION -->
-<section class="faq" id="faq" data-aos="fade-up" data-aos-duration="700">
-  <div class="faq-header" data-aos="fade-down">
+<section class="faq" id="faq" data-aos="fade-up">
+  <div class="faq-header" data-aos="fade-up">
     <h2>Häufige Fragen</h2>
     <p>Alles, was Sie über die Miete unserer Mini Vans wissen müssen.</p>
   </div>
 
   <div class="faq-container">
 
-    <div class="faq-item" data-aos="fade-up" data-aos-delay="100">
+    <div class="faq-item" data-aos="fade-up">
       <button class="faq-question">
         <span>Welche Voraussetzungen gelten für die Miete?</span>
         <i class="fa-solid fa-chevron-down"></i>
@@ -524,7 +526,7 @@ document.addEventListener("DOMContentLoaded", () => {
       </div>
     </div>
 
-    <div class="faq-item" data-aos="fade-up" data-aos-delay="150">
+    <div class="faq-item" data-aos="fade-up">
       <button class="faq-question">
         <span>Wie erfolgt die Bezahlung?</span>
         <i class="fa-solid fa-chevron-down"></i>
@@ -534,7 +536,7 @@ document.addEventListener("DOMContentLoaded", () => {
       </div>
     </div>
 
-    <div class="faq-item" data-aos="fade-up" data-aos-delay="200">
+    <div class="faq-item" data-aos="fade-up">
       <button class="faq-question">
         <span>Ist die Versicherung im Preis inbegriffen?</span>
         <i class="fa-solid fa-chevron-down"></i>
@@ -544,7 +546,7 @@ document.addEventListener("DOMContentLoaded", () => {
       </div>
     </div>
 
-    <div class="faq-item" data-aos="fade-up" data-aos-delay="250">
+    <div class="faq-item" data-aos="fade-up">
       <button class="faq-question">
         <span>Sind Auslandfahrten erlaubt?</span>
         <i class="fa-solid fa-chevron-down"></i>
@@ -554,7 +556,7 @@ document.addEventListener("DOMContentLoaded", () => {
       </div>
     </div>
 
-    <div class="faq-item" data-aos="fade-up" data-aos-delay="300">
+    <div class="faq-item" data-aos="fade-up">
       <button class="faq-question">
         <span>Wie läuft die Rückgabe ab?</span>
         <i class="fa-solid fa-chevron-down"></i>
@@ -565,7 +567,7 @@ document.addEventListener("DOMContentLoaded", () => {
       </div>
     </div>
 
-    <div class="faq-item" data-aos="fade-up" data-aos-delay="350">
+    <div class="faq-item" data-aos="fade-up">
       <button class="faq-question">
         <span>Kann ich das Fahrzeug verlängern?</span>
         <i class="fa-solid fa-chevron-down"></i>
@@ -575,7 +577,7 @@ document.addEventListener("DOMContentLoaded", () => {
       </div>
     </div>
 
-    <div class="faq-item" data-aos="fade-up" data-aos-delay="400">
+    <div class="faq-item" data-aos="fade-up">
       <button class="faq-question">
         <span>Was passiert bei einer Panne?</span>
         <i class="fa-solid fa-chevron-down"></i>
@@ -585,7 +587,7 @@ document.addEventListener("DOMContentLoaded", () => {
       </div>
     </div>
 
-    <div class="faq-item" data-aos="fade-up" data-aos-delay="450">
+    <div class="faq-item" data-aos="fade-up">
       <button class="faq-question">
         <span>Kann ich den Mini Van vorab besichtigen?</span>
         <i class="fa-solid fa-chevron-down"></i>
@@ -736,9 +738,10 @@ faqItems.forEach(item => {
       <ul>
         <li><a href="iframeauto.html">Auto mieten</a></li>
         <li><a href="iframelieferwagen.html">Lieferwagen mieten</a></li>
-        <li><a href="lkw.html">Lastwagen mieten</a></li>
         <li><a href="iframeminivan.html">Minivan mieten</a></li>
         <li><a href="iframeminibus.html">Minibus mieten</a></li>
+        <li><a href="bus.html">Busse mieten</a></li>
+        <li><a href="lkw.html">Lastwagen mieten</a></li>
       </ul>
     </div>
 
@@ -781,15 +784,20 @@ faqItems.forEach(item => {
   </div>
 </footer>
 
+
 <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
 <script>
-  AOS.init({
-    offset: 150,       // 🔹 Startet erst, wenn 150px ins Sichtfeld kommen
-    duration: 800,     // 🔹 Animationsdauer in ms
-    once: false,        // 🔹 Animation nur einmal beim ersten Scrollen
-    easing: 'ease-out',// 🔹 Sanfte Bewegung
-  });
+  if (window.AOS) {
+    AOS.init({
+      offset: 60,
+      duration: 750,
+      easing: 'ease-out-cubic',
+      once: true,
+      disable: () => window.matchMedia('(prefers-reduced-motion: reduce)').matches
+    });
+  } else {
+    document.querySelectorAll('[data-aos]').forEach(element => element.removeAttribute('data-aos'));
+  }
 </script>
-
 </body>
 </html>
