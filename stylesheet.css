@@ -16719,3 +16719,382 @@ img[src="img/studiofotos fahrzeuge/B-Class_min.webp"] {
 .ice-booking__source a { color: #b0161c; text-underline-offset: 3px; }
 @media (max-width: 1000px) { .ice-booking__grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 @media (max-width: 600px) { .ice-booking { padding: 48px 20px; } .ice-booking__grid { grid-template-columns: 1fr; } }
+.bus-fleet {
+  padding: 80px 24px;
+  background: #f7f7f7;
+  color: #222;
+}
+
+/* Bus occasions and company branding */
+.bus-occasions { padding: 100px 24px; background: #fff; color: #222; }
+.bus-occasions-header { display: grid; grid-template-columns: 1fr; text-align: center; gap: 24px; max-width: 1160px; margin: 0 auto 64px; }
+.bus-eyebrow { display: inline-block; color: #d21f26; font-size: .8rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; margin-bottom: 18px; }
+.bus-occasions-header h2 { position: relative; display: inline-block; font-family: 'Roboto', sans-serif; font-size: clamp(2rem, 3vw, 2.6rem); font-weight: 700; line-height: 1.2; letter-spacing: normal; margin: 0; }
+.bus-occasions-header .bus-eyebrow { display: block; margin-bottom: 16px; }
+.bus-occasions-header h2 span { color: #888; }
+.bus-occasions-header > p { margin: 0 auto; color: #555; font-size: 1.1rem; line-height: 1.7; max-width: 760px; }
+.bus-occasions-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0 48px; max-width: 1160px; margin: 0 auto; }
+.bus-occasion { display: grid; grid-template-columns: 56px 1fr; column-gap: 22px; padding: 32px 0; border-top: 1px solid #e8e8e8; }
+.bus-occasion > i { grid-row: span 2; display: flex; align-items: center; justify-content: center; width: 56px; height: 56px; border-radius: 50%; background: #fcf0f0; color: #d21f26; font-size: 1.3rem; }
+.bus-occasion h3 { margin: 2px 0 10px; font-size: 1.3rem; font-weight: 500; }
+.bus-occasion p { margin: 0; color: #555; font-size: 1rem; line-height: 1.7; }
+.bus-branding { display: grid; grid-template-columns: 1fr 1fr; max-width: 1160px; margin: 56px auto 0; border-radius: 24px; overflow: hidden; background: #191919; color: #fff; }
+.bus-branding-visual { position: relative; display: flex; flex-direction: column; justify-content: center; min-width: 0; padding: 48px 36px; background: radial-gradient(ellipse at 40% 40%, #4e2528 0%, #242022 65%, #191919 100%); }
+.bus-branding-label { color: #e9c9cb; font-size: .78rem; letter-spacing: .06em; text-transform: uppercase; }
+.bus-branding-preview { position: relative; margin: 44px 0 35px; height: 156px; background: linear-gradient(145deg, #fff, #d8d8d8); border-radius: 15px 35px 12px 12px; box-shadow: 0 25px 35px #0005; }
+.bus-preview-windows { display: flex; gap: 5px; padding: 12px 12px 0; height: 54px; }
+.bus-preview-windows span { flex: 1; background: linear-gradient(145deg, #35434d, #111b24); border-radius: 3px; }
+.bus-preview-windows span:last-child { border-top-right-radius: 18px; }
+.bus-preview-logo { position: absolute; left: 12px; right: 12px; top: 78px; padding: 9px 20px; background: #d21f26; color: white; font-family: 'Roboto', sans-serif; font-size: 1.3rem; font-weight: 500; letter-spacing: .07em; }
+.bus-preview-logo span { display: block; font-size: .65rem; font-weight: 400; letter-spacing: .04em; }
+.bus-preview-wheels { position: absolute; left: 38px; right: 38px; bottom: -15px; display: flex; justify-content: space-between; }
+.bus-preview-wheels span { width: 36px; height: 36px; border-radius: 50%; background: #aaa; border: 9px solid #151515; box-sizing: border-box; }
+.bus-branding-caption { color: #b9afb0; font-size: .78rem; }
+.bus-branding-copy { padding: 48px 42px; }
+.bus-branding-copy > span { color: #ffafb4; font-size: .8rem; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; }
+.bus-branding h3 { color: #fff; margin: 18px 0 24px; font-size: clamp(1.8rem, 3vw, 2.4rem); font-weight: 700; letter-spacing: normal; }
+.bus-branding p { color: #c8c8c8; line-height: 1.8; margin: 0 0 16px; font-size: 1rem; }
+.bus-branding-link { display: inline-flex; align-items: center; justify-content: center; gap: 24px; margin-top: 12px; padding: 14px 22px; border-radius: 50px; background: linear-gradient(135deg, #d21f26, #b0161c); color: #fff; font-family: 'Roboto', sans-serif; font-size: .95rem; font-weight: 600; text-transform: uppercase; letter-spacing: .5px; }
+.bus-branding-link:hover { background: #b0161c; color: #fff; }
+.bus-branding-link:focus-visible { outline: 2px solid #fff; outline-offset: 5px; }
+@media (max-width: 900px) {
+  .bus-occasions-header { gap: 30px; }
+  .bus-occasions-grid { column-gap: 30px; }
+  .bus-branding { grid-template-columns: 1fr; }
+  .bus-branding-visual { padding: 36px; }
+  .bus-branding-preview { max-width: 440px; width: 100%; align-self: center; }
+}
+@media (max-width: 600px) {
+  .bus-occasions { padding: 60px 20px; }
+  .bus-occasions-header { grid-template-columns: 1fr; gap: 24px; margin-bottom: 32px; }
+  .bus-occasions-grid { grid-template-columns: 1fr; }
+  .bus-occasion { column-gap: 16px; padding: 26px 0; }
+  .bus-branding { margin-top: 32px; border-radius: 18px; }
+  .bus-branding-copy { padding: 30px 24px; }
+  .bus-branding-visual { padding: 30px 24px; }
+  .bus-branding-link { font-size: .9rem; }
+}
+
+.bus-occasions-header h2::after { content: ''; position: absolute; bottom: -14px; left: 50%; transform: translateX(-50%); width: 80px; height: 3px; background: #d21f26; border-radius: 2px; }
+
+.bus-fleet-header {
+  max-width: 760px;
+  margin: 0 auto 40px;
+  text-align: center;
+}
+
+.bus-fleet-header > span {
+  color: #d71920;
+  font-weight: 700;
+}
+
+.bus-fleet-header h2 {
+  margin: 12px 0 16px;
+  font-size: clamp(2rem, 4vw, 2.8rem);
+}
+
+.bus-fleet-header p,
+.bus-fleet-capacity p {
+  line-height: 1.7;
+  color: #555;
+}
+
+.bus-fleet-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  max-width: 1160px;
+  margin: 0 auto;
+}
+
+.bus-fleet-capacity,
+.bus-fleet-equipment {
+  padding: 40px;
+  border-radius: 20px;
+  background: #fff;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.06);
+}
+
+.bus-fleet-capacity > i {
+  display: block;
+  margin-bottom: 24px;
+  color: #d71920;
+  font-size: 3rem;
+}
+
+.bus-fleet-capacity > span {
+  color: #555;
+}
+
+.bus-fleet-capacity h3 {
+  margin: 12px 0 20px;
+  font-size: 1.8rem;
+}
+
+.bus-fleet-capacity strong {
+  color: #d71920;
+}
+
+.bus-fleet-driver {
+  margin-top: 24px;
+  font-weight: 700;
+}
+
+.bus-fleet-driver i {
+  margin-right: 8px;
+  color: #d71920;
+}
+
+.bus-fleet-equipment h3 {
+  margin: 0 0 24px;
+  font-size: 1.4rem;
+}
+
+.bus-fleet-equipment ul {
+  display: grid;
+  gap: 20px;
+  margin: 0 0 32px;
+  padding: 0;
+  list-style: none;
+}
+
+.bus-fleet-equipment li {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.bus-fleet-equipment li i {
+  width: 24px;
+  color: #d71920;
+  text-align: center;
+}
+
+@media (max-width: 750px) {
+  .bus-fleet { padding: 50px 20px; }
+  .bus-fleet-grid { grid-template-columns: 1fr; gap: 20px; }
+  .bus-fleet-capacity,
+  .bus-fleet-equipment { padding: 28px; }
+}
+
+/* Bus consultation via WhatsApp */
+.bus-whatsapp { padding: 80px 24px; background: #f5f5f5; }
+.bus-whatsapp-inner { display: grid; grid-template-columns: 1.2fr 1fr; gap: 64px; align-items: center; max-width: 1160px; margin: 0 auto; }
+.bus-whatsapp-copy h2 { margin: 0 0 24px; position: relative; font-family: 'Roboto', sans-serif; font-size: clamp(2rem, 3vw, 2.6rem); font-weight: 700; letter-spacing: normal; line-height: 1.2; padding-bottom: 18px; }
+.bus-whatsapp-copy h2 span { color: #777; }
+.bus-whatsapp-copy > p { max-width: 560px; color: #555; font-size: 1rem; line-height: 1.7; }
+.bus-whatsapp-details { display: flex; flex-wrap: wrap; gap: 12px 22px; margin-top: 26px; color: #555; font-size: .85rem; }
+.bus-whatsapp-details i { margin-right: 7px; color: #d21f26; }
+.bus-whatsapp-contact { padding: 36px; border-radius: 22px; background: #fff; box-shadow: 0 12px 40px #00008; text-align: center; }
+.bus-whatsapp-icon { display: flex; align-items: center; justify-content: center; width: 64px; height: 64px; margin: 0 auto 22px; border-radius: 50%; background: #e9f7ee; color: #167c42; font-size: 2.2rem; }
+.bus-whatsapp-contact h3 { margin: 0 0 12px; font-size: 1.3rem; font-weight: 500; }
+.bus-whatsapp-contact p { color: #555; font-size: 1rem; }
+.bus-whatsapp-button { display: flex; align-items: center; justify-content: center; gap: 12px; padding: 16px 20px; margin: 24px 0 16px; border-radius: 50px; background: linear-gradient(135deg, #d21f26, #b0161c); color: #fff; font-family: 'Roboto', sans-serif; font-size: .95rem; font-weight: 600; text-transform: uppercase; letter-spacing: .5px; }
+.bus-whatsapp-button:hover { background: #b0161c; color: #fff; transform: translateY(-2px); }
+.bus-whatsapp-button:focus-visible { outline: 3px solid #d21f26; outline-offset: 4px; }
+.bus-whatsapp-button i:last-child { font-size: .8rem; }
+.bus-whatsapp-number { display: block; color: #333; font-weight: 700; margin-bottom: 16px; }
+.bus-whatsapp-contact small { display: block; color: #777; line-height: 1.6; font-size: .78rem; }
+@media (max-width: 900px) { .bus-whatsapp-inner { grid-template-columns: 1fr; gap: 36px; } }
+@media (max-width: 600px) {
+  .bus-whatsapp { padding: 60px 20px; }
+  .bus-whatsapp-contact { padding: 28px 20px; }
+  .bus-whatsapp-button { padding: 16px 12px; font-size: .9rem; }
+}
+
+.bus-whatsapp-copy h2::after { content: ''; position: absolute; bottom: 0; left: 0; width: 80px; height: 3px; background: #d21f26; border-radius: 2px; }
+
+.bus-hero { background-position: center 46%; }
+.bus-hero .hero-auto-overlay { background: linear-gradient(180deg, rgba(0, 0, 0, .58), rgba(0, 0, 0, .72)); }
+@media (max-width: 750px) { .bus-hero { background-position: center center; } }
+
+/* Bus photo gallery */
+.bus-fleet-grid { align-items: start; }
+.bus-fleet-info { display: grid; gap: 24px; min-width: 0; }
+.bus-fleet-gallery { min-width: 0; }
+.bus-gallery-main { margin: 0 0 16px; border-radius: 20px; overflow: hidden; background: #eee; }
+.bus-gallery-main img { display: block; width: 100%; height: auto; aspect-ratio: 3 / 4; object-fit: cover; }
+.bus-gallery-thumbs { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 10px; }
+.bus-gallery-thumb { display: block; min-width: 0; padding: 0; border: 2px solid transparent; border-radius: 10px; background: #fff; overflow: hidden; cursor: pointer; }
+.bus-gallery-thumb img { display: block; width: 100%; height: auto; aspect-ratio: 3 / 4; object-fit: cover; }
+.bus-gallery-thumb[aria-pressed="true"] { border-color: #d21f26; }
+.bus-gallery-thumb:hover { border-color: #d21f26; }
+.bus-gallery-thumb:focus-visible { outline: 3px solid #d21f26; outline-offset: 3px; }
+@media (max-width: 750px) { .bus-fleet-info { gap: 20px; } .bus-gallery-thumbs { gap: 6px; } }
+
+
+/* Show the complete bus photo in the homepage vehicle selection. */
+.vehicle-card-bus { background: #d4d8dc; }
+.vehicle-card-bus::before {
+  content: "";
+  position: absolute;
+  inset: -20px;
+  background: url('img/busbilder/busvorne.webp') center / cover no-repeat;
+  filter: blur(16px);
+}
+.vehicle-card-bus .vehicle-bg { background-size: auto 100%; background-repeat: no-repeat; background-position: center; }
+.vehicle-card-bus:hover .vehicle-bg { transform: none; }
+
+/* Mercedes Sprinter Extra Long: shared German/English vehicle detail layout. */
+.sprinter-hero { background-position: center 45%; }
+.sprinter-hero .hero-auto-overlay { background: linear-gradient(180deg, #0007, #000b); }
+.sprinter-section { padding: 80px 5%; background: #fff; }
+.sprinter-band { background: #f6f6f6; }
+.sprinter-page .bus-fleet-header { max-width: 850px; margin-bottom: 48px; }
+.sprinter-page .bus-fleet-header > span { text-transform: uppercase; letter-spacing: .08em; font-size: .82rem; color: #d21f26; }
+.sprinter-page .bus-fleet-header h2 { position: relative; display: inline-block; font-size: clamp(2rem, 3vw, 2.6rem); padding-bottom: 18px; }
+.sprinter-page .bus-fleet-header h2::after { content: ''; position: absolute; bottom: 0; left: 50%; translate: -50% 0; width: 80px; height: 3px; background: #d21f26; border-radius: 2px; }
+.sprinter-details, .sprinter-load-grid { display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr); gap: 36px; max-width: 1180px; margin: 0 auto; align-items: start; }
+.sprinter-gallery { min-width: 0; }
+.sprinter-gallery-main { margin: 0 0 14px; background: #eee; border-radius: 18px; overflow: hidden; }
+.sprinter-gallery-main img, .sprinter-load-image img { display: block; width: 100%; height: auto; aspect-ratio: 3 / 2; object-fit: cover; }
+.sprinter-thumb img { aspect-ratio: 3 / 2; }
+.sprinter-spec-card { padding: 32px; background: #f7f7f7; border-radius: 18px; }
+.sprinter-spec-card h3 { margin: 0 0 24px; font-size: 1.4rem; }
+.sprinter-specs { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px; margin: 0 0 24px; }
+.sprinter-specs > div { padding-bottom: 14px; border-bottom: 1px solid #ddd; }
+.sprinter-specs dt { color: #666; font-size: .8rem; margin-bottom: 6px; }
+.sprinter-specs dd { margin: 0; color: #111; font-weight: 700; }
+.sprinter-spec-card p { color: #555; line-height: 1.7; }
+.sprinter-spec-card .btn-contact { margin-top: 8px; text-align: center; padding: .85rem 1.5rem; }
+.sprinter-use-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; max-width: 1180px; margin: 0 auto; }
+.sprinter-use-card { padding: 32px; border-radius: 18px; background: #fff; box-shadow: 0 8px 25px #00008; }
+.sprinter-use-card > i { color: #d21f26; font-size: 1.8rem; margin-bottom: 20px; }
+.sprinter-use-card h3, .sprinter-step h3 { font-size: 1.3rem; margin: 0 0 12px; }
+.sprinter-use-card p, .sprinter-step p { margin: 0; color: #555; line-height: 1.7; }
+.sprinter-load-grid { align-items: center; }
+.sprinter-load-image { border-radius: 18px; overflow: hidden; }
+.sprinter-load-copy h2 { font-size: clamp(1.8rem, 3vw, 2.4rem); margin: 0 0 20px; }
+.sprinter-load-copy p { color: #555; line-height: 1.7; }
+.sprinter-load-copy ul { display: grid; gap: 14px; list-style: none; padding: 0; margin: 24px 0 30px; }
+.sprinter-load-copy li { display: flex; gap: 12px; align-items: baseline; }
+.sprinter-load-copy li i { color: #d21f26; }
+.sprinter-load-copy .service-btn { display: inline-block; text-align: center; }
+.sprinter-steps { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 30px; max-width: 1180px; margin: 0 auto; }
+.sprinter-step { padding: 28px; background: #fff; border-radius: 18px; }
+.sprinter-step > span { display: block; font-family: 'Roboto', sans-serif; color: #d21f26; font-size: 2.4rem; font-weight: 700; margin-bottom: 18px; }
+.sprinter-cta { padding: 80px 5%; background: #202020; color: #fff; text-align: center; }
+.sprinter-cta > div { max-width: 850px; margin: 0 auto; }
+.sprinter-cta > div > span { color: #ffb4b8; text-transform: uppercase; font-size: .82rem; letter-spacing: .08em; font-weight: 700; }
+.sprinter-cta h2 { color: #fff; font-size: clamp(2rem, 3vw, 2.6rem); margin: 18px 0 24px; }
+.sprinter-cta p { color: #ddd; line-height: 1.7; margin-bottom: 30px; }
+.sprinter-related { color: #fff; text-decoration: underline; text-underline-offset: 5px; }
+.sprinter-related:hover { color: #ffb4b8; }
+.sprinter-page a:focus-visible, .sprinter-page button:focus-visible { outline: 3px solid #d21f26; outline-offset: 5px; }
+@media (max-width: 900px) {
+  .sprinter-details, .sprinter-load-grid { grid-template-columns: 1fr; }
+  .sprinter-steps { gap: 18px; }
+}
+@media (max-width: 600px) {
+  .sprinter-section, .sprinter-cta { padding: 50px 20px; }
+  .sprinter-use-grid, .sprinter-steps { grid-template-columns: 1fr; }
+  .sprinter-spec-card, .sprinter-use-card, .sprinter-step { padding: 24px; }
+  .sprinter-cta .hero-auto-btns { flex-direction: column; }
+}
+
+/* Sprinter rental rates and verified vehicle measurements. */
+.sprinter-pricing { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 28px; max-width: 950px; margin: 0 auto; }
+.sprinter-price-card { display: flex; flex-direction: column; padding: 36px; border: 1px solid #e5e5e5; border-radius: 18px; box-shadow: 0 8px 25px #00008; background: #fff; }
+.sprinter-price-card h3 { margin: 0 0 20px; font-size: 1.3rem; }
+.sprinter-price { color: #d21f26; font-family: 'Roboto', sans-serif; font-size: 3.6rem; font-weight: 700; line-height: 1.1; }
+.sprinter-price > span { font-size: 1.2rem; }
+.sprinter-price-unit { margin: 8px 0 24px; color: #555; }
+.sprinter-price-card ul { display: grid; gap: 12px; list-style: none; padding: 0; margin: 0 0 28px; }
+.sprinter-price-card li i { color: #d21f26; margin-right: 8px; }
+.sprinter-price-card .btn-contact { margin-top: auto; text-align: center; }
+.sprinter-dimensions { display: grid; grid-template-columns: 1fr 1.3fr; gap: 36px; max-width: 1180px; margin: 0 auto; align-items: center; }
+.sprinter-measurements { margin: 0; padding: 28px; background: #fff; border-radius: 18px; }
+.sprinter-measurements > div { display: flex; justify-content: space-between; gap: 20px; padding: 14px 0; border-bottom: 1px solid #eee; }
+.sprinter-measurements > div:last-child { border-bottom: 0; }
+.sprinter-measurements dt { color: #555; }
+.sprinter-measurements dd { margin: 0; text-align: right; font-weight: 700; color: #111; }
+.sprinter-dimension-image { margin: 0; border-radius: 18px; overflow: hidden; background: #fff; }
+.sprinter-dimension-image img { display: block; width: 100%; height: auto; }
+@media (max-width: 900px) { .sprinter-dimensions { grid-template-columns: 1fr; } }
+@media (max-width: 600px) {
+  .sprinter-pricing { grid-template-columns: 1fr; }
+  .sprinter-price-card, .sprinter-measurements { padding: 24px; }
+  .sprinter-measurements > div { gap: 12px; font-size: .9rem; }
+}
+
+/* Driver-operated bus hire: Zurich, Switzerland and international enquiries. */
+.bus-routes { padding: 80px 24px; background: #fafafa; }
+.bus-routes .bus-fleet-header { max-width: 850px; }
+.bus-routes .bus-fleet-header h2 { font-size: clamp(2rem, 3vw, 2.6rem); }
+.bus-routes-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 28px; max-width: 1160px; margin: 0 auto; }
+.bus-route { padding: 30px; background: #fff; border-radius: 18px; box-shadow: 0 8px 25px rgba(0,0,0,.05); }
+.bus-route > i { color: #d21f26; font-size: 1.8rem; margin-bottom: 20px; }
+.bus-route h3 { font-size: 1.3rem; margin: 0 0 14px; }
+.bus-route p { color: #555; line-height: 1.7; margin: 0; }
+.bus-routes-footer { text-align: center; max-width: 800px; margin: 32px auto 0; }
+.bus-routes-footer p { color: #555; line-height: 1.7; margin-bottom: 24px; }
+@media (max-width: 800px) { .bus-routes-grid { grid-template-columns: 1fr; gap: 20px; } }
+@media (max-width: 600px) { .bus-routes { padding: 50px 20px; } }
+
+/* Small trailer rental teaser beneath the van fleet. */
+.van-trailer-teaser { padding: 70px 5%; background: #f6f6f6; }
+.van-trailer-inner { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 60px; align-items: center; max-width: 1150px; margin: 0 auto; }
+.van-trailer-image { background: transparent; border-radius: 18px; overflow: hidden; }
+.van-trailer-image img { display: block; width: 100%; height: auto; max-height: 380px; object-fit: contain; }
+.van-trailer-copy h2 { font-size: clamp(2rem, 3vw, 2.6rem); font-weight: 700; margin: 0 0 24px; }
+.van-trailer-copy p { color: #555; font-size: 1rem; line-height: 1.7; margin-bottom: 28px; }
+.van-trailer-copy .service-btn { display: inline-flex; align-items: center; gap: 16px; }
+@media (max-width: 750px) {
+  .van-trailer-teaser { padding: 50px 20px; }
+  .van-trailer-inner { grid-template-columns: 1fr; gap: 30px; }
+  .van-trailer-image img { max-height: 300px; }
+}
+
+/* Enclosed trailer rental, shared German and English page. */
+.trailer-hero { padding: 160px 5% 55px; background: linear-gradient(135deg, #fafafa, #f0f0f0); }
+.trailer-hero-inner { display: grid; grid-template-columns: 1fr 1.1fr; gap: 45px; align-items: center; max-width: 1180px; margin: 0 auto; }
+.trailer-hero-copy h1 { color: #111; font-size: clamp(2.3rem, 4vw, 3.2rem); font-weight: 700; letter-spacing: 0; margin: 0 0 24px; }
+.trailer-hero-copy p { color: #555; font-size: 1.05rem; line-height: 1.7; }
+.trailer-hero-image img, .trailer-detail-image img { display: block; width: 100%; height: auto; object-fit: contain; }
+.trailer-actions { display: flex; align-items: center; flex-wrap: wrap; gap: 20px; margin: 30px 0; }
+.trailer-actions .btn-contact { text-align: center; }
+.trailer-call { display: inline-flex; align-items: center; gap: 10px; color: #333; font-weight: 600; }
+.trailer-call i { color: #d21f26; }
+.trailer-facts { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); max-width: 1180px; margin: 45px auto 0; border-top: 1px solid #ddd; padding-top: 28px; }
+.trailer-facts > div { display: flex; flex-direction: column; gap: 6px; text-align: center; padding: 0 16px; }
+.trailer-facts > div + div { border-left: 1px solid #ddd; }
+.trailer-facts strong { color: #d21f26; font-family: 'Roboto', sans-serif; font-size: 1.4rem; }
+.trailer-facts span { color: #555; font-size: .9rem; }
+.trailer-page .bus-fleet-header { max-width: 850px; }
+.trailer-page .bus-fleet-header > span { display: block; margin-bottom: 16px; }
+.trailer-page .bus-fleet-header h2 { position: relative; display: inline-block; padding-bottom: 18px; font-size: clamp(2rem, 3vw, 2.6rem); }
+.trailer-page .bus-fleet-header h2::after { content: ''; position: absolute; bottom: 0; left: 50%; translate: -50% 0; height: 3px; width: 80px; background: #d21f26; border-radius: 2px; }
+.trailer-spec-grid { display: grid; grid-template-columns: 1.1fr 1fr; gap: 45px; max-width: 1180px; margin: 0 auto; align-items: center; }
+.trailer-spec-grid h3 { font-size: 1.4rem; }
+.trailer-page .sprinter-measurements { padding: 10px 0; }
+.trailer-ch { display: flex; align-items: baseline; gap: 10px; padding: 20px; background: #f6f6f6; border-radius: 12px; color: #555; font-size: .95rem; }
+.trailer-ch i { color: #d21f26; }
+.trailer-equipment-list { padding-left: 20px; margin: 0; color: #555; line-height: 1.7; }
+.trailer-equipment-list li + li { margin-top: 10px; }
+.trailer-equipment-list li::marker { color: #d21f26; }
+.trailer-use-card { border: 1px solid #eee; }
+.trailer-page .sprinter-cta .trailer-actions { justify-content: center; }
+.trailer-page .sprinter-cta .trailer-call { color: #fff; }
+.trailer-page .sprinter-cta .trailer-call i { color: #ffb4b8; }
+.trailer-page a:focus-visible, .trailer-page button:focus-visible { outline: 3px solid #d21f26; outline-offset: 5px; }
+@media (max-width: 900px) {
+  .trailer-hero-inner, .trailer-spec-grid { grid-template-columns: 1fr; gap: 32px; }
+  .trailer-hero-image { max-width: 620px; margin: 0 auto; }
+}
+@media (max-width: 600px) {
+  .trailer-hero { padding: 130px 20px 40px; }
+  .trailer-facts { grid-template-columns: 1fr; gap: 20px; margin-top: 30px; }
+  .trailer-facts > div + div { border-left: 0; }
+  .trailer-facts strong { font-size: 1.3rem; }
+  .trailer-actions { gap: 16px; }
+  .trailer-page .sprinter-measurements > div { flex-direction: column; gap: 5px; }
+  .trailer-page .sprinter-measurements dd { text-align: left; }
+}
+
+.trailer-rental-price { color: #d21f26 !important; font-family: 'Roboto', sans-serif; font-size: 1.5rem !important; font-weight: 700; margin: 24px 0 0; }
+.trailer-travel-notice { padding: 18px 20px; border-left: 3px solid #d21f26; border-radius: 0 10px 10px 0; background: #fcf0f0; color: #444; line-height: 1.7; }
+.trailer-travel-notice i { color: #d21f26; margin-right: 8px; }
+
+@media (prefers-reduced-motion: reduce) {
+  [data-aos] { opacity: 1 !important; transform: none !important; transition: none !important; }
+}

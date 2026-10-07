@@ -1,6 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+  <!-- BUSVERMIETUNG MIT FAHRER -->
+  <url>
+    <loc>https://www.swissrentacar.ch/bus.html</loc>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://www.swissrentacar.ch/bus.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.swissrentacar.ch/bus_en.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.swissrentacar.ch/bus.html"/>
+    <lastmod>2026-10-07</lastmod>
+    <image:image><image:loc>https://www.swissrentacar.ch/img/busbilder/busvorne.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.swissrentacar.ch/img/busbilder/bushinten.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.swissrentacar.ch/img/busbilder/sitzevorne.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.swissrentacar.ch/img/busbilder/sitzehinten.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.swissrentacar.ch/img/busbilder/wcaussen.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://www.swissrentacar.ch/bus_en.html</loc>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://www.swissrentacar.ch/bus.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.swissrentacar.ch/bus_en.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.swissrentacar.ch/bus.html"/>
+    <lastmod>2026-10-07</lastmod>
+    <image:image><image:loc>https://www.swissrentacar.ch/img/busbilder/busvorne.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.swissrentacar.ch/img/busbilder/bushinten.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.swissrentacar.ch/img/busbilder/sitzevorne.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.swissrentacar.ch/img/busbilder/sitzehinten.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.swissrentacar.ch/img/busbilder/wcaussen.webp</image:loc></image:image>
+  </url>
 
   <!-- INDEX -->
   <url><loc>https://www.swissrentacar.ch/index.html</loc></url>
@@ -188,4 +215,46 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.swissrentacar.ch/airport-transfer-st-moritz-ice-festival.html"/>
   </url>
 
+  <!-- MERCEDES SPRINTER EXTRALANG -->
+  <url>
+    <loc>https://www.swissrentacar.ch/sprinterlong.html</loc>
+    <lastmod>2026-10-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://www.swissrentacar.ch/sprinterlong.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.swissrentacar.ch/sprinterlong_en.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.swissrentacar.ch/sprinterlong.html"/>
+    <image:image><image:loc>https://www.swissrentacar.ch/img/sprinterlongfotos/sprinterlongvorne.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.swissrentacar.ch/img/sprinterlongfotos/sprinterlongseite.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.swissrentacar.ch/img/sprinterlongfotos/sprinterlonghinten.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.swissrentacar.ch/img/sprinterlongfotos/sprinterlonghinteninnen.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.swissrentacar.ch/img/sprinterlongfotos/sprinterlongseiteinnen.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://www.swissrentacar.ch/sprinterlong_en.html</loc>
+    <lastmod>2026-10-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://www.swissrentacar.ch/sprinterlong.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.swissrentacar.ch/sprinterlong_en.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.swissrentacar.ch/sprinterlong.html"/>
+    <image:image><image:loc>https://www.swissrentacar.ch/img/sprinterlongfotos/sprinterlongvorne.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.swissrentacar.ch/img/sprinterlongfotos/sprinterlongseite.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.swissrentacar.ch/img/sprinterlongfotos/sprinterlonghinten.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.swissrentacar.ch/img/sprinterlongfotos/sprinterlonghinteninnen.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.swissrentacar.ch/img/sprinterlongfotos/sprinterlongseiteinnen.webp</image:loc></image:image>
+  </url>
+  <!-- ANHÄNGERVERMIETUNG -->
+  <url>
+    <loc>https://www.swissrentacar.ch/anh%C3%A4nger.html</loc>
+    <lastmod>2026-10-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://www.swissrentacar.ch/anh%C3%A4nger.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.swissrentacar.ch/anh%C3%A4nger_en.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.swissrentacar.ch/anh%C3%A4nger.html"/>
+    <image:image><image:loc>https://www.swissrentacar.ch/img/anhaenger-transparent.png</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://www.swissrentacar.ch/anh%C3%A4nger_en.html</loc>
+    <lastmod>2026-10-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://www.swissrentacar.ch/anh%C3%A4nger.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.swissrentacar.ch/anh%C3%A4nger_en.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.swissrentacar.ch/anh%C3%A4nger.html"/>
+    <image:image><image:loc>https://www.swissrentacar.ch/img/anhaenger-transparent.png</image:loc></image:image>
+  </url>
 </urlset>
