@@ -17098,3 +17098,266 @@ img[src="img/studiofotos fahrzeuge/B-Class_min.webp"] {
 @media (prefers-reduced-motion: reduce) {
   [data-aos] { opacity: 1 !important; transform: none !important; transition: none !important; }
 }
+
+/* Hebebühnen-Fahrzeug in der Lieferwagenflotte etwas grösser zeigen. */
+.tail-lift-card .fleet-img {
+  padding: 0;
+  transform: scale(1.12) !important;
+  transform-origin: center;
+}
+
+/* Lieferwagen-Slider: grosses Fahrzeugbild mit synchronen Details. */
+.van-fleet-slider {
+  max-width: 1150px;
+  margin: 3rem auto 0;
+}
+.van-fleet-price {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  margin: 1.25rem 0 1.75rem;
+  color: #555;
+}
+.van-fleet-price strong { font-size: 2rem; color: #d21f26; }
+.van-fleet-slider.is-ready .van-fleet-viewport { overflow: hidden; border-radius: 18px; touch-action: pan-y; }
+.van-fleet-slider.is-ready .van-fleet-track {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 0;
+  margin: 0;
+  max-width: none;
+}
+.van-fleet-slider.is-ready .fleet-card {
+  grid-area: 1 / 1;
+  visibility: hidden;
+  pointer-events: none;
+  background: transparent;
+  transition: visibility 0s 1500ms;
+  min-width: 0;
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: minmax(0, 1.7fr) minmax(0, 1fr);
+  gap: 2rem;
+  padding: 2rem;
+  box-shadow: none;
+  text-align: left;
+  align-items: center;
+}
+.van-fleet-slider.is-ready .fleet-card.is-active {
+  visibility: visible;
+  pointer-events: auto;
+  z-index: 1;
+  transition-delay: 0s;
+}
+.van-fleet-slider.is-ready .fleet-card .fleet-img {
+  opacity: 0;
+  translate: calc(var(--fleet-direction, 1) * -70px) 0;
+  transition: opacity 1000ms ease, translate 1500ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+.van-fleet-slider.is-ready .fleet-card.is-active .fleet-img {
+  opacity: 1;
+  translate: 0 0;
+}
+.van-fleet-slider.is-ready .fleet-card .fleet-info {
+  opacity: 0;
+  translate: 0 12px;
+  transition: opacity 450ms ease, translate 650ms ease;
+}
+.van-fleet-slider.is-ready .fleet-card.is-active .fleet-info {
+  opacity: 1;
+  translate: 0 0;
+  transition: opacity 1100ms ease 250ms, translate 1100ms cubic-bezier(0.22, 1, 0.36, 1) 250ms;
+}
+.van-fleet-slider.is-ready .fleet-card:hover { transform: none; }
+.van-fleet-slider.is-ready .fleet-img { height: 360px; margin: 0; padding: 0; }
+.van-fleet-slider.is-ready .e-card .fleet-img {
+  transform: scale(1.12) !important;
+  transform-origin: center;
+}
+.van-fleet-slider.is-ready .fleet-info { position: relative; width: 100%; }
+.van-fleet-slider.is-ready .fleet-info h3 { font-size: clamp(1.4rem, 2.5vw, 2rem); }
+.van-fleet-slider.is-ready .specs,
+.van-fleet-slider.is-ready .fleet-actions { justify-content: flex-start; }
+.van-fleet-controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+  margin-top: 1.5rem;
+}
+.van-fleet-controls[hidden] { display: none; }
+ .van-fleet-controls button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 42px;
+  width: 42px;
+  height: 42px;
+  padding: 0;
+  border: 1px solid #e8e8e8;
+  border-radius: 50%;
+  background: #fff;
+  color: #333;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.04);
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s, border-color 0.2s;
+}
+.van-fleet-controls button:hover { background: #d21f26; border-color: #d21f26; color: #fff; }
+.van-fleet-controls button:focus-visible,
+.van-fleet-viewport:focus-visible { outline: 3px solid #d21f26; outline-offset: 4px; }
+.van-fleet-count {
+  min-width: 64px;
+  text-align: center;
+  font-size: 0.9rem;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  font-variant-numeric: tabular-nums;
+  color: #777;
+}
+@media (max-width: 700px) {
+  .van-fleet-slider.is-ready .fleet-card {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    padding: 1.25rem;
+    text-align: center;
+  }
+  .van-fleet-slider.is-ready .fleet-img { height: 230px; }
+  .van-fleet-slider.is-ready .specs,
+  .van-fleet-slider.is-ready .fleet-actions { justify-content: center; }
+  .van-fleet-price { margin: 1rem 0 1.25rem; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .van-fleet-slider.is-ready .fleet-card,
+  .van-fleet-slider.is-ready .fleet-card .fleet-img,
+  .van-fleet-slider.is-ready .fleet-card .fleet-info {
+    transition: none;
+    translate: none;
+  }
+}
+
+/* Zentrierte Lieferwagenflotte mit seitlichen Fahrzeugvorschauen. */
+.van-fleet-centered.is-ready {
+  position: relative;
+  max-width: 1400px;
+  --fleet-image-height: 380px;
+}
+.van-fleet-centered.is-ready .van-fleet-viewport { border-radius: 0; }
+.van-fleet-centered.is-ready .fleet-card {
+  width: 56%;
+  margin: 0 auto;
+  padding: 1rem 1.5rem 2rem;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 1.75rem;
+  text-align: center;
+  overflow: visible;
+  translate: 0 0;
+  transition: translate 1500ms cubic-bezier(0.22, 1, 0.36, 1), visibility 0s 1500ms;
+}
+.van-fleet-centered.is-ready .fleet-card .fleet-img {
+  height: var(--fleet-image-height);
+  background: transparent;
+  mix-blend-mode: multiply;
+  translate: 0 0;
+  scale: 0.85;
+  transition: opacity 1100ms ease, scale 1500ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+.van-fleet-centered.is-ready .fleet-card.is-active .fleet-img { scale: 1; }
+.van-fleet-centered.is-ready .fleet-card.is-previous,
+.van-fleet-centered.is-ready .fleet-card.is-next {
+  visibility: visible;
+  transition-delay: 0s;
+  z-index: 0;
+}
+.van-fleet-centered.is-ready .fleet-card.is-previous { translate: -80% 0; }
+.van-fleet-centered.is-ready .fleet-card.is-next { translate: 80% 0; }
+.van-fleet-centered.is-ready .fleet-card.is-previous .fleet-img,
+.van-fleet-centered.is-ready .fleet-card.is-next .fleet-img {
+  opacity: 0.45;
+  scale: 0.72;
+}
+.van-fleet-centered.is-ready .fleet-card:not(.is-active) .fleet-info { visibility: hidden; }
+.van-fleet-centered.is-ready .fleet-info { max-width: 640px; margin: 0 auto; }
+.van-fleet-centered.is-ready .specs,
+.van-fleet-centered.is-ready .fleet-actions { justify-content: center; }
+.van-fleet-centered.is-ready .fleet-info > .btn-fleet { display: inline-block; }
+.van-fleet-centered.is-ready .van-fleet-controls { margin-top: 0; }
+.van-fleet-centered.is-ready .van-fleet-prev,
+.van-fleet-centered.is-ready .van-fleet-next {
+  position: absolute;
+  top: calc(var(--fleet-image-height) / 2 + 1rem);
+  translate: 0 -50%;
+  z-index: 3;
+  width: 48px;
+  height: 48px;
+  background: rgba(255,255,255,0.94);
+}
+.van-fleet-centered.is-ready .van-fleet-prev { left: 20%; }
+.van-fleet-centered.is-ready .van-fleet-next { right: 20%; }
+.van-fleet-centered.is-ready .van-fleet-controls button:hover { background: #d21f26; }
+@media (max-width: 700px) {
+  .van-fleet-centered.is-ready { --fleet-image-height: 225px; }
+  .van-fleet-centered.is-ready .fleet-card { width: 70%; padding: 1rem 0.5rem 1.5rem; gap: 1rem; }
+  .van-fleet-centered.is-ready .van-fleet-prev { left: 2%; }
+  .van-fleet-centered.is-ready .van-fleet-next { right: 2%; }
+  .van-fleet-centered.is-ready .van-fleet-prev,
+  .van-fleet-centered.is-ready .van-fleet-next { width: 40px; height: 40px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .van-fleet-centered.is-ready .fleet-card,
+  .van-fleet-centered.is-ready .fleet-card .fleet-img { transition: none; }
+}
+
+/* Kompakte, offene Fahrzeugangaben unter der zentrierten Flotte. */
+.van-fleet-centered.is-ready .fleet-card {
+  gap: 0.75rem;
+  padding-bottom: 1rem;
+}
+.van-fleet-centered.is-ready .fleet-info h3 {
+  margin: 0 0 0.55rem;
+  font-size: clamp(1.2rem, 2vw, 1.55rem);
+  line-height: 1.3;
+}
+.van-fleet-centered.is-ready .van-fleet-price {
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: center;
+  gap: 0.45rem;
+  margin: 0 0 0.7rem;
+}
+.van-fleet-centered.is-ready .van-fleet-price span {
+  font-size: 0.85rem;
+  color: #777;
+}
+.van-fleet-centered.is-ready .van-fleet-price strong {
+  font-size: 1.45rem;
+  line-height: 1.25;
+  font-weight: 600;
+}
+.van-fleet-centered.is-ready .specs {
+  gap: 0.5rem 1rem;
+  margin-bottom: 0.9rem;
+}
+.van-fleet-centered.is-ready .spec { font-size: 0.88rem; }
+.van-fleet-centered.is-ready .spec svg { width: 17px; height: 17px; }
+.van-fleet-centered.is-ready .fleet-actions { gap: 0.6rem; }
+.van-fleet-centered.is-ready .btn-fleet {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 42px;
+  box-sizing: border-box;
+  padding: 0.55rem 1.2rem;
+  font-size: 0.88rem;
+  line-height: 1.4;
+}
+@media (max-width: 700px) {
+  .van-fleet-centered.is-ready .fleet-card { gap: 0.65rem; padding-bottom: 0.75rem; }
+  .van-fleet-centered.is-ready .fleet-info h3 { font-size: 1.15rem; }
+  .van-fleet-centered.is-ready .specs { gap: 0.4rem 0.7rem; }
+}
+
+/* Autoflotte etwas kleiner; die E-Klasse behält ihre relative Vergrösserung. */
+.car-fleet-slider.is-ready .fleet-card .fleet-img { scale: 0.765; }
+.car-fleet-slider.is-ready .fleet-card.is-active .fleet-img { scale: 0.9; }
+.car-fleet-slider.is-ready .fleet-card.is-previous .fleet-img,
+.car-fleet-slider.is-ready .fleet-card.is-next .fleet-img { scale: 0.65; }

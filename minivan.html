@@ -319,11 +319,13 @@ document.querySelectorAll(".dropdown > a").forEach(link => {
 </p>
   </div>
 
-  <div class="fleet-grid">
+  <div class="van-fleet-slider van-fleet-centered" role="region" aria-roledescription="carousel" aria-label="Unsere Minivanflotte" data-language="de">
+    <div class="van-fleet-viewport" tabindex="0" aria-label="Mit Pfeiltasten durch die Fahrzeuge blättern">
+  <div class="fleet-grid van-fleet-track" id="van-fleet-track">
 
     <!-- Hyundai Staria -->
-    <div class="fleet-card staria-card" data-aos="zoom-in">
-      <img src="img/studiofotos fahrzeuge/Staria Black_min.webp" alt="Hyundai Staria Automatik" class="fleet-img">
+    <div class="fleet-card staria-card">
+      <img src="img/studiofotos fahrzeuge/transparent/staria.png" alt="Hyundai Staria Automatik" class="fleet-img">
       <div class="fleet-info">
         <h3>Hyundai Staria</h3>
         <div class="specs">
@@ -354,8 +356,8 @@ Automatik
     </div>
 
     <!-- Mercedes V Klasse  -->
-    <div class="fleet-card vklass-card" data-aos="zoom-in">
-      <img src="img/studiofotos fahrzeuge/VClass_min.webp" alt="Mercedes V Klasse" class="fleet-img">
+    <div class="fleet-card vklass-card">
+      <img src="img/studiofotos fahrzeuge/transparent/v-class.png" alt="Mercedes V Klasse" class="fleet-img">
       <div class="fleet-info">
         <h3>Mercedes V Klasse</h3>
         <div class="specs">
@@ -387,8 +389,8 @@ Automatik
     </div>
 
     <!-- Mercedes Vito  -->
-    <div class="fleet-card vito-card" data-aos="zoom-in">
-      <img src="img/studiofotos fahrzeuge/Vito 9s_min.webp" alt="Mercedes Vito" class="fleet-img">
+    <div class="fleet-card vito-card">
+      <img src="img/studiofotos fahrzeuge/transparent/vito.png" alt="Mercedes Vito" class="fleet-img">
       <div class="fleet-info">
         <h3>Mercedes Vito</h3>
         <div class="specs">
@@ -409,6 +411,13 @@ Automatik
       </div>
     </div>
 
+  </div>
+    </div>
+    <div class="van-fleet-controls" hidden>
+      <button class="van-fleet-prev" type="button" aria-label="Vorheriges Fahrzeug" aria-controls="van-fleet-track"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M19 12H5m6-6-6 6 6 6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+      <span class="van-fleet-count" aria-live="polite" aria-atomic="true">1 / 3</span>
+      <button class="van-fleet-next" type="button" aria-label="Nächstes Fahrzeug" aria-controls="van-fleet-track"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+    </div>
   </div>
 </section>
 
@@ -450,7 +459,7 @@ Automatik
 
       <article class="srac-elegant-card">
         <div class="srac-elegant-brand">Mercedes-Benz</div>
-        <img src="img/studiofotos fahrzeuge/Vito 9s_min.webp" alt="Mercedes-Benz Vito">
+        <img src="img/studiofotos fahrzeuge/transparent/vito.png" alt="Mercedes-Benz Vito">
         <h3>Vito</h3>
         <p>Viel Platz für Familie oder Business – der vielseitige Allrounder mit Stil.</p>
         <a href="iframeminivan.html" class="btn-elegant">Jetzt mieten</a>
@@ -799,5 +808,6 @@ faqItems.forEach(item => {
     document.querySelectorAll('[data-aos]').forEach(element => element.removeAttribute('data-aos'));
   }
 </script>
+<script src="van-fleet.js" defer></script>
 </body>
 </html>
