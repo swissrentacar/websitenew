@@ -1,0 +1,109 @@
+/* BMW 440i detail pages. Shared navigation and footer use stylesheet.css. */
+.bmw-page { --bmw-red: #c51c25; color: #262626; background: #fff; padding-top: 155px; }
+.bmw-page *, .bmw-page *::before, .bmw-page *::after { box-sizing: border-box; }
+.bmw-wrap { width: min(1180px, 88%); margin-inline: auto; }
+.bmw-page :where(h1, h2, h3) { color: #161616; letter-spacing: -.025em; }
+.bmw-page h1 { font-size: clamp(2.3rem, 4.1vw, 3.8rem); line-height: 1.08; margin: 16px 0 24px; }
+.bmw-page :where(h2) { font-size: clamp(1.8rem, 3vw, 2.7rem); line-height: 1.15; margin: 12px 0 22px; }
+.bmw-page h3 { font-size: 1.3rem; }
+.bmw-page :where(p) { line-height: 1.85; margin: 0 0 18px; }
+.bmw-page a:not(.bmw-btn) { color: #aa1720; text-underline-offset: 4px; }
+.bmw-page a:focus-visible, .bmw-page .faq-question:focus-visible { outline: 3px solid #205aa4; outline-offset: 5px; }
+.bmw-hero { background: #f5f5f3; overflow: hidden; }
+.bmw-hero-grid { display: grid; grid-template-columns: 1fr 1.2fr; align-items: center; gap: 24px; padding-block: 42px 58px; }
+.bmw-kicker { color: #a91821; text-transform: uppercase; letter-spacing: .16em; font-size: .74rem; font-weight: 700; }
+.bmw-hero-copy > p { max-width: 550px; font-size: 1.05rem; }
+.bmw-hero-visual { margin: 0 -34px 0 0; min-width: 0; position: relative; }
+.bmw-hero-visual::before { content: ''; position: absolute; inset: 20% 5% 10%; background: #e8e9e5; border-radius: 50%; }
+.bmw-hero-visual img { position: relative; display: block; width: 100%; height: auto; }
+.bmw-hero-visual figcaption { position: relative; text-align: center; font-size: .78rem; color: #555; }
+.bmw-actions { display: flex; flex-wrap: wrap; gap: 12px; margin: 26px 0 16px; }
+.bmw-btn { display: inline-flex; justify-content: center; align-items: center; gap: 12px; padding: 14px 23px; background: var(--bmw-red); border: 1px solid var(--bmw-red); color: #fff; text-decoration: none; border-radius: 6px; font-weight: 700; transition: background .2s; }
+.bmw-btn:hover { background: #a3151d; color: #fff; }
+.bmw-btn.bmw-outline { color: #202020; background: transparent; border-color: #a4a4a0; }
+.bmw-btn.bmw-outline:hover { background: #e9e9e6; }
+.bmw-page .bmw-note { font-size: .83rem; color: #626262; }
+.bmw-facts { display: grid; grid-template-columns: repeat(5, 1fr); margin: 0; padding: 28px 0; border-bottom: 1px solid #e5e5e5; }
+.bmw-facts div { padding: 5px 24px; border-right: 1px solid #ddd; }
+.bmw-facts div:first-child { padding-left: 0; }
+.bmw-facts div:last-child { border: 0; }
+.bmw-facts dt { font-size: .8rem; color: #666; }
+.bmw-facts dd { margin: 6px 0 0; font-weight: 700; font-size: 1.15rem; color: #222; }
+.bmw-section { padding: 80px 0; scroll-margin-top: 110px; }
+.bmw-heading { max-width: 740px; margin-bottom: 32px; }
+.bmw-photos { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 22px; }
+.bmw-photos figure { margin: 0; }
+.bmw-photos a { display: block; overflow: hidden; background: #f1f1ef; border-radius: 10px; }
+.bmw-photos img { display: block; width: 100%; height: auto; aspect-ratio: 3/4; object-fit: cover; transition: transform .3s; }
+.bmw-photos a:hover img { transform: scale(1.025); }
+.bmw-photos figcaption { padding: 14px 0 0; font-size: .88rem; color: #555; }
+.bmw-band { background: #f5f5f3; }
+.bmw-cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 30px; }
+.bmw-card { padding: 28px; background: white; border-radius: 10px; }
+.bmw-card > span { color: #b91b24; font-size: .8rem; font-weight: 700; }
+.bmw-card h3 { margin: 15px 0; }
+.bmw-card p { margin: 0; font-size: .95rem; }
+.bmw-columns { display: grid; grid-template-columns: 1.15fr 1fr; gap: 75px; align-items: start; }
+.bmw-location { padding: 30px; border: 1px solid #ddd; border-radius: 10px; }
+.bmw-location address { font-style: normal; margin-bottom: 18px; }
+.bmw-location ol { margin: 20px 0 0; padding-left: 22px; }
+.bmw-location li { padding: 5px 0 10px 8px; }
+.bmw-location li::marker { color: #b91b24; font-weight: 700; }
+.bmw-cta { background: #191919; padding: 65px 0; }
+.bmw-cta .bmw-wrap { display: flex; gap: 35px; align-items: center; justify-content: space-between; }
+.bmw-cta h2, .bmw-cta p { color: #fff; }
+.bmw-cta p { max-width: 640px; }
+.bmw-cta .bmw-actions { flex-shrink: 0; }
+.bmw-skip { position: fixed; top: -100px; left: 15px; z-index: 10000; padding: 12px 20px; background: #fff; color: #111; }
+.bmw-skip:focus { top: 10px; }
+button.nav-toggle { background: transparent; border: 0; padding: 0; }
+@media (max-width: 1000px) {
+  .bmw-hero-grid { grid-template-columns: 1fr 1fr; }
+  .bmw-columns { gap: 35px; }
+  .bmw-card { padding: 22px; }
+  .bmw-cta .bmw-wrap { display: block; }
+}
+@media (max-width: 750px) {
+  .bmw-page { padding-top: 85px; }
+  .bmw-wrap { width: 90%; }
+  .bmw-hero-grid { grid-template-columns: 1fr; padding-block: 28px 35px; gap: 0; }
+  .bmw-hero-visual { margin: 0; }
+  .bmw-hero-visual img { max-height: 360px; object-fit: contain; }
+  .bmw-hero-copy > p { font-size: 1rem; }
+  .bmw-section { padding: 50px 0; }
+  .bmw-facts { grid-template-columns: repeat(2, 1fr); gap: 20px 0; }
+  .bmw-facts div { padding: 0 16px; }
+  .bmw-facts div:nth-child(odd) { padding-left: 0; }
+  .bmw-facts div:nth-child(even) { border: 0; }
+  .bmw-photos { grid-template-columns: 1fr; gap: 28px; }
+  .bmw-photos img { aspect-ratio: 4/5; object-position: center bottom; }
+  .bmw-cards, .bmw-columns { grid-template-columns: 1fr; gap: 22px; }
+  .bmw-cta { padding: 45px 0; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .bmw-page *, .bmw-page *::before { transition: none !important; scroll-behavior: auto !important; }
+}
+
+.bmw-hero-rate { color: #a91821; font-size: 1.05rem; }
+.bmw-pricing { display: grid; grid-template-columns: 1.1fr 1fr 1fr; gap: 26px; align-items: stretch; }
+.bmw-price-card { padding: 30px; border: 1px solid #deded8; border-radius: 10px; background: #fff; }
+.bmw-price-card .bmw-price { font-size: 1rem; }
+.bmw-price strong { color: #b91b24; font-size: 2.5rem; letter-spacing: -.04em; }
+.bmw-price-card .bmw-btn { margin-top: 12px; }
+@media (max-width: 1000px) {
+  .bmw-pricing { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .bmw-pricing > div { grid-column: 1 / -1; }
+  .bmw-facts div { padding-inline: 12px; }
+}
+@media (max-width: 750px) {
+  .bmw-pricing { grid-template-columns: minmax(0, 1fr); }
+  .bmw-facts div:last-child { grid-column: 1 / -1; }
+}
+
+/* Keep the header movement aligned with the topbar's existing transition. */
+.bmw-detail > header { transition: top .4s ease, height .3s ease, box-shadow .3s ease; }
+@media (prefers-reduced-motion: reduce) {
+  .bmw-detail > header, .bmw-detail .topbar, .bmw-detail .nav-links,
+  .bmw-detail .nav-toggle span { transition: none !important; }
+  .bmw-detail [data-aos] { opacity: 1 !important; transform: none !important; transition: none !important; }
+}
