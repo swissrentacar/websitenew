@@ -279,4 +279,18 @@
     <image:image><image:loc>https://www.swissrentacar.ch/img/440i/bmw-440i-cabriolet-seite.webp</image:loc></image:image>
     <image:image><image:loc>https://www.swissrentacar.ch/img/440i/bmw-440i-cabrio-heck.webp</image:loc></image:image>
   </url>
+  <url>
+    <loc>https://www.swissrentacar.ch/autodeposit.html</loc>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://www.swissrentacar.ch/autodeposit.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.swissrentacar.ch/autodeposit_en.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.swissrentacar.ch/autodeposit.html"/>
+    <lastmod>2026-10-27</lastmod>
+  </url>
+  <url>
+    <loc>https://www.swissrentacar.ch/autodeposit_en.html</loc>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://www.swissrentacar.ch/autodeposit.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.swissrentacar.ch/autodeposit_en.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.swissrentacar.ch/autodeposit.html"/>
+    <lastmod>2026-10-27</lastmod>
+  </url>
 </urlset>
