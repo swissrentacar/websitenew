@@ -64,3 +64,64 @@
 
 .license-header .deposit-eligibility { margin-top: 10px; color: #555; font-size: .875rem; line-height: 1.6; }
 .deposit-eligibility small { font-size: inherit; }
+
+/* Shared vehicle-page layout and Swiss Rent a Car components. */
+.deposit-page .deposit-category-grid { margin-top: 3rem; }
+.deposit-page .fleet-img { object-fit: contain; }
+.deposit-page .fleet-info { width: 100%; }
+.deposit-page .fleet-info h3 { font-size: 1.4rem; }
+.deposit-page .btn-fleet-secondary { background: white; color: var(--primary-red); border: 1px solid var(--primary-red); }
+.deposit-details { padding: 70px 5%; background: white; }
+.deposit-details .fleet-header { text-align: center; }
+.deposit-detail-grid { max-width: 1100px; margin: 45px auto 0; display: grid; grid-template-columns: 1fr 1fr; gap: 28px; align-items: stretch; }
+.deposit-detail-grid .license-article { margin: 0; }
+.deposit-booking-steps { padding-left: 1.4rem; margin: 0; }
+.deposit-booking-steps li { padding-left: 7px; margin-bottom: 22px; }
+.deposit-booking-steps li:last-child { margin-bottom: 0; }
+.deposit-booking-steps li::marker { color: var(--primary-red); font-weight: 700; }
+.deposit-booking-steps h3 { font-size: 1.1rem; margin-bottom: 6px; }
+.deposit-booking-steps p { margin: 0; font-size: 1rem; }
+.deposit-contact { padding: 60px 5% 65px; background: #f9f9f9; }
+.deposit-contact .license-container { margin: auto; }
+.deposit-contact h2 { margin-bottom: 16px; }
+.deposit-contact .deposit-links { margin-top: 24px; }
+.deposit-page #flotte { scroll-margin-top: 120px; }
+@media (max-width: 750px) {
+ .deposit-details { padding: 45px 5%; }
+ .deposit-detail-grid { grid-template-columns: 1fr; margin-top: 30px; }
+ .deposit-contact { padding-top: 40px; padding-bottom: 40px; }
+}
+
+/* Compact editorial introduction in the site's existing red, white and grey. */
+.deposit-introduction { padding: 155px 5% 48px; background: #fff; }
+.deposit-introduction-inner { max-width: 1100px; margin: auto; }
+.deposit-intro-layout { display: grid; grid-template-columns: 1.45fr 1fr; gap: 64px; align-items: center; }
+.deposit-location { color: #b51b22; font-size: .9rem; font-weight: 600; margin: 0 0 14px; }
+.deposit-location i { margin-right: 6px; }
+.deposit-introduction h1 { color: #111; font-size: clamp(2.1rem,3.8vw,3.1rem); line-height: 1.2; margin: 0 0 20px; }
+.deposit-lead { line-height: 1.85; max-width: 570px; margin-bottom: 22px; }
+.deposit-intro-link { display: inline-flex; gap: 14px; align-items: center; color: #b51b22; font-weight: 600; text-decoration: none; padding: 8px 0; }
+.deposit-payment-box { background: #f9f9f9; border-left: 4px solid #d21f26; border-radius: 0 12px 12px 0; padding: 28px; }
+.deposit-payment-box h2 { font-size: 1.15rem; margin: 0 0 18px; display: flex; align-items: center; gap: 10px; }
+.deposit-payment-box h2 i { color: #d21f26; }
+.deposit-payment-box .deposit-payment-amount { color: #111; font-size: 2rem; font-weight: 700; margin: 0 0 14px; line-height: 1.3; }
+.deposit-payment-amount span { font-size: .95rem; font-weight: 400; color: #555; }
+.deposit-payment-box p { font-size: .9rem; line-height: 1.75; }
+.deposit-payment-box .deposit-payment-footnote { color: #777; font-size: .8rem; margin-top: 10px; }
+.deposit-payment-box a { display: inline-block; color: #b51b22; font-size: .9rem; margin-top: 18px; text-underline-offset: 4px; }
+.deposit-page .fleet { padding-top: 50px; padding-bottom: 55px; }
+.deposit-page .deposit-category-grid { grid-template-columns: repeat(4,minmax(0,1fr)); gap: 20px; margin-top: 36px; }
+.deposit-page .fleet-card { padding: 24px 16px; }
+.deposit-page .fleet-img { height: 145px; margin-bottom: 18px; }
+.deposit-page .fleet-info { display: flex; flex-direction: column; flex: 1; }
+.deposit-page .fleet-info h3 { font-size: 1.2rem; }
+.deposit-page .fleet-info p { flex: 1; font-size: .9rem; }
+.deposit-page .btn-fleet { font-size: .85rem; padding: 12px 8px; }
+.deposit-page .deposit-booking-steps { max-width: 1100px; margin: 40px auto 24px; padding: 0; list-style: none; display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 32px; counter-reset: rental-step; }
+.deposit-page .deposit-booking-steps li { padding: 0; margin: 0; counter-increment: rental-step; }
+.deposit-booking-steps li::before { content: counter(rental-step); width: 34px; height: 34px; display: grid; place-items: center; background: #fff0f0; color: #b51b22; border-radius: 50%; font-weight: 700; margin-bottom: 16px; }
+.deposit-licence-link { display: block; max-width: 1100px; margin: 30px auto 0; color: #b51b22; font-size: .9rem; text-underline-offset: 4px; }
+.deposit-page a:focus-visible { outline: 3px solid #d21f26; outline-offset: 4px; }
+@media (max-width: 1050px) { .deposit-intro-layout { gap: 30px; } .deposit-page .deposit-category-grid { grid-template-columns: repeat(2,minmax(0,1fr)); } .deposit-page .fleet-img { height: 180px; } }
+@media (max-width: 750px) { .deposit-introduction { padding-top: 110px; padding-bottom: 35px; } .deposit-intro-layout { grid-template-columns: 1fr; gap: 24px; } .deposit-payment-box { padding: 23px; } .deposit-page .deposit-booking-steps { grid-template-columns: 1fr; gap: 26px; } .deposit-page .deposit-booking-steps li { position: relative; padding-left: 50px; } .deposit-booking-steps li::before { position: absolute; left: 0; top: 0; } }
+@media (max-width: 480px) { .deposit-page .deposit-category-grid { grid-template-columns: 1fr; } }
