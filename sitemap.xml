@@ -60,8 +60,10 @@
   </url>
 
   <!-- AUTO / VEHICLES -->
-  <url><loc>https://www.swissrentacar.ch/auto.html</loc></url>
-  <url><loc>https://www.swissrentacar.ch/auto_en.html</loc></url>
+  <url><loc>https://www.swissrentacar.ch/auto.html</loc>
+    <lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://www.swissrentacar.ch/auto_en.html</loc>
+    <lastmod>2026-10-28</lastmod></url>
   <url><loc>https://www.swissrentacar.ch/vehicle.html</loc></url>
   <url><loc>https://www.swissrentacar.ch/vehicle_en.html</loc></url>
 
@@ -108,8 +110,10 @@
   <url><loc>https://www.swissrentacar.ch/impressum_en.html</loc></url>
 
   <!-- LIEFERWAGEN -->
-  <url><loc>https://www.swissrentacar.ch/lieferwagen.html</loc></url>
-  <url><loc>https://www.swissrentacar.ch/lieferwagen_en.html</loc></url>
+  <url><loc>https://www.swissrentacar.ch/lieferwagen.html</loc>
+    <lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://www.swissrentacar.ch/lieferwagen_en.html</loc>
+    <lastmod>2026-10-28</lastmod></url>
 
   <!-- LKW -->
   <url>
@@ -144,8 +148,10 @@
   <url><loc>https://www.swissrentacar.ch/luggage-transfer_en.html</loc></url>
 
   <!-- MINIBUS -->
-  <url><loc>https://www.swissrentacar.ch/minibus.html</loc></url>
-  <url><loc>https://www.swissrentacar.ch/minibus_en.html</loc></url>
+  <url><loc>https://www.swissrentacar.ch/minibus.html</loc>
+    <lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://www.swissrentacar.ch/minibus_en.html</loc>
+    <lastmod>2026-10-28</lastmod></url>
 
   <!-- SPRINTER -->
   <url>
@@ -162,8 +168,10 @@
   </url>
 
   <!-- MINIVAN -->
-  <url><loc>https://www.swissrentacar.ch/minivan.html</loc></url>
-  <url><loc>https://www.swissrentacar.ch/minivan_en.html</loc></url>
+  <url><loc>https://www.swissrentacar.ch/minivan.html</loc>
+    <lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://www.swissrentacar.ch/minivan_en.html</loc>
+    <lastmod>2026-10-28</lastmod></url>
 
   <!-- V-KLASSE -->
   <url>
@@ -280,17 +288,17 @@
     <image:image><image:loc>https://www.swissrentacar.ch/img/440i/bmw-440i-cabrio-heck.webp</image:loc></image:image>
   </url>
   <url>
-    <loc>https://www.swissrentacar.ch/autodeposit.html</loc>
-    <xhtml:link rel="alternate" hreflang="de-CH" href="https://www.swissrentacar.ch/autodeposit.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.swissrentacar.ch/autodeposit_en.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.swissrentacar.ch/autodeposit.html"/>
-    <lastmod>2026-10-27</lastmod>
+    <loc>https://www.swissrentacar.ch/fahrzeug-mieten-ohne-kreditkarte.html</loc>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://www.swissrentacar.ch/fahrzeug-mieten-ohne-kreditkarte.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.swissrentacar.ch/vehicle-rental-without-credit-card.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.swissrentacar.ch/fahrzeug-mieten-ohne-kreditkarte.html"/>
+    <lastmod>2026-10-28</lastmod>
   </url>
   <url>
-    <loc>https://www.swissrentacar.ch/autodeposit_en.html</loc>
-    <xhtml:link rel="alternate" hreflang="de-CH" href="https://www.swissrentacar.ch/autodeposit.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.swissrentacar.ch/autodeposit_en.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.swissrentacar.ch/autodeposit.html"/>
-    <lastmod>2026-10-27</lastmod>
+    <loc>https://www.swissrentacar.ch/vehicle-rental-without-credit-card.html</loc>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://www.swissrentacar.ch/fahrzeug-mieten-ohne-kreditkarte.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.swissrentacar.ch/vehicle-rental-without-credit-card.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.swissrentacar.ch/fahrzeug-mieten-ohne-kreditkarte.html"/>
+    <lastmod>2026-10-28</lastmod>
   </url>
 </urlset>
