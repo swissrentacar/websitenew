@@ -1,4 +1,8 @@
 (() => {
+  // Set to true to reactivate the offer on all pages.
+  const popupEnabled = false;
+  if (!popupEnabled) return;
+
   const popup = document.querySelector('.anniversary-popup');
   if (!popup || typeof popup.showModal !== 'function') return;
 
