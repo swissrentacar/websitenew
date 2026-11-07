@@ -82,7 +82,9 @@
   <link rel="icon" type="image/png" sizes="16x16" href="favicon-4/favicon-16x16.png">
   <link rel="shortcut icon" href="favicon-4/favicon-32x32.ico">
   <meta name="msapplication-TileColor" content="#ffffff">
-  <meta name="msapplication-TileImage" content="favicon-4/mstile-150x150.png"></head>
+  <meta name="msapplication-TileImage" content="favicon-4/mstile-150x150.png">  <link rel="stylesheet" href="anniversary-popup.css">
+  <script src="anniversary-popup.js" defer></script>
+</head>
 
 <body>
 <!-- ===== TOP BAR ===== -->
@@ -1095,6 +1097,21 @@ document.addEventListener("DOMContentLoaded", () => {
   </a>
 </div>
 
+
+
+<!-- Anniversary offer shown on arrival -->
+<dialog class="anniversary-popup" aria-label="15 Jahre Swiss Rent a Car – Jubiläumsangebot">
+  <div class="anniversary-popup__header">
+    <span>Jubiläumsangebot</span>
+    <button class="anniversary-popup__close" type="button" aria-label="Angebot schliessen" autofocus><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"/></svg></button>
+  </div>
+  <div class="anniversary-popup__artwork">
+    <img class="anniversary-popup__image" src="img/popup/15%20Jahre%20Swiss%20Rent%20a%20Car%20%E2%80%93%20Jubila%CC%88umsangebot.png" alt="15 Jahre Swiss Rent a Car – Jubiläumsangebot">
+  </div>
+  <div class="anniversary-popup__footer">
+    <a class="anniversary-popup__book" href="iframe.html">Jetzt buchen <span aria-hidden="true">&#8594;</span></a>
+  </div>
+</dialog>
 
 </body>
 </html>

@@ -1,0 +1,94 @@
+/* Homepage anniversary offer */
+.anniversary-popup {
+  position: fixed;
+  inset: 0;
+  width: fit-content;
+  max-width: calc(100vw - 32px);
+  max-height: calc(100vh - 32px);
+  max-height: calc(100dvh - 32px);
+  margin: auto;
+  padding: 0;
+  border: 0;
+  border-radius: 16px;
+  background: #fff;
+  color: #202020;
+  box-shadow: 0 20px 80px rgb(0 0 0 / 35%);
+}
+.anniversary-popup[open] {
+  display: flex;
+  flex-direction: column;
+}
+.anniversary-popup::backdrop {
+  background: rgb(0 0 0 / 70%);
+}
+.anniversary-popup__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  padding: 8px 12px 8px 20px;
+  font: 600 14px/1.4 Arial, sans-serif;
+  flex-shrink: 0;
+}
+.anniversary-popup__artwork {
+  min-height: 0;
+  overflow: auto;
+}
+.anniversary-popup__image {
+  display: block;
+  width: auto;
+  height: auto;
+  max-width: min(780px, calc(100vw - 32px));
+  max-height: calc(100vh - 176px);
+  max-height: calc(100dvh - 176px);
+  margin: auto;
+  object-fit: contain;
+}
+.anniversary-popup__close {
+  display: grid;
+  place-items: center;
+  width: 44px;
+  height: 44px;
+  padding: 0;
+  border: 0;
+  border-radius: 6px;
+  background: transparent;
+  color: #777;
+  cursor: pointer;
+  flex-shrink: 0;
+  transition: background 150ms, color 150ms;
+}
+.anniversary-popup__close:hover {
+  background: transparent;
+  color: #111;
+}
+.anniversary-popup__footer {
+  padding: 14px 20px;
+  flex-shrink: 0;
+}
+.anniversary-popup__book {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  min-height: 48px;
+  padding: 0 24px;
+  border-radius: 8px;
+  background: #c00;
+  color: #fff;
+  text-decoration: none;
+  font: 600 16px/1.4 Arial, sans-serif;
+  transition: background 150ms;
+}
+.anniversary-popup__book:hover {
+  background: #a80000;
+  color: #fff;
+}
+.anniversary-popup__close:focus-visible,
+.anniversary-popup__book:focus-visible {
+  outline: 3px solid #202020;
+  outline-offset: 2px;
+}
+html:has(.anniversary-popup[open]) {
+  overflow: hidden;
+}
