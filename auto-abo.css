@@ -1,0 +1,138 @@
+.srac-abo { background:#f9f9f9; padding:88px 24px; scroll-margin-top:110px; }
+.srac-abo * { box-sizing:border-box; }
+.abo-container { max-width:1200px; margin:0 auto; }
+.abo-header { max-width:850px; margin:0 auto 32px; text-align:center; }
+.abo-eyebrow { color:#b71920; font-size:12px; font-weight:700; letter-spacing:1.8px; }
+.abo-header h2 { position:relative; font-size:clamp(28px,3.5vw,35px); margin:12px 0 26px; padding-bottom:14px; font-weight:700; color:#111; letter-spacing:normal; }
+.abo-header h2::after { content:""; position:absolute; bottom:0; left:50%; transform:translateX(-50%); width:80px; height:3px; border-radius:2px; background:#d21f26; }
+.abo-header > .abo-eyebrow { color:#d21f26; font-size:12px; letter-spacing:1px; }
+.abo-header p,.abo-config-heading p { line-height:1.7; color:#555; }
+.abo-steps { display:flex; justify-content:center; gap:40px; margin:0 0 38px; font-size:14px; }
+.abo-steps b { color:#d21f26; margin-right:8px; }
+.abo-grid { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:20px; }
+.abo-card { background:white; border:1px solid #e5e5e5; border-radius:16px; overflow:hidden; display:flex; flex-direction:column; }
+.abo-card-top { display:flex; justify-content:space-between; gap:8px; padding:20px 20px 0; font-size:11px; color:#666; }
+.abo-card-top span:last-child { color:#b71920; font-weight:700; }
+.abo-card img { width:100%; height:165px; object-fit:contain; padding:14px 10px 0; }
+.abo-card-body { padding:20px; flex:1; display:flex; flex-direction:column; }
+.abo-card h3 { font-size:21px; font-weight:700; margin:0 0 12px; }
+.abo-card p { font-size:13px; margin:0 0 24px; flex:1; }
+.abo-price strong { font-family:Roboto,sans-serif; font-size:29px; color:#111; }
+.abo-price span { font-size:12px; color:#555; }
+.abo-card small { font-size:10px; color:#666; margin:4px 0 20px; }
+.abo-select { display:flex; justify-content:space-between; align-items:center; gap:8px; border-top:1px solid #eee; padding-top:16px; font-size:13px; font-weight:700; color:#b71920; }
+.abo-select:hover { color:#111; }
+.abo-config { background:white; border:1px solid #e5e5e5; border-radius:16px; padding:32px; margin-top:28px; scroll-margin-top:130px; }
+.abo-config-heading h3 { font-size:27px; font-weight:700; margin:10px 0; }
+.abo-config-heading p { max-width:760px; font-size:14px; }
+.abo-fields { display:grid; grid-template-columns:1.4fr 1fr 1fr; gap:20px; margin:24px 0; }
+.abo-fields label { font-size:13px; font-weight:600; color:#333; }
+.abo-fields select { display:block; width:100%; border:1px solid #ccc; border-radius:8px; background:#fff; padding:14px 12px; margin-top:8px; font:inherit; color:#111; }
+.abo-quote { border-top:1px solid #eee; padding-top:24px; display:flex; align-items:center; justify-content:space-between; gap:24px; }
+.abo-quote span { font-size:12px; color:#666; }
+.abo-quote p { font-weight:700; color:#111; margin:5px 0; font-size:15px; }
+.abo-quote small { font-size:12px; color:#666; }
+.abo-quote button { border:0; border-radius:8px; background:#d21f26; color:#fff; font:600 14px 'Open Sans',sans-serif; padding:17px 22px; cursor:pointer; }
+.abo-quote button span { color:white; margin-left:10px; }
+.abo-quote button:hover { background:#ae171d; }
+.abo-contact { margin:20px 0 0; font-size:12px; color:#666; }
+.abo-contact a { color:#b71920; white-space:nowrap; }
+.srac-abo :is(a,button,select):focus-visible { outline:3px solid #d21f26; outline-offset:4px; }
+@media(max-width:1050px) { .abo-grid { grid-template-columns:repeat(2,minmax(0,1fr)); } .abo-card img { height:200px; } }
+@media(max-width:640px) { .srac-abo { padding:56px 18px; } .abo-grid,.abo-fields { grid-template-columns:1fr; } .abo-steps { gap:12px; font-size:11px; } .abo-steps span { flex:1; } .abo-steps b { display:block; margin-bottom:4px; } .abo-config { padding:22px; } .abo-quote { align-items:stretch; flex-direction:column; } .abo-quote button { width:100%; } }
+
+/* Vehicle details and subscription configurator */
+.abo-experience { display:grid; grid-template-columns:minmax(0,1.45fr) minmax(300px,1fr); align-items:start; gap:28px; margin-top:48px; scroll-margin-top:120px; }
+.abo-detail-column { min-width:0; }
+.abo-detail { margin:0; }
+.srac-abo.abo-enhanced .abo-detail[hidden] { display:none; }
+.abo-showroom { background:linear-gradient(155deg,#fff 0%,#eceeef 100%); border:1px solid #e1e1e1; border-radius:18px; padding:28px; overflow:hidden; }
+.abo-showroom-top { display:flex; justify-content:space-between; gap:15px; color:#777; font-size:10px; font-weight:700; letter-spacing:1px; margin-bottom:30px; }
+.abo-showroom h3 { font-size:clamp(26px,3vw,38px); font-weight:700; margin:0 0 12px; }
+.abo-showroom p { font-size:13px; margin:0; }
+.abo-showroom p span { margin:0 8px; color:#aaa; }
+.abo-showroom img { display:block; width:100%; height:300px; object-fit:contain; margin:15px 0; filter:drop-shadow(0 20px 12px #00000014); }
+.abo-image-caption { display:block; color:#777; font-size:10px; text-align:center; }
+.abo-detail-nav { display:flex; flex-wrap:wrap; gap:22px; padding:22px 0; border-bottom:1px solid #ddd; }
+.abo-detail-nav a { font-size:12px; font-weight:700; color:#555; }
+.abo-detail-nav a:hover { color:#d21f26; }
+.abo-detail-section { padding:30px 0; border-bottom:1px solid #ddd; scroll-margin-top:125px; }
+.abo-detail-section h3 { font-size:25px; font-weight:700; margin:10px 0 20px; }
+.abo-detail-section p { font-size:14px; line-height:1.8; margin:0; }
+.abo-spec-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:0 30px; margin:0; }
+.abo-spec-grid > div { padding:14px 0; border-bottom:1px solid #e5e5e5; }
+.abo-spec-grid dt { color:#666; font-size:12px; }
+.abo-spec-grid dd { color:#111; font-size:16px; font-weight:700; margin:5px 0 0; }
+.abo-equipment-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:24px; margin-top:24px; }
+.abo-equipment-group h4 { font-size:15px; font-weight:700; margin:0 0 16px; }
+.abo-equipment-group ul { list-style:disc; padding-left:18px; margin:0; }
+.abo-equipment-group li { margin:12px 0; font-size:13px; }
+.abo-equipment-group .abo-equipment-unavailable { color:#777; list-style:none; margin-left:-18px; }
+.abo-experience .abo-config { position:sticky; top:115px; margin:0; padding:28px; border-top:4px solid #d21f26; box-shadow:0 12px 35px #00000006; }
+.abo-experience .abo-config-heading h3 { font-size:26px; }
+.abo-experience .abo-fields { grid-template-columns:1fr; gap:16px; }
+.abo-config-price { border-top:1px solid #eee; padding:20px 0; }
+.abo-config-price > span { color:#555; font-size:12px; }
+.abo-config-price strong { color:#111; font:700 36px 'Roboto',sans-serif; }
+.abo-config-price div { margin:7px 0; }
+.abo-config-price div span { font-size:13px; }
+.abo-config-price small { display:block; font-size:11px; line-height:1.6; color:#666; }
+.abo-experience .abo-quote { flex-direction:column; align-items:stretch; gap:20px; }
+.abo-experience .abo-quote p { font-size:13px; }
+.abo-experience .abo-quote button { width:100%; font-size:13px; }
+.abo-faq { max-width:850px; margin:64px auto 0; }
+.abo-faq > h3 { font-size:30px; font-weight:700; margin:12px 0 28px; }
+.abo-faq details { padding:20px 0; border-top:1px solid #ddd; }
+.abo-faq summary { cursor:pointer; font-size:15px; font-weight:700; color:#222; }
+.abo-faq details p { font-size:14px; margin:15px 0 0; line-height:1.8; }
+.srac-abo input:focus-visible,.srac-abo summary:focus-visible { outline:3px solid #d21f26; outline-offset:4px; }
+.abo-card.is-selected { border-color:#d21f26; box-shadow:0 0 0 1px #d21f26; }
+@media(max-width:900px) { .abo-experience { grid-template-columns:1fr; } .abo-experience .abo-config { position:static; } .abo-experience .abo-fields { grid-template-columns:repeat(2,minmax(0,1fr)); } .abo-experience .abo-fields label:first-child { grid-column:1/-1; } }
+@media(max-width:640px) { .abo-showroom { padding:22px; } .abo-showroom img { height:220px; } .abo-showroom-top { font-size:9px; letter-spacing:0; } .abo-detail-nav { gap:15px; } .abo-equipment-grid,.abo-experience .abo-fields { grid-template-columns:1fr; } .abo-experience .abo-config { padding:22px; } .abo-experience { margin-top:30px; } }
+.abo-config-price p { font-size:15px; margin:0 0 12px; color:#555; }
+.abo-personal-offer { background:#faf1f2; border-radius:10px; padding:18px; margin-top:24px; }
+.abo-personal-offer strong { color:#a9171e; font-size:14px; }
+.abo-personal-offer p { font-size:12px; line-height:1.8; margin:8px 0 0; }
+.abo-price-table { margin-top:24px; padding:20px; background:#fff; border:1px solid #ddd; border-radius:12px; }
+.abo-price-table summary { cursor:pointer; color:#b71920; font-size:14px; font-weight:700; }
+.abo-price-table p { font-size:12px; margin:14px 0 0; }
+.abo-table-scroll { overflow-x:auto; margin-top:16px; }
+.abo-price-table table { width:100%; border-collapse:collapse; text-align:left; font-size:12px; white-space:nowrap; }
+.abo-price-table caption { text-align:left; margin-bottom:10px; color:#555; }
+.abo-price-table th,.abo-price-table td { padding:12px 10px; border-bottom:1px solid #eee; }
+.abo-price-table thead { background:#f6f6f6; }
+
+/* A single swipeable vehicle card at the existing one-column breakpoint. */
+.abo-carousel-controls[hidden] { display:none; }
+.abo-carousel-controls { display:none; }
+@media (max-width:640px) {
+  .abo-grid { display:flex; gap:16px; overflow-x:auto; scroll-snap-type:x mandatory; scrollbar-width:none; overscroll-behavior-x:contain; padding:2px 2px 6px; }
+  .abo-grid::-webkit-scrollbar { display:none; }
+  .abo-grid > .abo-card { flex:0 0 100%; min-width:0; scroll-snap-align:start; scroll-snap-stop:always; }
+  .abo-carousel-controls:not([hidden]) { display:flex; align-items:center; justify-content:center; gap:22px; margin-top:18px; }
+  .abo-carousel-controls button { display:flex; align-items:center; justify-content:center; width:44px; height:44px; border:1px solid #d21f26; border-radius:50%; background:#fff; color:#d21f26; cursor:pointer; }
+  .abo-carousel-controls button:hover:not(:disabled) { background:#d21f26; color:#fff; }
+  .abo-carousel-controls button:disabled { border-color:#ddd; color:#aaa; cursor:default; }
+  .abo-carousel-count { min-width:46px; text-align:center; font-size:14px; color:#555; font-variant-numeric:tabular-nums; }
+}
+
+/* Keep the mobile arrows visible on either side of the vehicle. */
+@media (max-width:640px) {
+  .abo-carousel { position:relative; padding:0 23px; }
+  .abo-carousel-controls:not([hidden]) { display:block; margin-top:14px; text-align:center; }
+  .abo-carousel-controls button { position:absolute; top:calc(50% - 36px); z-index:2; width:42px; height:42px; border:0; background:#d21f26; color:#fff; box-shadow:0 3px 12px #0002; }
+  .abo-carousel-controls .abo-carousel-prev { left:0; }
+  .abo-carousel-controls .abo-carousel-next { right:0; }
+  .abo-carousel-controls button:disabled { background:#e7e7e7; color:#999; box-shadow:none; }
+  .abo-carousel-count { display:inline-block; }
+}
+
+@media (max-width:640px) {
+  .abo-carousel-controls button { padding:0; line-height:1; flex-shrink:0; }
+  .abo-carousel-controls .abo-carousel-arrow { display:block; width:12px; height:12px; flex:0 0 12px; border-top:3px solid #fff; border-right:3px solid #fff; }
+  .abo-carousel-next .abo-carousel-arrow { transform:rotate(45deg); margin-right:5px; }
+  .abo-carousel-prev .abo-carousel-arrow { transform:rotate(-135deg); margin-left:5px; }
+  .abo-carousel-controls button:disabled .abo-carousel-arrow { border-color:#777; }
+}
+.monthly-inline-link { text-align:center; margin:0 0 24px; }
+.monthly-inline-link a { color:#b71920; font-size:14px; font-weight:700; }

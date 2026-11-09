@@ -32,7 +32,9 @@
   <link rel="icon" type="image/png" sizes="16x16" href="favicon-4/favicon-16x16.png">
   <link rel="shortcut icon" href="favicon-4/favicon-32x32.ico">
   <meta name="msapplication-TileColor" content="#ffffff">
-  <meta name="msapplication-TileImage" content="favicon-4/mstile-150x150.png"></head>
+  <meta name="msapplication-TileImage" content="favicon-4/mstile-150x150.png">  <link rel="stylesheet" href="request-forms.css">
+  <script src="request-forms.js?v=4" defer></script>
+</head>
 
 <body>
 
@@ -106,7 +108,8 @@
   </ul>
 </li>
       <li><a href="airport_en.html">Airport Parking</a></li>
-      <li><a href="contact_en.html" class="active">Contact</a></li>
+      <li><a href="/blog/">Ausflüge &amp; Reisetipps</a></li>
+        <li><a href="contact_en.html" class="active">Contact</a></li>
       <li><a href="iframe_en.html" class="book-btn">Book Now</a></li>
       <li class="lang-switch">
         <a href="contact.html">
@@ -242,9 +245,10 @@ Write to us – we'll get back to you as soon as possible.
     <!-- === FORMULAR RECHTS === -->
     <div class="contact-right" data-aos="fade-left">
       <form action="https://api.web3forms.com/submit" method="POST" class="contact-form">
-        <input type="hidden" name="access_key" value="f1b8554f-5f21-46be-90db-741a70a2d205">
-
-        <h3>Write a message</h3>
+<input type="hidden" name="access_key" value="f1b8554f-5f21-46be-90db-741a70a2d205">
+<input type="hidden" name="redirect" value="https://www.swissrentacar.ch/anfrage-erhalten_en.html">
+<input type="hidden" name="subject" value="Contact enquiry">
+<h3>Write a message</h3>
 
         <div class="form-group">
           <label for="name">Your Name *</label>
@@ -267,10 +271,6 @@ Write to us – we'll get back to you as soon as possible.
           <textarea id="message" name="message" rows="5" required></textarea>
         </div>
 
-        <div id="success-message" style="display:none; color:green; margin-bottom:1rem;">
-          ✅ Message sent successfully!
-        </div>
-
         <button type="submit" class="btn-submit">Send Message</button>
       </form>
     </div>
@@ -283,23 +283,7 @@ Write to us – we'll get back to you as soon as possible.
   AOS.init();
 </script>
 
-<script>
-document.querySelector(".contact-form").addEventListener("submit", function(e) {
-  e.preventDefault();
-  const form = e.target;
-  fetch(form.action, {
-    method: form.method,
-    body: new FormData(form)
-  }).then(response => {
-    if (response.ok) {
-      document.getElementById("success-message").style.display = "block";
-      form.reset();
-    }
-  }).catch(error => {
-    alert("Error sending message. Please try again later.");
-  });
-});
-</script>
+
 
 <!-- 🔻 FOOTER SECTION -->
 <footer class="footer" id="contact">
@@ -318,7 +302,8 @@ document.querySelector(".contact-form").addEventListener("submit", function(e) {
         <li><a href="vehicle_en.html">Vehicle Rental</a></li>
         <li><a href="transfers_en.html">Limousine & Transfers</a></li>
         <li><a href="airport_en.html">Airport Parking</a></li>
-                        <li><a href="contact_en.html">Contact</a></li>
+                        <li><a href="/blog/">Ausflüge &amp; Reisetipps</a></li>
+        <li><a href="contact_en.html">Contact</a></li>
 
       </ul>
     </div>

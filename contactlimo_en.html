@@ -32,7 +32,9 @@
   <link rel="icon" type="image/png" sizes="16x16" href="favicon-4/favicon-16x16.png">
   <link rel="shortcut icon" href="favicon-4/favicon-32x32.ico">
   <meta name="msapplication-TileColor" content="#ffffff">
-  <meta name="msapplication-TileImage" content="favicon-4/mstile-150x150.png"></head>
+  <meta name="msapplication-TileImage" content="favicon-4/mstile-150x150.png">  <link rel="stylesheet" href="request-forms.css">
+  <script src="request-forms.js?v=4" defer></script>
+</head>
 
 <body>
 
@@ -106,7 +108,8 @@
   </ul>
 </li>
       <li><a href="airport_en.html">Airport Parking</a></li>
-      <li><a href="contact_en.html" class="">Contact</a></li>
+      <li><a href="/blog/">Ausflüge &amp; Reisetipps</a></li>
+        <li><a href="contact_en.html" class="">Contact</a></li>
       <li><a href="iframe_en.html" class="book-btn">Book Now</a></li>
       <li class="lang-switch">
         <a href="contactlimo.html">
@@ -227,9 +230,10 @@ document.querySelectorAll(".dropdown > a").forEach(link => {
   </div>
 
   <form action="https://api.web3forms.com/submit" method="POST" class="srac-form">
-    <input type="hidden" name="access_key" value="f1b8554f-5f21-46be-90db-741a70a2d205">
-
-    <!-- Service -->
+<input type="hidden" name="access_key" value="f1b8554f-5f21-46be-90db-741a70a2d205">
+<input type="hidden" name="redirect" value="https://www.swissrentacar.ch/anfrage-erhalten_en.html">
+<input type="hidden" name="subject" value="Transfer enquiry">
+<!-- Service -->
     <div class="srac-form-group">
       <label for="service">Service*</label>
       <select id="service" name="Service" required>
@@ -309,7 +313,7 @@ document.querySelectorAll(".dropdown > a").forEach(link => {
       </div>
       <div class="srac-form-group">
         <label for="email">Email*</label>
-        <input type="email" id="email" name="Email" placeholder="name@example.com" required>
+        <input type="email" id="email" name="email" placeholder="name@example.com" required>
       </div>
     </div>
 
@@ -436,7 +440,8 @@ document.querySelectorAll(".dropdown > a").forEach(link => {
         <li><a href="vehicle_en.html">Vehicle Rental</a></li>
         <li><a href="transfers_en.html">Limousine & Transfers</a></li>
         <li><a href="airport_en.html">Airport Parking</a></li>
-                        <li><a href="contact_en.html">Contact</a></li>
+                        <li><a href="/blog/">Ausflüge &amp; Reisetipps</a></li>
+        <li><a href="contact_en.html">Contact</a></li>
 
       </ul>
     </div>
