@@ -1,0 +1,296 @@
+{
+  "europa-park-ab-zuerich": {
+    "image": "/img/blog/themen/europa-park.webp",
+    "imageKey": "europa-park",
+    "alt": "Panorama des Europa-Parks in Rust mit Achterbahnen und Themenbereichen",
+    "source": "https://commons.wikimedia.org/wiki/File:EP_Panorama.jpg"
+  },
+  "familienausfluege-ab-zuerich": {
+    "image": "/img/blog/themen/luzern-breit.webp",
+    "imageKey": "luzern-breit",
+    "alt": "Kapellbrücke und Wasserturm in Luzern – eines der vorgestellten Ausflugsziele",
+    "source": "https://commons.wikimedia.org/wiki/File:CH.LU.Luzern_Kapellbr%C3%BCcke_01_16x9-R_16384x9216.jpg"
+  },
+  "mit-9-personen-verreisen": {
+    "image": "/img/blog/themen/fahrzeug-staria.webp",
+    "imageKey": "fahrzeug-staria",
+    "alt": "Darstellung des Hyundai Staria als Beispiel eines 9-Plätzers",
+    "source": "Vorhandener Projektbestand"
+  },
+  "uetliberg-mit-kindern": {
+    "image": "/img/blog/themen/uetliberg.webp",
+    "imageKey": "uetliberg",
+    "alt": "Wegweiser und Ausblick am Uetliberg",
+    "source": "https://commons.wikimedia.org/wiki/File:Uetliberg_Panorama.jpg"
+  },
+  "zuerichsee-mit-kindern": {
+    "image": "/img/blog/themen/zuerichsee.webp",
+    "imageKey": "zuerichsee",
+    "alt": "Blick über den Zürichsee auf Ufer und Stadtlandschaft",
+    "source": "https://commons.wikimedia.org/wiki/File:Lake_Zurich_Fresh_Bright_Day_Landscape.jpg"
+  },
+  "zoo-zuerich-familienausflug": {
+    "image": "/img/blog/themen/zoo-zuerich.webp",
+    "imageKey": "zoo-zuerich",
+    "alt": "Blick in die bepflanzte Masoala-Halle im Zoo Zürich",
+    "source": "https://commons.wikimedia.org/wiki/File:MasoalaHalle_TurmView.jpg"
+  },
+  "rheinfall-mit-kindern": {
+    "image": "/img/blog/themen/rheinfall-blick.webp",
+    "imageKey": "rheinfall-blick",
+    "alt": "Rheinfall mit Mittelfelsen und dem Schloss Laufen oberhalb des Ufers",
+    "source": "https://commons.wikimedia.org/wiki/File:Neuhausen_Rhine_Falls_panorama_3.jpg"
+  },
+  "technorama-winterthur-mit-kindern": {
+    "image": "/img/blog/themen/technorama.webp",
+    "imageKey": "technorama",
+    "alt": "Eingangsbereich des Swiss Science Center Technorama in Winterthur",
+    "source": "https://commons.wikimedia.org/wiki/File:Technorama_Winterthur_2011-09-09_14-18-42.jpg"
+  },
+  "wildnispark-zuerich-mit-kindern": {
+    "image": "/img/blog/themen/wildnispark.webp",
+    "imageKey": "wildnispark",
+    "alt": "Luchs im Tierpark Langenberg des Wildnisparks Zürich",
+    "source": "https://commons.wikimedia.org/wiki/File:CH.ZH.Langnau-am-Albis_Langenberg-Wildlife-Park_2022-02-12_7587_16x9-R_5K.jpg"
+  },
+  "rapperswil-mit-kindern": {
+    "image": "/img/blog/themen/rapperswil.webp",
+    "imageKey": "rapperswil",
+    "alt": "Hafen von Rapperswil mit Schloss und Stadtpfarrkirche",
+    "source": "https://commons.wikimedia.org/wiki/File:Rapperswil_-_Hafen_-_Schloss-Pfarrkirche_-_Seedamm_2014-09-23_15-21-15.JPG"
+  },
+  "atzmaennig-mit-kindern": {
+    "image": "/img/blog/themen/atzmaennig.webp",
+    "imageKey": "atzmaennig",
+    "alt": "Blick auf die Landschaft und das Freizeitgebiet Atzmännig",
+    "source": "https://commons.wikimedia.org/wiki/File:Atzm%C3%A4nnig-Totale.JPG"
+  },
+  "luzern-mit-kindern": {
+    "image": "/img/blog/themen/luzern-breit.webp",
+    "imageKey": "luzern-breit",
+    "alt": "Kapellbrücke und Wasserturm in Luzern an einem Winterabend",
+    "source": "https://commons.wikimedia.org/wiki/File:CH.LU.Luzern_Kapellbr%C3%BCcke_01_16x9-R_16384x9216.jpg"
+  },
+  "verkehrshaus-luzern-mit-kindern": {
+    "image": "/img/blog/themen/verkehrshaus.webp",
+    "imageKey": "verkehrshaus",
+    "alt": "Ausgestelltes Flugzeug beim Verkehrshaus der Schweiz in Luzern",
+    "source": "https://commons.wikimedia.org/wiki/File:00_9020_Luzern_(CH)_-_Verkehrshaus.jpg"
+  },
+  "wochenende-mit-kindern-zuerich": {
+    "image": "/img/blog/themen/greifensee.webp",
+    "imageKey": "greifensee",
+    "alt": "Schilfufer am Greifensee als Beispiel für einen Familienausflug",
+    "source": "https://commons.wikimedia.org/wiki/File:Greifensee_-_Schwerzenbach_IMG_6541.jpg"
+  },
+  "tagesausfluege-mit-kindern-schweiz": {
+    "image": "/img/blog/themen/rheinfall-blick.webp",
+    "imageKey": "rheinfall-blick",
+    "alt": "Rheinfall als eines der im Artikel verglichenen Schweizer Ausflugsziele",
+    "source": "https://commons.wikimedia.org/wiki/File:Neuhausen_Rhine_Falls_panorama_3.jpg"
+  },
+  "ausfluege-grosse-familien": {
+    "image": "/img/blog/themen/rapperswil.webp",
+    "imageKey": "rapperswil",
+    "alt": "Rapperswiler Seeufer als Beispiel für einen flexibel planbaren Familienausflug",
+    "source": "https://commons.wikimedia.org/wiki/File:Rapperswil_-_Hafen_-_Schloss-Pfarrkirche_-_Seedamm_2014-09-23_15-21-15.JPG"
+  },
+  "schlechtes-wetter-mit-kindern": {
+    "image": "/img/blog/themen/technorama.webp",
+    "imageKey": "technorama",
+    "alt": "Technorama in Winterthur – eines der vorgestellten Ziele für einen Regentag",
+    "source": "https://commons.wikimedia.org/wiki/File:Technorama_Winterthur_2011-09-09_14-18-42.jpg"
+  },
+  "freizeitparks-nahe-zuerich": {
+    "image": "/img/blog/themen/europa-park.webp",
+    "imageKey": "europa-park",
+    "alt": "Europa-Park in Rust als eines der verglichenen Freizeitparkziele ab Zürich",
+    "source": "https://commons.wikimedia.org/wiki/File:EP_Panorama.jpg"
+  },
+  "skiferien-9-plaetzer-gepaeck": {
+    "image": "/img/blog/themen/flumserberg-ski.webp",
+    "imageKey": "flumserberg-ski",
+    "alt": "Wintersportlandschaft am Flumserberg – Symbolbild für Skiferien, keine aktuelle Schneemeldung",
+    "source": "https://commons.wikimedia.org/wiki/File:%22Downhill%22_skiing_Flumserberg_-_panoramio.jpg"
+  },
+  "gruppenausflug-minivan-kleinbus": {
+    "image": "/img/blog/themen/kleinbus-innen.webp",
+    "imageKey": "kleinbus-innen",
+    "alt": "Sitzbereich eines Mercedes-Sprinter-Kleinbusses aus dem vorhandenen Bildbestand",
+    "source": "Vorhandener Projektbestand"
+  },
+  "wochenendtrip-fahrzeug-mehrere-tage": {
+    "image": "/img/blog/themen/tessin.webp",
+    "imageKey": "tessin",
+    "alt": "Lugano am Abend als Reiseinspiration für einen mehrtägigen Aufenthalt",
+    "source": "https://commons.wikimedia.org/wiki/File:Panorama_of_Lugano_at_Sunset.jpg"
+  },
+  "flughafen-zuerich-mit-kindern": {
+    "image": "/img/blog/themen/flughafen.webp",
+    "imageKey": "flughafen",
+    "alt": "Zuschauerterrasse B mit Blick auf das Vorfeld des Flughafens Zürich",
+    "source": "https://commons.wikimedia.org/wiki/File:Zuschauerterrasse_B.jpg"
+  },
+  "greifensee-mit-kindern": {
+    "image": "/img/blog/themen/greifensee.webp",
+    "imageKey": "greifensee",
+    "alt": "Greifensee und Schilflandschaft bei Schwerzenbach",
+    "source": "https://commons.wikimedia.org/wiki/File:Greifensee_-_Schwerzenbach_IMG_6541.jpg"
+  },
+  "rigi-mit-kindern": {
+    "image": "/img/blog/themen/rigi.webp",
+    "imageKey": "rigi",
+    "alt": "Zahnradbahn zwischen Rigi Staffel und Rigi Kulm in verschneiter Berglandschaft",
+    "source": "https://commons.wikimedia.org/wiki/File:RB_BDhe_2-4_II_Rigi_Staffel_-_Rigi_Kulm.jpg"
+  },
+  "alpamare-mit-kindern": {
+    "image": "/img/blog/themen/alpamare.webp",
+    "imageKey": "alpamare",
+    "alt": "Luftaufnahme des Alpamare in Pfäffikon SZ; Aufnahme von 2019",
+    "source": "https://commons.wikimedia.org/wiki/File:Alpamare_von_Oben.jpg"
+  },
+  "bodensee-wochenende-familie": {
+    "image": "/img/blog/themen/bodensee-meersburg.webp",
+    "imageKey": "bodensee-meersburg",
+    "alt": "Meersburg am Bodensee aus der Luft als Beispiel einer Uferregion",
+    "source": "https://commons.wikimedia.org/wiki/File:Meersburg_Aerial.jpg"
+  },
+  "tessin-familienferien-auto": {
+    "image": "/img/blog/themen/tessin.webp",
+    "imageKey": "tessin",
+    "alt": "Panorama von Lugano und dem Luganersee bei Sonnenuntergang",
+    "source": "https://commons.wikimedia.org/wiki/File:Panorama_of_Lugano_at_Sunset.jpg"
+  },
+  "italien-mit-minivan": {
+    "image": "/img/blog/themen/italien.webp",
+    "imageKey": "italien",
+    "alt": "Varenna am Comersee als Beispiel für ein italienisches Reiseziel",
+    "source": "https://commons.wikimedia.org/wiki/File:Varenna,_Lake_Como_1.jpg"
+  },
+  "schwarzwald-wochenendtrip-ab-zuerich": {
+    "image": "/img/blog/themen/schwarzwald.webp",
+    "imageKey": "schwarzwald",
+    "alt": "Ufer und Wasser des Titisees im Schwarzwald",
+    "source": "https://commons.wikimedia.org/wiki/File:Titisee_General_View.jpg"
+  },
+  "vereinsausflug-schweiz-planen": {
+    "image": "/img/blog/themen/reisebus-innen.webp",
+    "imageKey": "reisebus-innen",
+    "alt": "Sitzbereich eines Reisebusses als Beispiel für gemeinsame Vereinsfahrten",
+    "source": "Vorhandener Projektbestand"
+  },
+  "firmenausflug-zuerich-organisieren": {
+    "image": "/img/blog/themen/zuerichsee.webp",
+    "imageKey": "zuerichsee",
+    "alt": "Zürichsee als regionale Illustration für einen Teamausflug ab Zürich",
+    "source": "https://commons.wikimedia.org/wiki/File:Lake_Zurich_Fresh_Bright_Day_Landscape.jpg"
+  },
+  "hochzeit-gaestetransport-planen": {
+    "image": "/img/blog/themen/hochzeit.webp",
+    "imageKey": "hochzeit",
+    "alt": "Hände eines Brautpaars bei einer Trauung – Symbolbild für den Hochzeitsanlass",
+    "source": "Vorhandener Projektbestand"
+  },
+  "mietwagen-abholen-checkliste": {
+    "image": "/img/blog/themen/fahrzeug-cockpit.webp",
+    "imageKey": "fahrzeug-cockpit",
+    "alt": "Cockpit einer Mercedes V-Klasse als Beispiel für die Einweisung bei der Fahrzeugübernahme",
+    "source": "Vorhandener Projektbestand"
+  },
+  "neun-plaetzer-gepaeck": {
+    "image": "/img/blog/themen/gepaeck.webp",
+    "imageKey": "gepaeck",
+    "alt": "Gestapelte Reisekoffer als Symbolbild für Gepäckplanung, keine Kapazitätsangabe",
+    "source": "https://commons.wikimedia.org/wiki/File:Stack_of_luggages_(Unsplash).jpg"
+  },
+  "neun-plaetzer-mieten-kosten": {
+    "image": "/img/blog/themen/fahrzeug-staria.webp",
+    "imageKey": "fahrzeug-staria",
+    "alt": "Hyundai Staria als Fahrzeugbeispiel zum Kostenvergleich eines 9-Plätzers",
+    "source": "Vorhandener Projektbestand"
+  },
+  "auto-mieten-ohne-kreditkarte-tipps": {
+    "image": "/img/blog/themen/fahrzeug-minivan.webp",
+    "imageKey": "fahrzeug-minivan",
+    "alt": "Mercedes V-Klasse als Fahrzeugbeispiel zur Mietwagenwahl",
+    "source": "Vorhandener Projektbestand"
+  },
+  "umzug-zuerich-lieferwagen-checkliste": {
+    "image": "/img/blog/themen/umzug.webp",
+    "imageKey": "umzug",
+    "alt": "Offener Umzugskarton als Symbolbild für die Umzugsvorbereitung",
+    "source": "https://commons.wikimedia.org/wiki/File:Open_Cardboard_Moving_Box_(32067347137).jpg"
+  },
+  "lieferwagen-groesse-waehlen": {
+    "image": "/img/blog/themen/lieferwagen-laderaum.webp",
+    "imageKey": "lieferwagen-laderaum",
+    "alt": "Geöffneter Lieferwagen-Laderaum mit sichtbaren Radkästen und Seitenwänden",
+    "source": "Vorhandener Projektbestand"
+  },
+  "lieferwagen-hebebuehne-wann-sinnvoll": {
+    "image": "/img/blog/themen/hebebuehne-fahrzeug.webp",
+    "imageKey": "hebebuehne-fahrzeug",
+    "alt": "Transportfahrzeug mit geöffneter Hebebühne aus dem vorhandenen Bildbestand",
+    "source": "Vorhandener Projektbestand"
+  },
+  "flughafentransfer-zuerich-grosse-gruppe": {
+    "image": "/img/blog/themen/flughafen-terminal.webp",
+    "imageKey": "flughafen-terminal",
+    "alt": "Vorfahrt am Flughafen Zürich als Orientierung für die Transferanreise",
+    "source": "Vorhandener Projektbestand"
+  },
+  "airport-parking-oder-transfer": {
+    "image": "/img/blog/themen/flughafen-terminal.webp",
+    "imageKey": "flughafen-terminal",
+    "alt": "Terminalvorfahrt am Flughafen Zürich als Symbolbild für den Vergleich der Anreiseformen",
+    "source": "Vorhandener Projektbestand"
+  },
+  "moebel-abholen-lieferwagen-zuerich": {
+    "image": "/img/blog/themen/lieferwagen-laderaum.webp",
+    "imageKey": "lieferwagen-laderaum",
+    "alt": "Laderaum eines Lieferwagens als Beispiel für die Planung einer Möbelabholung",
+    "source": "Vorhandener Projektbestand"
+  },
+  "umzug-am-wochenende-lieferwagen": {
+    "image": "/img/blog/themen/lieferwagen-seite.webp",
+    "imageKey": "lieferwagen-seite",
+    "alt": "Transportfahrzeug aus dem vorhandenen Bildbestand für einen geplanten Umzug",
+    "source": "Vorhandener Projektbestand"
+  },
+  "cabrio-ausflug-ab-zuerich": {
+    "image": "/img/blog/themen/cabrio-bmw.webp",
+    "imageKey": "cabrio-bmw",
+    "alt": "Blaues BMW 440i Cabriolet aus dem vorhandenen Fahrzeugangebot",
+    "source": "Vorhandener Projektbestand"
+  },
+  "wef-davos-transfer-ab-zuerich": {
+    "image": "/img/blog/themen/davos-winterpanorama.webp",
+    "imageKey": "davos-winterpanorama",
+    "alt": "Winterpanorama von Davos mit Kongresszentrum und verschneiten Bergen; Archivaufnahme vom Januar 2011",
+    "source": "https://commons.wikimedia.org/wiki/File:Davos_Congress_Centre.jpg"
+  },
+  "reisebus-mit-fahrer-zuerich": {
+    "image": "/img/blog/themen/reisebus-innen.webp",
+    "imageKey": "reisebus-innen",
+    "alt": "Innenraum eines Reisebusses mit Sitzreihen und Mittelgang",
+    "source": "Vorhandener Projektbestand"
+  },
+  "lastwagen-mieten-zuerich-transport": {
+    "image": "/img/blog/themen/lastwagen-aussen.webp",
+    "imageKey": "lastwagen-aussen",
+    "alt": "Mercedes-Benz Actros aus dem vorhandenen Lastwagen-Angebot",
+    "source": "Vorhandener Projektbestand"
+  },
+  "hoteltransfer-zuerich-planen": {
+    "image": "/img/blog/themen/hotel-vorfahrt.webp",
+    "imageKey": "hotel-vorfahrt",
+    "alt": "Fahrzeug vor einem Hoteleingang als Symbolbild für einen Hoteltransfer",
+    "source": "Vorhandener Projektbestand"
+  },
+  "ski-transfer-ab-zuerich": {
+    "image": "/img/blog/themen/davos.webp",
+    "imageKey": "davos",
+    "alt": "Winterszene mit Bergbahn in Davos als Symbolbild für die Fahrt ins Feriengebiet",
+    "source": "https://commons.wikimedia.org/wiki/File:Davos_in_Winter_by_ArmAg_(2).jpg"
+  }
+}

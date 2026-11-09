@@ -1,0 +1,256 @@
+{
+  "staria": {
+    "name": "Hyundai Staria",
+    "title": "Gemeinsam los mit dem Hyundai Staria",
+    "description": "Für euren Familienausflug bietet der Hyundai Staria bis zu neun Plätze inklusive Fahrerplatz. Klärt Kinderwagen, Kindersitze und Gepäck vor der Buchung mit uns ab.",
+    "image": "/img/blog/themen/fahrzeug-staria-640.webp",
+    "benefits": [
+      "Bis zu 9 Personen inklusive fahrender Person",
+      "Automatik laut bestehendem Fahrzeugangebot",
+      "Gemeinsam starten und Pausen abstimmen"
+    ],
+    "button": "Hyundai Staria ansehen",
+    "offer": "/minivan.html",
+    "inquiry": "/iframeminivan.html"
+  },
+  "europapark": {
+    "name": "9-Plätzer für den Freizeitparkausflug",
+    "title": "Gemeinsam in den Europa-Park: 9-Plätzer mieten",
+    "description": "Ein Treffpunkt, ein Reiseplan und eine gemeinsame Fahrt. Seht euch unser bestehendes Minivan-Angebot an und gebt die geplante Fahrt nach Deutschland bei der Anfrage an.",
+    "image": "/img/blog/themen/fahrzeug-staria-640.webp",
+    "benefits": [
+      "Bis zu 9 Plätze inklusive Fahrerplatz",
+      "Gepäck und Kindersitze vorab abstimmen",
+      "Auslandfahrt und zusätzliche Fahrende vorher klären"
+    ],
+    "button": "9-Plätzer mieten",
+    "offer": "/minivan.html",
+    "inquiry": "/iframeminivan.html"
+  },
+  "ski": {
+    "name": "Minivan für Skiferien",
+    "title": "9-Plätzer für Skiferien: Den Gepäckraum mitplanen",
+    "description": "Für Winterferien zählen Sitzplätze und Stauraum zusammen. Nennt uns eure Personenzahl, Koffer und Skiausrüstung, damit wir die passende Konfiguration und Verfügbarkeit prüfen können.",
+    "image": "/img/blog/themen/fahrzeug-staria-640.webp",
+    "benefits": [
+      "Sitze und tatsächliche Beladung gemeinsam prüfen",
+      "Winterausrüstung vor Übernahme klären",
+      "Dachboxen und Träger sind nicht automatisch enthalten"
+    ],
+    "button": "9-Plätzer-Angebot ansehen",
+    "offer": "/minivan.html",
+    "inquiry": "/iframeminivan.html"
+  },
+  "group": {
+    "name": "Minivan oder Kleinbus",
+    "title": "Das passende Fahrzeug für euren Gruppenausflug",
+    "description": "Vom Minivan bis zum Kleinbus: Vergleicht unsere bestehenden Angebote nach Personenzahl und Gepäck. Für grössere Fahrzeuge klären wir die Fahrberechtigung für das konkrete Modell vorab.",
+    "image": "/img/blog/themen/kleinbus-innen-640.webp",
+    "benefits": [
+      "Vorhandene Fahrzeuggrössen vergleichen",
+      "Sitzplätze inklusive Fahrerplatz zählen",
+      "Gepäckbedarf und Fahrberechtigung vorher abstimmen"
+    ],
+    "button": "Kleinbusse ansehen",
+    "offer": "/minibus.html",
+    "inquiry": "/iframeminibus.html",
+    "extraLink": {
+      "label": "Minivans vergleichen",
+      "href": "/minivan.html"
+    }
+  },
+  "weekend": {
+    "name": "Fahrzeug für mehrere Tage",
+    "title": "Euer Fahrzeug für den ganzen Wochenendtrip",
+    "description": "Plant Übernahme, Reisetage und Rückgabe gemeinsam. Wählt aus unserem bestehenden Fahrzeugangebot und nennt den gewünschten Zeitraum bei der Anfrage. Verfügbarkeit und Konditionen ergeben sich aus dem konkreten Angebot.",
+    "image": "/img/blog/themen/fahrzeug-staria-640.webp",
+    "benefits": [
+      "Mietzeit nach eurem Reiseablauf anfragen",
+      "Fahrzeug nach Personen und Gepäck wählen",
+      "Kilometer und Rückgabe im Angebot prüfen"
+    ],
+    "button": "Fahrzeug für mehrere Tage wählen",
+    "offer": "/vehicle.html",
+    "inquiry": "/iframe.html"
+  },
+  "car": {
+    "name": "Mietfahrzeug aus dem bestehenden Angebot",
+    "title": "Das passende Fahrzeug für euren Plan",
+    "description": "Vergleicht unsere vorhandenen Fahrzeugkategorien und nennt Zeitraum, Strecke und besondere Anforderungen bei der Anfrage. Konditionen und Verfügbarkeit werden für eure Buchung geklärt.",
+    "image": "/img/blog/themen/fahrzeug-minivan-640.webp",
+    "benefits": [
+      "Fahrzeug nach dem tatsächlichen Bedarf wählen",
+      "Unterlagen und Zahlung vorab abstimmen",
+      "Übernahme und Rückgabe passend anfragen"
+    ],
+    "button": "Fahrzeuge vergleichen",
+    "offer": "/vehicle.html",
+    "inquiry": "/iframe.html",
+    "inquiryLabel": "Jetzt Fahrzeug anfragen"
+  },
+  "cargo": {
+    "name": "Lieferwagen aus dem bestehenden Angebot",
+    "title": "Für euren Umzug oder Warentransport",
+    "description": "Nennt uns Masse, Gewicht, Strecke und gewünschte Zeiten. So lässt sich prüfen, welcher vorhandene Lieferwagen zu eurem Transport passt.",
+    "image": "/img/blog/themen/lieferwagen-laderaum-640.webp",
+    "benefits": [
+      "Laderaum und Öffnungen konkret prüfen",
+      "Zulässige Beladung vor dem Einsatz klären",
+      "Hilfsmittel und Ausstattung ausdrücklich anfragen"
+    ],
+    "button": "Lieferwagen ansehen",
+    "offer": "/lieferwagen.html",
+    "inquiry": "/iframelieferwagen.html",
+    "inquiryLabel": "Jetzt Fahrzeug anfragen"
+  },
+  "lift": {
+    "name": "Fahrzeug mit Hebebühne",
+    "title": "Hebebühne für euren Transport anfragen",
+    "description": "Prüft unser bestehendes Hebebühnen-Angebot und beschreibt euer Transportgut. Eignung, Verfügbarkeit und Bedienung werden für das konkrete Fahrzeug geklärt.",
+    "image": "/img/blog/themen/hebebuehne-fahrzeug-640.webp",
+    "benefits": [
+      "Gegenstände und Ladeorte vorher beschreiben",
+      "Nutzungsgrenzen am konkreten Gerät prüfen",
+      "Einweisung vor dem Start einplanen"
+    ],
+    "button": "Hebebühnen-Angebot ansehen",
+    "offer": "/hebebuehne.html",
+    "inquiry": "/iframelieferwagen.html",
+    "inquiryLabel": "Jetzt Fahrzeug anfragen"
+  },
+  "transfer": {
+    "name": "Flughafentransfer",
+    "title": "Gemeinsam vom oder zum Flughafen Zürich",
+    "description": "Fragt den bestehenden Transfer mit Flug, Strecke, Personen und Gepäck an. Die passende Fahrzeuglösung und der Ablauf werden individuell bestätigt.",
+    "image": "/img/blog/themen/fahrzeug-minivan-640.webp",
+    "benefits": [
+      "Flugdaten und Treffpunkt abstimmen",
+      "Koffer und Kindersitze ausdrücklich angeben",
+      "Hin- und Rückfahrt gemeinsam planen"
+    ],
+    "button": "Flughafentransfers ansehen",
+    "offer": "/airport-transfer.html",
+    "inquiry": "/contactlimo.html",
+    "inquiryLabel": "Jetzt Transfer anfragen"
+  },
+  "parking": {
+    "name": "Airport Parking",
+    "title": "Mit dem eigenen Auto zum Flughafen",
+    "description": "Seht euch das bestehende Airport-Parking-Angebot an und fragt den gewünschten Zeitraum sowie den konkreten Ablauf an.",
+    "image": "/img/blog/themen/flughafen-terminal-640.webp",
+    "benefits": [
+      "Reisedaten und Parkzeit angeben",
+      "Ablauf bis zum Terminal klären",
+      "Rückkehr und Änderungen vorher besprechen"
+    ],
+    "button": "Airport Parking ansehen",
+    "offer": "/airport.html",
+    "inquiry": "/contact.html",
+    "inquiryLabel": "Parkplatz anfragen"
+  },
+  "wedding": {
+    "name": "Wedding Chauffeur Service",
+    "title": "Hochzeitsfahrten passend zu eurem Ablauf",
+    "description": "Nennt Orte, Zeiten und Personenzahl für euren Hochzeitsanlass. Klärt, ob ihr eine Fahrt für das Brautpaar, für Gäste oder mehrere Fahrten benötigt.",
+    "image": "/img/blog/themen/hochzeit-640.webp",
+    "benefits": [
+      "Bestehenden Chauffeurservice anfragen",
+      "Fahrten und Personenzahl getrennt angeben",
+      "Rückfahrt und Treffpunkte abstimmen"
+    ],
+    "button": "Hochzeitsservice ansehen",
+    "offer": "/wedding.html",
+    "inquiry": "/contactlimo.html",
+    "inquiryLabel": "Hochzeitsfahrt anfragen"
+  },
+  "cabrio": {
+    "name": "BMW 440i Cabrio",
+    "title": "Eure nächste Ausfahrt im BMW 440i Cabrio",
+    "description": "Entdeckt das vorhandene Cabrio-Angebot und fragt euren Wunschtermin an. Stimmt Gepäck, Mietdauer und geplante Strecke für die konkrete Ausfahrt ab.",
+    "image": "/img/blog/themen/cabrio-bmw-640.webp",
+    "benefits": [
+      "Vier Sitzplätze inklusive Fahrerplatz laut Angebot",
+      "Dachbedienung bei der Übernahme kennenlernen",
+      "Aktuelle Konditionen auf der Angebotsseite prüfen"
+    ],
+    "button": "BMW 440i Cabrio ansehen",
+    "offer": "/bmw440i.html",
+    "inquiry": "/iframeauto.html",
+    "inquiryLabel": "Cabrio anfragen"
+  },
+  "wef": {
+    "name": "WEF-Transfer Davos",
+    "title": "WEF-Transfer ab Zürich gezielt anfragen",
+    "description": "Nennt Flug, Hoteladresse, Termine und Personenzahl für eure Davos-Reise. Fahrzeug, Verfügbarkeit und Treffpunkte werden für die konkrete Anfrage abgestimmt.",
+    "image": "/img/blog/themen/fahrzeug-minivan-640.webp",
+    "benefits": [
+      "Ankunft und Rückreise gemeinsam planen",
+      "Personen und Gepäck vollständig angeben",
+      "Aktuelle Zugangs- und Verkehrsinformationen prüfen"
+    ],
+    "button": "WEF-Transfer ansehen",
+    "offer": "/wef-transfer.html",
+    "inquiry": "/contactlimo.html",
+    "inquiryLabel": "WEF-Transfer anfragen"
+  },
+  "coach": {
+    "name": "Reisebus mit Fahrer",
+    "title": "Gemeinsam reisen mit dem passenden Bus",
+    "description": "Für euren Verein, Firmenanlass oder Gruppenausflug: Fragt das vorhandene Busangebot mit Fahrer an und nennt den vollständigen Reiseablauf.",
+    "image": "/img/blog/themen/reisebus-aussen-640.webp",
+    "benefits": [
+      "Ausschliesslich mit Fahrer laut bestehendem Angebot",
+      "Angebote mit bis zu 70 Sitzplätzen",
+      "Gepäck, Zustiege und Rückfahrt abstimmen"
+    ],
+    "button": "Busangebot mit Fahrer ansehen",
+    "offer": "/bus.html",
+    "inquiry": "/contact.html",
+    "inquiryLabel": "Busfahrt anfragen"
+  },
+  "truck": {
+    "name": "Mercedes-Benz Actros Lastwagen",
+    "title": "Die passende Lastwagenlösung für euren Transport",
+    "description": "Beschreibt Transportgut, Masse, Gewicht und Ladeorte. Prüft das bestehende Angebot und gebt an, ob ihr eine Chauffeurleistung anfragen möchtet.",
+    "image": "/img/blog/themen/lastwagen-aussen-640.webp",
+    "benefits": [
+      "Konkrete Fahrzeug-Eignung abklären",
+      "Fahrberechtigung oder Chauffeurbedarf angeben",
+      "Laden und Entladen gesondert abstimmen"
+    ],
+    "button": "Lastwagen-Angebot ansehen",
+    "offer": "/lkw.html",
+    "inquiry": "/contact.html",
+    "inquiryLabel": "Lastwagen anfragen"
+  },
+  "hotel": {
+    "name": "Hoteltransfer",
+    "title": "Eure Fahrt zwischen Flughafen und Unterkunft",
+    "description": "Fragt den bestehenden Hoteltransfer mit genauer Hoteladresse, Flug, Personen und Gepäck an. Der passende Ablauf wird individuell bestätigt.",
+    "image": "/img/blog/themen/hotel-vorfahrt-640.webp",
+    "benefits": [
+      "Hotel und passenden Ankunftspunkt nennen",
+      "Koffer und benötigte Ausstattung angeben",
+      "Hin- und Rückfahrt gemeinsam abstimmen"
+    ],
+    "button": "Hoteltransfers ansehen",
+    "offer": "/hotel-transfer.html",
+    "inquiry": "/contactlimo.html",
+    "inquiryLabel": "Hoteltransfer anfragen"
+  },
+  "skitransfer": {
+    "name": "Skiresort-Transfer",
+    "title": "Mit eurer Ausrüstung ins Wintersportgebiet",
+    "description": "Nennt Zieladresse, Personen, Koffer und Skiausrüstung. So kann der vorhandene Skiresort-Transfer für euren tatsächlichen Bedarf angefragt werden.",
+    "image": "/img/blog/themen/fahrzeug-minivan-640.webp",
+    "benefits": [
+      "Ski und Snowboards ausdrücklich angeben",
+      "Zufahrt und Treffpunkt mit der Unterkunft klären",
+      "Rückfahrt vorab mitplanen"
+    ],
+    "button": "Skiresort-Transfers ansehen",
+    "offer": "/skiresort-transfer.html",
+    "inquiry": "/contactlimo.html",
+    "inquiryLabel": "Ski-Transfer anfragen"
+  }
+}
