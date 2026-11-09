@@ -119,8 +119,13 @@
 .vehicle-cta--compact h2 { font-size:1.08rem; margin:8px 0; }
 .vehicle-cta--compact p { font-size:.85rem; line-height:1.75; margin-bottom:12px; }
 .vehicle-cta--compact .travel-label { font-size:.65rem; color:#68635e; letter-spacing:.65px; }
-.vehicle-cta--compact .travel-actions { gap:20px; font-size:.8rem; }
-.vehicle-cta--compact .travel-actions a { color:#a91c21; text-decoration:underline; text-underline-offset:3px; }
+.vehicle-cta--compact .travel-actions { gap:10px; margin-top:18px; }
+.vehicle-cta--compact .travel-cta-button { display:inline-flex; align-items:center; justify-content:center; min-height:44px; max-width:100%; padding:11px 19px; border:1px solid #c91c24; border-radius:7px; font-size:.82rem; font-weight:700; line-height:1.4; text-align:center; text-decoration:none; }
+.vehicle-cta--compact .travel-cta-button--primary { background:#c91c24; color:#fff; }
+.vehicle-cta--compact .travel-cta-button--primary:hover { background:#a9151c; border-color:#a9151c; color:#fff; }
+.vehicle-cta--compact .travel-cta-button--secondary { background:#fff; color:#b51c22; }
+.vehicle-cta--compact .travel-cta-button--secondary:hover { background:#fff1f1; color:#a9151c; }
+@media(max-width:450px) { .vehicle-cta--compact .travel-actions { align-items:stretch; } .vehicle-cta--compact .travel-cta-button { width:100%; } }
 .travel-prose ul,.travel-prose ol { padding-left:23px; line-height:1.9; }
 .travel-prose li { margin-bottom:9px; }
 .travel-table-scroll { width:100%; max-width:100%; overflow-x:auto; margin:20px 0; }
@@ -133,3 +138,7 @@
 .travel-cover img.travel-photo--contain,.travel-card-image img.travel-photo--contain { object-fit:contain; background:#f4f5f4; }
 .travel-inline-image img { max-height:650px; object-fit:contain; background:#f5f6f5; }
 .travel-card .travel-credit { margin-top:auto; margin-bottom:15px; font-size:.63rem; line-height:1.6; }
+
+/* Contextual recommendations sit between complete editorial sections. */
+.travel-blog .vehicle-cta--inline { margin:32px 0; border-left:3px solid #c91c24; }
+.travel-prose .vehicle-cta--inline h2 { margin:8px 0; font-size:1.08rem; }

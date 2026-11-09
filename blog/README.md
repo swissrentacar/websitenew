@@ -87,3 +87,7 @@ Alle 49 Artikel haben passend ausgewählte Titelbilder. Für Ausflugsziele werde
 Titelbilder und Kartenvorschauen liegen als WebP in `img/blog/themen/`. Der Generator erstellt `srcset` und `sizes`, lädt Kartenvorschauen verzögert und das Titelbild priorisiert. `inlineImages` kann zusätzliche Bilder nach einem Abschnitt mit `afterSection` einfügen; die Bild- und Creditfelder entsprechen dem Titelbild. Der ursprüngliche Europa-Park-Eingang bleibt mit Bildnachweis im Artikel.
 
 Bildnachweise: `img/blog/CREDITS.md`. Quelldaten und Lizenzen: `img/blog/themen/images.json`. Artikelzuordnung: `blog/image-map.json`. Bei einem Bildwechsel nicht nur die URL, sondern auch Alttext, Abmessungen, Vorschau und den passenden Urhebernachweis ändern.
+
+### Angebotsbuttons im Artikel
+
+Die Fahrzeugempfehlung verwendet einen roten Angebotsbutton und einen umrandeten Anfragebutton ohne Pfeile. Die Beschriftung und Zielseiten stehen in `vehicles.json`. Mit `offerAfterSection` in `articles.json` kann der exakte Abschnittstitel festgelegt werden, nach dem die Empfehlung erscheint. Ohne dieses Feld erscheint sie am Artikelende. Pro Artikel wird genau ein Angebotsblock ausgegeben.

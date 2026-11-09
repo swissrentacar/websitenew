@@ -9,9 +9,10 @@
       "Automatik laut bestehendem Fahrzeugangebot",
       "Gemeinsam starten und Pausen abstimmen"
     ],
-    "button": "Hyundai Staria ansehen",
+    "button": "9-Plätzer mieten",
     "offer": "/minivan.html",
-    "inquiry": "/iframeminivan.html"
+    "inquiry": "/iframeminivan.html",
+    "inquiryLabel": "Jetzt Fahrzeug anfragen"
   },
   "europapark": {
     "name": "9-Plätzer für den Freizeitparkausflug",
@@ -25,7 +26,8 @@
     ],
     "button": "9-Plätzer mieten",
     "offer": "/minivan.html",
-    "inquiry": "/iframeminivan.html"
+    "inquiry": "/iframeminivan.html",
+    "inquiryLabel": "Jetzt Fahrzeug anfragen"
   },
   "ski": {
     "name": "Minivan für Skiferien",
@@ -37,9 +39,10 @@
       "Winterausrüstung vor Übernahme klären",
       "Dachboxen und Träger sind nicht automatisch enthalten"
     ],
-    "button": "9-Plätzer-Angebot ansehen",
+    "button": "9-Plätzer mieten",
     "offer": "/minivan.html",
-    "inquiry": "/iframeminivan.html"
+    "inquiry": "/iframeminivan.html",
+    "inquiryLabel": "Jetzt Fahrzeug anfragen"
   },
   "group": {
     "name": "Minivan oder Kleinbus",
@@ -51,13 +54,14 @@
       "Sitzplätze inklusive Fahrerplatz zählen",
       "Gepäckbedarf und Fahrberechtigung vorher abstimmen"
     ],
-    "button": "Kleinbusse ansehen",
+    "button": "Kleinbus mieten",
     "offer": "/minibus.html",
     "inquiry": "/iframeminibus.html",
     "extraLink": {
       "label": "Minivans vergleichen",
       "href": "/minivan.html"
-    }
+    },
+    "inquiryLabel": "Jetzt Fahrzeug anfragen"
   },
   "weekend": {
     "name": "Fahrzeug für mehrere Tage",
@@ -69,9 +73,10 @@
       "Fahrzeug nach Personen und Gepäck wählen",
       "Kilometer und Rückgabe im Angebot prüfen"
     ],
-    "button": "Fahrzeug für mehrere Tage wählen",
+    "button": "Fahrzeug mieten",
     "offer": "/vehicle.html",
-    "inquiry": "/iframe.html"
+    "inquiry": "/iframe.html",
+    "inquiryLabel": "Jetzt Fahrzeug anfragen"
   },
   "car": {
     "name": "Mietfahrzeug aus dem bestehenden Angebot",
@@ -83,7 +88,7 @@
       "Unterlagen und Zahlung vorab abstimmen",
       "Übernahme und Rückgabe passend anfragen"
     ],
-    "button": "Fahrzeuge vergleichen",
+    "button": "Fahrzeug mieten",
     "offer": "/vehicle.html",
     "inquiry": "/iframe.html",
     "inquiryLabel": "Jetzt Fahrzeug anfragen"
@@ -98,7 +103,7 @@
       "Zulässige Beladung vor dem Einsatz klären",
       "Hilfsmittel und Ausstattung ausdrücklich anfragen"
     ],
-    "button": "Lieferwagen ansehen",
+    "button": "Lieferwagen mieten",
     "offer": "/lieferwagen.html",
     "inquiry": "/iframelieferwagen.html",
     "inquiryLabel": "Jetzt Fahrzeug anfragen"
@@ -113,7 +118,7 @@
       "Nutzungsgrenzen am konkreten Gerät prüfen",
       "Einweisung vor dem Start einplanen"
     ],
-    "button": "Hebebühnen-Angebot ansehen",
+    "button": "Lieferwagen mit Hebebühne",
     "offer": "/hebebuehne.html",
     "inquiry": "/iframelieferwagen.html",
     "inquiryLabel": "Jetzt Fahrzeug anfragen"
@@ -128,7 +133,7 @@
       "Koffer und Kindersitze ausdrücklich angeben",
       "Hin- und Rückfahrt gemeinsam planen"
     ],
-    "button": "Flughafentransfers ansehen",
+    "button": "Flughafentransfer entdecken",
     "offer": "/airport-transfer.html",
     "inquiry": "/contactlimo.html",
     "inquiryLabel": "Jetzt Transfer anfragen"
@@ -143,7 +148,7 @@
       "Ablauf bis zum Terminal klären",
       "Rückkehr und Änderungen vorher besprechen"
     ],
-    "button": "Airport Parking ansehen",
+    "button": "Airport Parking entdecken",
     "offer": "/airport.html",
     "inquiry": "/contact.html",
     "inquiryLabel": "Parkplatz anfragen"
@@ -158,7 +163,7 @@
       "Fahrten und Personenzahl getrennt angeben",
       "Rückfahrt und Treffpunkte abstimmen"
     ],
-    "button": "Hochzeitsservice ansehen",
+    "button": "Hochzeitsservice entdecken",
     "offer": "/wedding.html",
     "inquiry": "/contactlimo.html",
     "inquiryLabel": "Hochzeitsfahrt anfragen"
@@ -173,7 +178,7 @@
       "Dachbedienung bei der Übernahme kennenlernen",
       "Aktuelle Konditionen auf der Angebotsseite prüfen"
     ],
-    "button": "BMW 440i Cabrio ansehen",
+    "button": "Cabrio mieten",
     "offer": "/bmw440i.html",
     "inquiry": "/iframeauto.html",
     "inquiryLabel": "Cabrio anfragen"
@@ -188,7 +193,7 @@
       "Personen und Gepäck vollständig angeben",
       "Aktuelle Zugangs- und Verkehrsinformationen prüfen"
     ],
-    "button": "WEF-Transfer ansehen",
+    "button": "WEF-Transfer entdecken",
     "offer": "/wef-transfer.html",
     "inquiry": "/contactlimo.html",
     "inquiryLabel": "WEF-Transfer anfragen"
@@ -203,7 +208,7 @@
       "Angebote mit bis zu 70 Sitzplätzen",
       "Gepäck, Zustiege und Rückfahrt abstimmen"
     ],
-    "button": "Busangebot mit Fahrer ansehen",
+    "button": "Bus mit Fahrer entdecken",
     "offer": "/bus.html",
     "inquiry": "/contact.html",
     "inquiryLabel": "Busfahrt anfragen"
@@ -218,7 +223,7 @@
       "Fahrberechtigung oder Chauffeurbedarf angeben",
       "Laden und Entladen gesondert abstimmen"
     ],
-    "button": "Lastwagen-Angebot ansehen",
+    "button": "Lastwagen mieten",
     "offer": "/lkw.html",
     "inquiry": "/contact.html",
     "inquiryLabel": "Lastwagen anfragen"
@@ -233,7 +238,7 @@
       "Koffer und benötigte Ausstattung angeben",
       "Hin- und Rückfahrt gemeinsam abstimmen"
     ],
-    "button": "Hoteltransfers ansehen",
+    "button": "Hoteltransfer entdecken",
     "offer": "/hotel-transfer.html",
     "inquiry": "/contactlimo.html",
     "inquiryLabel": "Hoteltransfer anfragen"
@@ -248,7 +253,7 @@
       "Zufahrt und Treffpunkt mit der Unterkunft klären",
       "Rückfahrt vorab mitplanen"
     ],
-    "button": "Skiresort-Transfers ansehen",
+    "button": "Ski-Transfer entdecken",
     "offer": "/skiresort-transfer.html",
     "inquiry": "/contactlimo.html",
     "inquiryLabel": "Ski-Transfer anfragen"

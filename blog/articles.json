@@ -127,7 +127,8 @@
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
       "changes": "Verkleinert und in WebP komprimiert; im Layout teilweise beschnitten."
     },
-    "inlineImages": []
+    "inlineImages": [],
+    "offerAfterSection": "Gemeinsam reisen: Was gehört zur Entscheidung?"
   },
   {
     "slug": "familienausfluege-ab-zuerich",
@@ -394,7 +395,8 @@
     "imageCardWidth": 640,
     "imageCardHeight": 426,
     "imageKey": "fahrzeug-staria",
-    "inlineImages": []
+    "inlineImages": [],
+    "offerAfterSection": "Neun Sitzplätze und das Gepäck mitdenken"
   },
   {
     "slug": "uetliberg-mit-kindern",
@@ -2089,7 +2091,8 @@
       "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
       "changes": "Verkleinert und in WebP komprimiert; im Layout teilweise beschnitten."
     },
-    "inlineImages": []
+    "inlineImages": [],
+    "offerAfterSection": "Mitnehmen oder vor Ort ausleihen?"
   },
   {
     "slug": "gruppenausflug-minivan-kleinbus",
@@ -2183,7 +2186,8 @@
     "imageCardWidth": 640,
     "imageCardHeight": 426,
     "imageKey": "kleinbus-innen",
-    "inlineImages": []
+    "inlineImages": [],
+    "offerAfterSection": "Fahrzeugarten übersichtlich unterscheiden"
   },
   {
     "slug": "wochenendtrip-fahrzeug-mehrere-tage",
@@ -2284,7 +2288,8 @@
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "changes": "Verkleinert und in WebP komprimiert; im Layout teilweise beschnitten."
     },
-    "inlineImages": []
+    "inlineImages": [],
+    "offerAfterSection": "Ein Wochenende rückwärts planen"
   },
   {
     "slug": "flughafen-zuerich-mit-kindern",
@@ -2792,7 +2797,8 @@
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "changes": "Verkleinert und in WebP komprimiert; im Layout teilweise beschnitten."
     },
-    "inlineImages": []
+    "inlineImages": [],
+    "offerAfterSection": "Bei Grenzübertritten vorher abstimmen"
   },
   {
     "slug": "tessin-familienferien-auto",
@@ -2990,7 +2996,8 @@
       "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
       "changes": "Verkleinert und in WebP komprimiert; im Layout teilweise beschnitten."
     },
-    "inlineImages": []
+    "inlineImages": [],
+    "offerAfterSection": "Die Route in drei Ebenen prüfen"
   },
   {
     "slug": "schwarzwald-wochenendtrip-ab-zuerich",
@@ -3192,7 +3199,8 @@
     "imageCardWidth": 640,
     "imageCardHeight": 853,
     "imageKey": "reisebus-innen",
-    "inlineImages": []
+    "inlineImages": [],
+    "offerAfterSection": "Ein Anmeldeblatt mit den wirklich nötigen Angaben"
   },
   {
     "slug": "firmenausflug-zuerich-organisieren",
@@ -3377,7 +3385,8 @@
     "imageCardWidth": 640,
     "imageCardHeight": 427,
     "imageKey": "hochzeit",
-    "inlineImages": []
+    "inlineImages": [],
+    "offerAfterSection": "Selbst fahren oder Chauffeurservice anfragen?"
   },
   {
     "slug": "mietwagen-abholen-checkliste",
@@ -3562,7 +3571,8 @@
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
       "changes": "Verkleinert und in WebP komprimiert; im Layout teilweise beschnitten."
     },
-    "inlineImages": []
+    "inlineImages": [],
+    "offerAfterSection": "Die tatsächliche Konfiguration bestätigen lassen"
   },
   {
     "slug": "neun-plaetzer-mieten-kosten",
@@ -3651,7 +3661,8 @@
     "imageCardWidth": 640,
     "imageCardHeight": 426,
     "imageKey": "fahrzeug-staria",
-    "inlineImages": []
+    "inlineImages": [],
+    "offerAfterSection": "So stellt ihr eine klare Mietanfrage"
   },
   {
     "slug": "auto-mieten-ohne-kreditkarte-tipps",
@@ -3864,7 +3875,8 @@
       "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
       "changes": "Verkleinert und in WebP komprimiert; im Layout teilweise beschnitten."
     },
-    "inlineImages": []
+    "inlineImages": [],
+    "offerAfterSection": "Am Umzugstag: Ein klarer Weg für Gegenstände und Menschen"
   },
   {
     "slug": "lieferwagen-groesse-waehlen",
@@ -3957,7 +3969,8 @@
     "imageCardWidth": 640,
     "imageCardHeight": 427,
     "imageKey": "lieferwagen-laderaum",
-    "inlineImages": []
+    "inlineImages": [],
+    "offerAfterSection": "Raum, Öffnung und Gewicht nicht verwechseln"
   },
   {
     "slug": "lieferwagen-hebebuehne-wann-sinnvoll",
@@ -4058,7 +4071,8 @@
         "imageKey": "lieferwagen-seite",
         "afterSection": 0
       }
-    ]
+    ],
+    "offerAfterSection": "Fahrzeug und Mietzeit als Ganzes betrachten"
   },
   {
     "slug": "flughafentransfer-zuerich-grosse-gruppe",
@@ -4337,7 +4351,8 @@
     "imageCardWidth": 640,
     "imageCardHeight": 427,
     "imageKey": "lieferwagen-laderaum",
-    "inlineImages": []
+    "inlineImages": [],
+    "offerAfterSection": "Zeit und Beladung nicht erst beim Start organisieren"
   },
   {
     "slug": "umzug-am-wochenende-lieferwagen",
@@ -4528,7 +4543,8 @@
     "imageCardHeight": 853,
     "imageKey": "cabrio-bmw",
     "inlineImages": [],
-    "imageFit": "contain"
+    "imageFit": "contain",
+    "offerAfterSection": "Was bei Gepäck und Dach anders ist"
   },
   {
     "slug": "wef-davos-transfer-ab-zuerich",
@@ -4675,7 +4691,8 @@
         },
         "afterSection": 4
       }
-    ]
+    ],
+    "offerAfterSection": "Anreise ab Zürich: Bahn und Strassenfahrt vergleichen"
   },
   {
     "slug": "reisebus-mit-fahrer-zuerich",
@@ -4780,7 +4797,8 @@
         "imageKey": "reisebus-aussen",
         "afterSection": 0
       }
-    ]
+    ],
+    "offerAfterSection": "Gepäck und besondere Bedürfnisse berücksichtigen"
   },
   {
     "slug": "lastwagen-mieten-zuerich-transport",
@@ -4890,7 +4908,8 @@
         "afterSection": 0
       }
     ],
-    "imageFit": "contain"
+    "imageFit": "contain",
+    "offerAfterSection": "Eine kurze Transportbeschreibung als Arbeitsgrundlage"
   },
   {
     "slug": "hoteltransfer-zuerich-planen",
@@ -4983,7 +5002,8 @@
     "imageCardWidth": 640,
     "imageCardHeight": 829,
     "imageKey": "hotel-vorfahrt",
-    "inlineImages": []
+    "inlineImages": [],
+    "offerAfterSection": "Flug und Ankunftsablauf angeben"
   },
   {
     "slug": "ski-transfer-ab-zuerich",
@@ -5084,6 +5104,7 @@
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "changes": "Verkleinert und in WebP komprimiert; im Layout teilweise beschnitten."
     },
-    "inlineImages": []
+    "inlineImages": [],
+    "offerAfterSection": "Wann ein Transfer anders ist als ein Minivan für die Ferien"
   }
 ]
