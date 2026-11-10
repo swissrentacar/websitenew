@@ -1,6 +1,6 @@
 (() => {
-  // Set to true to reactivate the offer on all pages.
-  const popupEnabled = false;
+  // Enable or disable the offer on all pages.
+  const popupEnabled = true;
   if (!popupEnabled) return;
 
   const popup = document.querySelector('.anniversary-popup');
